@@ -1,0 +1,26 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="Camtasia2Json:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Camtasia2Json_jar</output-path>
+    <root id="archive" name="Camtasia2Json.jar">
+      <element id="module-output" name="Camtasia2Json" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/jackson-core-2.6.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/jackson-annotations-2.6.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/jackson-databind-2.6.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/jsoup-1.8.3.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/Oracle XDK 10.1.0.2.0/xdb.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/Oracle XDK 10.1.0.2.0/xml.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/Oracle XDK 10.1.0.2.0/xsu12.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/Oracle XDK 10.1.0.2.0/transx.zip" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/Oracle XDK 10.1.0.2.0/jdev-rt.zip" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/Oracle XDK 10.1.0.2.0/xmlcomp.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/Oracle XDK 10.1.0.2.0/xmldemo.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/Oracle XDK 10.1.0.2.0/xmlmesg.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/Oracle XDK 10.1.0.2.0/xschema.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/Oracle XDK 10.1.0.2.0/classgen.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/Oracle XDK 10.1.0.2.0/xmlcomp2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/Oracle XDK 10.1.0.2.0/oraclexsql.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/Oracle XDK 10.1.0.2.0/xmlparserv2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/Oracle XDK 10.1.0.2.0/xsqlserializers.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

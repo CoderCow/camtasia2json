@@ -1,0 +1,305 @@
+{
+  "id" : 1,
+  "meta" : {
+    "version" : "1.0",
+    "generator" : "Camtasia to JSON v1.0 (2015-09-21)",
+    "cat" : 1,
+    "dur" : 121.8,
+    "author" : "",
+    "date" : "2015-08-01",
+    "defaultLang" : "de",
+    "contact" : "",
+    "enableSocialShareButtons" : true,
+    "socialShareUrl" : "",
+    "tags" : "tag1 tag2",
+    "poster" : "//app.medien.fh-duesseldorf.de/eplayer/images/estudy.png",
+    "titles" : [ {
+      "lang" : "de",
+      "title" : "Videotitel"
+    } ],
+    "descriptions" : [ {
+      "lang" : "de",
+      "description" : ""
+    } ]
+  },
+  "media" : {
+    "digital" : [ {
+      "lang" : "de",
+      "type" : "video/mp4",
+      "src" : "video_de.webm"
+    }, {
+      "lang" : "de",
+      "type" : "video/mp4",
+      "src" : "video_de.mp4"
+    } ]
+  },
+  "categories" : [ {
+    "id" : 531,
+    "lang" : "de",
+    "title" : "",
+    "begin" : 0,
+    "dur" : 121.8,
+    "description" : "<p class=\"default\"><span style=\"color: #000000; font-size: 12pt; font-family: Arial\">Beschreibungstext</span><span style=\"color: #000000; font-size: 8pt; font-family: Courier New\"></span></p>\r\n",
+    "tooltip" : ""
+  }, {
+    "id" : 590,
+    "lang" : "en",
+    "title" : "",
+    "begin" : 0,
+    "dur" : 121.8,
+    "description" : "<p class=\"default\"><span style=\"color: #000000; font-size: 12pt; font-family: Arial\">Description</span><span style=\"color: #000000; font-size: 8pt; font-family: Courier New\"></span></p>\r\n",
+    "tooltip" : ""
+  } ],
+  "chapters" : [ {
+    "id" : 651,
+    "lang" : "de",
+    "title" : "",
+    "begin" : 0,
+    "dur" : 67.97,
+    "videoType" : "digital",
+    "description" : "<p class=\"default\"><span style=\"color: #000000; font-size: 12pt; font-family: Arial\">Beschreibungstext</span><span style=\"color: #000000; font-size: 8pt; font-family: Courier New\"></span></p>\r\n",
+    "category" : 531,
+    "tooltip" : "",
+    "tags" : "",
+    "charts" : [ ],
+    "additionals" : [ {
+      "type" : "linklist",
+      "title" : "",
+      "description" : "",
+      "tooltip" : "",
+      "links" : [ {
+        "title" : "",
+        "href" : "",
+        "tooltip" : ""
+      }, {
+        "title" : "",
+        "href" : "",
+        "tooltip" : ""
+      } ]
+    } ]
+  }, {
+    "id" : 711,
+    "lang" : "en",
+    "title" : "",
+    "begin" : 0,
+    "dur" : 67.97,
+    "videoType" : "digital",
+    "description" : "<p class=\"default\"><span style=\"color: #000000; font-size: 12pt; font-family: Arial\">Description</span><span style=\"color: #000000; font-size: 8pt; font-family: Courier New\"></span></p>\r\n",
+    "category" : 590,
+    "tooltip" : "",
+    "tags" : "",
+    "charts" : [ ],
+    "additionals" : [ {
+      "type" : "linklist",
+      "title" : "",
+      "description" : "",
+      "tooltip" : "",
+      "links" : [ {
+        "title" : "",
+        "href" : "",
+        "tooltip" : ""
+      }, {
+        "title" : "",
+        "href" : "",
+        "tooltip" : ""
+      } ]
+    } ]
+  } ],
+  "authorNotes" : [ {
+    "lang" : "de",
+    "begin" : 58.5,
+    "title" : "",
+    "tooltip" : "",
+    "content" : "<p class=\"default\"><span style=\"color: #000000; font-size: 14pt; font-family: Arial\">Notizinhalt</span></p>\r\n",
+    "chapter" : 651,
+    "displayInTimeline" : true,
+    "displayInChapters" : true,
+    "displayOnScreen" : false
+  } ],
+  "captionSettings" : {
+    "fontName" : "Arial",
+    "backgroundColor" : [ 255, 255, 255, 255 ],
+    "foregroundColor" : [ 0, 0, 0, 255 ],
+    "alignment" : "center",
+    "opacity" : 0.5,
+    "isBackgroundEnabled" : true,
+    "isBackgroundOnlyAroundText" : true
+  },
+  "captions" : [ {
+    "lang" : "de",
+    "begin" : 0,
+    "dur" : 5,
+    "content" : "Hallo"
+  }, {
+    "lang" : "de",
+    "begin" : 5.5,
+    "dur" : 4.07,
+    "content" : "schöne"
+  }, {
+    "lang" : "de",
+    "begin" : 10.07,
+    "dur" : 5.86,
+    "content" : "Welt!!"
+  }, {
+    "lang" : "en",
+    "begin" : 0,
+    "dur" : 5,
+    "content" : "Hello"
+  }, {
+    "lang" : "en",
+    "begin" : 5.5,
+    "dur" : 4.07,
+    "content" : "sw<b>ee</b>t"
+  }, {
+    "lang" : "en",
+    "begin" : 10.07,
+    "dur" : 5.86,
+    "content" : "world!"
+  } ],
+  "overlaySettings" : {
+    "isEnabledByDefault" : false,
+    "isSwitchable" : true
+  },
+  "overlays" : [ {
+    "id" : 1279,
+    "lang" : "de",
+    "begin" : 0,
+    "dur" : 15.1,
+    "content" : "<p class=\"default\"><span style=\"color: #000000; font-size: 12pt; font-family: Arial\">Inhaltstext</span><span style=\"color: #000000; font-size: 8pt; font-family: Courier New\"></span></p>\r\n",
+    "isCopyableContent" : false,
+    "style" : "Transparent",
+    "position" : "Standard",
+    "action" : "none",
+    "actionParams" : { },
+    "waitForAction" : false,
+    "closeOnAction" : false,
+    "closeButton" : false,
+    "forceVisibility" : true,
+    "translateTransform" : [ -545.83, 34.61, -3.41 ],
+    "rotateTransform" : [ 0, 0, 0 ],
+    "shearTransform" : [ 0, 0, 0 ],
+    "w" : 134,
+    "h" : 23,
+    "opacity" : 1,
+    "fadeInDuration" : 0.1,
+    "fadeOutDuration" : 0.07,
+    "tooltip" : ""
+  }, {
+    "id" : 1334,
+    "lang" : "de",
+    "begin" : 15.1,
+    "dur" : 21.17,
+    "content" : "<p class=\"default\"><span style=\"color: #000000; font-size: 12pt; font-family: Arial\">Inhaltstext</span><span style=\"color: #000000; font-size: 8pt; font-family: Courier New\"></span></p>\r\n",
+    "isCopyableContent" : false,
+    "style" : "Transparent",
+    "position" : "Default",
+    "action" : "linklist",
+    "actionParams" : {
+      "links" : [ {
+        "title" : "",
+        "href" : "",
+        "tooltip" : ""
+      }, {
+        "title" : "",
+        "href" : "",
+        "tooltip" : ""
+      } ]
+    },
+    "waitForAction" : false,
+    "closeOnAction" : false,
+    "closeButton" : false,
+    "forceVisibility" : true,
+    "translateTransform" : [ -313.39, 133.21, 2.27 ],
+    "rotateTransform" : [ 0, 0, 0 ],
+    "shearTransform" : [ 0, 0, 0 ],
+    "w" : 137,
+    "h" : 21,
+    "opacity" : 1,
+    "fadeInDuration" : 0.1,
+    "fadeOutDuration" : 0.07,
+    "tooltip" : "Besonders spezielle Dinge gibt's hier zu sehen!"
+  }, {
+    "id" : 1560,
+    "lang" : "en",
+    "begin" : 0,
+    "dur" : 15.1,
+    "content" : "",
+    "isCopyableContent" : false,
+    "style" : "Inhaltlos",
+    "position" : "Standard",
+    "action" : "none",
+    "actionParams" : { },
+    "waitForAction" : false,
+    "closeOnAction" : false,
+    "closeButton" : false,
+    "forceVisibility" : true,
+    "translateTransform" : [ -545.83, 34.61, -3.41 ],
+    "rotateTransform" : [ 0, 0, 0 ],
+    "shearTransform" : [ 0, 0, 0 ],
+    "w" : 134,
+    "h" : 23,
+    "opacity" : 1,
+    "fadeInDuration" : 0.1,
+    "fadeOutDuration" : 0.07,
+    "tooltip" : ""
+  }, {
+    "id" : 1615,
+    "lang" : "en",
+    "begin" : 15.1,
+    "dur" : 21.17,
+    "content" : "<p class=\"default\"><span style=\"color: #000000; font-size: 12pt; font-family: Arial\">Contenttext</span><span style=\"color: #000000; font-size: 8pt; font-family: Courier New\"></span></p>\r\n",
+    "isCopyableContent" : false,
+    "style" : "Transparent",
+    "position" : "Default",
+    "action" : "linklist",
+    "actionParams" : {
+      "links" : [ {
+        "title" : "",
+        "href" : "",
+        "tooltip" : ""
+      }, {
+        "title" : "",
+        "href" : "",
+        "tooltip" : ""
+      } ]
+    },
+    "waitForAction" : false,
+    "closeOnAction" : false,
+    "closeButton" : false,
+    "forceVisibility" : true,
+    "translateTransform" : [ -313.39, 133.21, 2.27 ],
+    "rotateTransform" : [ 0, 0, 0 ],
+    "shearTransform" : [ 0, 0, 0 ],
+    "w" : 137,
+    "h" : 21,
+    "opacity" : 1,
+    "fadeInDuration" : 0.1,
+    "fadeOutDuration" : 0.07,
+    "tooltip" : "Besonders spezielle Dinge gibt's hier zu sehen!"
+  } ],
+  "authCam" : {
+    "begin" : 0,
+    "dur" : 121.8,
+    "isSwitchable" : true,
+    "isMoveable" : true,
+    "isResizable" : true,
+    "position" : "Standard",
+    "w" : 182.4,
+    "h" : 179.24,
+    "translateTransform" : [ -376.5, 139.22, 0 ],
+    "rotateTransform" : [ 0, 0, 0 ],
+    "shearTransform" : [ 0, 0, 0 ],
+    "opacity" : 1,
+    "fadeInDuration" : 0,
+    "fadeOutDuration" : 0,
+    "media" : [ {
+      "src" : "authcam.mp4",
+      "type" : "video/mp4",
+      "lang" : "de"
+    }, {
+      "src" : "authcam.webm",
+      "type" : "video/webm",
+      "lang" : "de"
+    } ]
+  }
+}
