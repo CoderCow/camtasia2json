@@ -369,16 +369,16 @@
 
 		<xsl:for-each select="$vectorParams">
 			<xsl:variable name="x" select="
-				if (@name='scale') then
-					c2jUtil:roundNumber(number(InterpolatingParam[1]/@value))
-				else
+				if (@name='translation') then
 					c2jUtil:roundNumber((number(InterpolatingParam[1]/@value) div number($projectWidth)) * 100)
+				else
+					c2jUtil:roundNumber(number(InterpolatingParam[1]/@value))
 			" />
 			<xsl:variable name="y" select="
-				if (@name='scale') then
-					c2jUtil:roundNumber(number(InterpolatingParam[2]/@value))
-				else
+				if (@name='translation') then
 					c2jUtil:roundNumber(-(number(InterpolatingParam[2]/@value) div number($projectHeight)) * 100)
+				else
+					c2jUtil:roundNumber(number(InterpolatingParam[2]/@value))
 			" />
 			<xsl:variable name="z" select="c2jUtil:roundNumber(number(InterpolatingParam[3]/@value))" />
 
