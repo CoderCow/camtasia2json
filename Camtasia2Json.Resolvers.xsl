@@ -34,6 +34,8 @@
 
 		<xsl:value-of select="$version" />
 	</xsl:variable>
+	<xsl:variable name="projectWidth" as="xsd:string" select="Project_Data/Project_Settings/ProjectWidth/text()" />
+	<xsl:variable name="projectHeight" as="xsd:string" select="Project_Data/Project_Settings/ProjectHeight/text()" />
 
 	<xsl:variable name="metaTitle" as="xsd:string">
 		<xsl:variable name="value" select="//Project_MetaData_Object[FieldArrayKey=8]/Value/text()" />
@@ -256,6 +258,9 @@
 				<xsl:value-of select="if (string-length($rightOpacityFadeDurRaw) gt 0) then c2jUtil:framesToSeconds($rightOpacityFadeDurRaw) else 0" />
 			</xsl:attribute>
 
+			<!-- Die Größen sind in Pixeln angegeben, da diese Pixel aber relativ zu den Bearbeitungsmaße von Camtasia Studio sind und nicht unbedingt zur
+			     Größe des Videos, sind sie für eine Playerimplementierung nutzlos - besonders weil dieser ein Video auch in mehreren Auflösungen abspielen
+			     können soll. Daher müssen die Pixelangaben in Prozentwerte umgerechnet werden. -->
 			<xsl:variable name="transformations">
 				<xsl:call-template name="transformVectorParams">
 					<xsl:with-param name="vectorParams" select="$medium/Transformer/*" />
@@ -273,12 +278,12 @@
 				<xsl:variable name="baseHeight" select="number($vectorNode/DoubleParameters/InterpolatingParam[@name = 'height']/@value)" />
 				<xsl:if test="$baseWidth">
 					<xsl:attribute name="width">
-						<xsl:value-of select="c2jUtil:roundNumber($baseWidth * number($scaleTransform/@x))" />
+						<xsl:value-of select="c2jUtil:roundNumber((($baseWidth * number($scaleTransform/@x)) div number($projectWidth)) * 100)" />
 					</xsl:attribute>
 				</xsl:if>
 				<xsl:if test="$baseHeight">
 					<xsl:attribute name="height">
-						<xsl:value-of select="c2jUtil:roundNumber($baseHeight * number($scaleTransform/@y))" />
+						<xsl:value-of select="c2jUtil:roundNumber((($baseHeight * number($scaleTransform/@y)) div number($projectHeight)) * 100)" />
 					</xsl:attribute>
 				</xsl:if>
 			</xsl:if>
@@ -363,9 +368,19 @@
 		<xsl:param name="vectorParams" as="xsd:element*" />
 
 		<xsl:for-each select="$vectorParams">
-			<xsl:variable name="x" select="c2jUtil:roundNumber(InterpolatingParam[1]/@value)" />
-			<xsl:variable name="y" select="c2jUtil:roundNumber(InterpolatingParam[2]/@value)" />
-			<xsl:variable name="z" select="c2jUtil:roundNumber(InterpolatingParam[3]/@value)" />
+			<xsl:variable name="x" select="
+				if (@name='scale') then
+					c2jUtil:roundNumber(number(InterpolatingParam[1]/@value))
+				else
+					c2jUtil:roundNumber((number(InterpolatingParam[1]/@value) div number($projectWidth)) * 100)
+			" />
+			<xsl:variable name="y" select="
+				if (@name='scale') then
+					c2jUtil:roundNumber(number(InterpolatingParam[2]/@value))
+				else
+					c2jUtil:roundNumber(-(number(InterpolatingParam[2]/@value) div number($projectHeight)) * 100)
+			" />
+			<xsl:variable name="z" select="c2jUtil:roundNumber(number(InterpolatingParam[3]/@value))" />
 
 			<Transformation type="{@name}" x="{$x}" y="{$y}" z="{$z}" />
 		</xsl:for-each>

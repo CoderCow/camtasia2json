@@ -1,6 +1,6 @@
 /**
  * Diese Datei ist Teil der Anwendung "Camtasia2Json". Sie wird unter der "Attribution-NonCommercial-ShareAlike 4.0 International"
- * Lizenz von Creative Commons zur Verfügung gestellt, die hier zu finden ist: http://creativecommons.org/licenses/by-nc-sa/4.0/
+ * Lizenz von Creative Commons zur Verfï¿½gung gestellt, die hier zu finden ist: http://creativecommons.org/licenses/by-nc-sa/4.0/
  *
  * @author David Kay Posmyk <KayPosmyk@gmx.de>
  */
@@ -24,20 +24,20 @@ import org.xml.sax.SAXException;
  */
 class Main {
 	/**
-	 * Aktiviert / Deaktiviert den Debug-Modus. Beim kompillieren einer Anwendung für den produktiven Einsatz immer auf
+	 * Aktiviert / Deaktiviert den Debug-Modus. Beim kompillieren einer Anwendung fï¿½r den produktiven Einsatz immer auf
 	 * false setzen!
-	 * Im Debug-Modus wird das Ergebnis der Transformation direkt auf die Konsole ausgegeben. Es wird außerdem nicht durch
-	 * einen JSON Parser geprüft oder reformatiert.
+	 * Im Debug-Modus wird das Ergebnis der Transformation direkt auf die Konsole ausgegeben. Es wird auï¿½erdem nicht durch
+	 * einen JSON Parser geprï¿½ft oder reformatiert.
 	 */
 	private static final boolean DEBUG = false;
 
-	public static final String APP_VERSION = "v1.0 (2015-09-21)";
+	public static final String APP_VERSION = "v1.1 (2016-01-23)";
 	private static final String DEFAULT_XSL_FILENAME = "Camtasia2Json.xsl";
 
 	/**
 	 * Die Hauptmethode der Anwendung. Verarbeitet ein bis zwei Eingabeparameter: den Pfad zur Camtasia Studio Projektdatei,
-	 * optional den Pfad für die Ausgabedatei und optional den Pfad zum XSL Stylesheet.
-	 * Die Eingabedateien werden eingelesen, geprüft und eine Transformation der Projektdatei in eine JSON Datei vorgenommen.
+	 * optional den Pfad fï¿½r die Ausgabedatei und optional den Pfad zum XSL Stylesheet.
+	 * Die Eingabedateien werden eingelesen, geprï¿½ft und eine Transformation der Projektdatei in eine JSON Datei vorgenommen.
 	 * @param args Die Eingabeparameter beim Anwendungsaufruf.
 	 */
 	public static void main(String[] args) {
@@ -69,6 +69,7 @@ class Main {
 				Camtasia2JsonProcessor processor;
 				try {
 					processor = new Camtasia2JsonProcessor(xslDocument, xslFileUrl);
+					processor.setErrorStream(System.err);
 				} catch (XSLException ex) {
 					throw new Camtasia2JsonException(String.format("Das XSL Stylesheet \"%s\" ist fehlerhaft: %s\n", xslFileUrl, ex.getMessage()), ex);
 				}
@@ -76,13 +77,13 @@ class Main {
 				try {
 					processor.readCamtasiaProject(camtasiaDocument);
 				} catch (XSLException ex) {
-					// Keine zusätzliche Fehlermeldung ausgeben, wenn der Fehler von einer <xsl:message> ausgelöst wurde.
+					// Keine zusï¿½tzliche Fehlermeldung ausgeben, wenn der Fehler von einer <xsl:message> ausgelï¿½st wurde.
 					if (!ex.getXMLError().getMessage(0).equals("TERMINATE PROCESSING"))
-						throw new Camtasia2JsonException(String.format("Die XSL Transformation für die Datei \"%s\" ist fehlgeschlagen: %s\n", xslFileUrl, ex.getMessage()), ex);
+						throw new Camtasia2JsonException(String.format("Die XSL Transformation fï¿½r die Datei \"%s\" ist fehlgeschlagen: %s\n", xslFileUrl, ex.getMessage()), ex);
 
 					return;
 				} catch (IOException ex) {
-					throw new Camtasia2JsonException(String.format("I/O fehler bei der XSL Transformation für die Datei \"%s\": %s\n", xslFileUrl, ex.getMessage()), ex);
+					throw new Camtasia2JsonException(String.format("I/O fehler bei der XSL Transformation fï¿½r die Datei \"%s\": %s\n", xslFileUrl, ex.getMessage()), ex);
 				}
 
 				try {
@@ -97,7 +98,7 @@ class Main {
 						// Bei der Ausgabe durch stdout gibt man besser keine Erfolgsmeldung an.
 					}
 				} catch (JsonProcessingException ex) {
-					throw new Camtasia2JsonException(String.format("Bei der Prüfung der JSON Daten: " + ex.getMessage()), ex);
+					throw new Camtasia2JsonException(String.format("Bei der Prï¿½fung der JSON Daten: " + ex.getMessage()), ex);
 				} catch (IOException ex) {
 					if (outputToFile)
 						throw new Camtasia2JsonException(String.format("Beim Schreiben der Zieldatei \"%s\": %s", destFileName, ex.getMessage()), ex);
@@ -114,20 +115,20 @@ class Main {
 	}
 
 	/**
-	 * Prüft einen gegebenen Dateinamen auf Gültigkeit und wenn dort eine Datei exestiert, ob in diese geschrieben werden kann.
-	 * Gibt anschließend den gegebenen Dateinamen mit einem absoluten Pfad zurück.
-	 * @param destFileName Der Dateiname der geprüft werden soll.
-	 * @return Der Eingabedateiname mit absolutem Pfad. Null, falls der Pfad ungültig war.
+	 * Prï¿½ft einen gegebenen Dateinamen auf Gï¿½ltigkeit und wenn dort eine Datei exestiert, ob in diese geschrieben werden kann.
+	 * Gibt anschlieï¿½end den gegebenen Dateinamen mit einem absoluten Pfad zurï¿½ck.
+	 * @param destFileName Der Dateiname der geprï¿½ft werden soll.
+	 * @return Der Eingabedateiname mit absolutem Pfad. Null, falls der Pfad ungï¿½ltig war.
 	 */
 	private static String properCheckedDestFileName(String destFileName) throws Camtasia2JsonException {
 		try {
 			File file = new File(destFileName);
 			if (file.exists() && !file.canWrite())
-				throw new Camtasia2JsonException(String.format("Die Zieltdatei \"%s\" ist schreibgeschützt.", destFileName));
+				throw new Camtasia2JsonException(String.format("Die Zieltdatei \"%s\" ist schreibgeschï¿½tzt.", destFileName));
 
 			return file.getCanonicalPath();
 		} catch (IOException ex) {
-			throw new Camtasia2JsonException(String.format("\"%s\" ist kein gültiger Pfad.", destFileName), ex);
+			throw new Camtasia2JsonException(String.format("\"%s\" ist kein gï¿½ltiger Pfad.", destFileName), ex);
 		}
 	}
 
@@ -146,16 +147,16 @@ class Main {
 		} catch (FileNotFoundException ex) {
 			throw new Camtasia2JsonException(String.format("Die Datei \"%s\" wurde nicht gefunden.\n", fileUrl), ex);
 		} catch (XMLParseException ex) {
-			throw new Camtasia2JsonException(String.format("Die Datei \"%s\" enthält ungültige XML Daten: %s Zeile: %d, Spalte: %d.\n", fileUrl, ex.getMessage(), ex.getLineNumber(0), ex.getColumnNumber(0)), ex);
+			throw new Camtasia2JsonException(String.format("Die Datei \"%s\" enthï¿½lt ungï¿½ltige XML Daten: %s Zeile: %d, Spalte: %d.\n", fileUrl, ex.getMessage(), ex.getLineNumber(0), ex.getColumnNumber(0)), ex);
 		} catch (SAXException ex) {
-			throw new Camtasia2JsonException(String.format("Die Datei \"%s\" enthält ungültige XML Daten: %s\n", fileUrl, ex.getMessage()), ex);
+			throw new Camtasia2JsonException(String.format("Die Datei \"%s\" enthï¿½lt ungï¿½ltige XML Daten: %s\n", fileUrl, ex.getMessage()), ex);
 		} catch (IOException ex) {
 			throw new Camtasia2JsonException(String.format("Die Datei \"%s\" konnte nicht verarbeitet werden: %s\n", fileUrl, ex.getMessage()), ex);
 		}
 	}
 
 	/**
-	 * Gibt ein URL Objekt zurück. Wenn die angegebene URL Zeichenfolge keine gültige URL ist, wird sie in eine gültige
+	 * Gibt ein URL Objekt zurï¿½ck. Wenn die angegebene URL Zeichenfolge keine gï¿½ltige URL ist, wird sie in eine gï¿½ltige
 	 * Datei-URL konvertiert.
 	 * @param urlString Die URL als Zeichenfolge.
 	 * @return Das resultierende URL objekt.
@@ -199,7 +200,7 @@ class Main {
 		System.out.println("Parameter: ");
 		System.out.println("  Projektdatei    Dateipfad oder URL zur Camtasia Studio Projektdatei.");
 		System.out.println("  Ausgabedatei    Dateipfad der Ausgabedatei.");
-		System.out.println("                  Bei Nichtangabe erfolgt Ausgabe über stdout.");
+		System.out.println("                  Bei Nichtangabe erfolgt Ausgabe ï¿½ber stdout.");
 		System.out.println("  XSL-Stylesheet  Dateipfad oder URL zum XSL-Stylesheet.");
 
 		return;

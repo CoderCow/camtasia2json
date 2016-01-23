@@ -38,7 +38,7 @@
 
 	<!-- Primäres Template -->
 	<xsl:template match="/">
-		<!-- Manchmal ist es nützlich XML Daten aus debug Gründen direkt anzeigen zu lassen. Dafür das "method" Attribut im
+		<!-- Manchmal ist es nützlich XML Daten aus debug gründen direkt anzeigen zu lassen. Dafür das "method" Attribut im
 		     <xsl:output> Element auf "xml" umstellen, damit bei der Ausgabe die XML Daten erhalten bleiben.
 		     Achtung: Hierfür muss außerdem in der Java Hauptklasse der Debug-Modus aktiviert werden! -->
 		<!-- <xsl:copy-of select="$transformedTracks" />-->
@@ -130,7 +130,7 @@
 		"author": "<xsl:value-of select="xsltUtil:jsonString($authorName)" />",
 		"date": "<xsl:value-of select="xsltUtil:jsonString($metaDate)" />",
 		"defaultLang": "<xsl:value-of select="xsltUtil:jsonString($metaLanguage)" />",
-		"contact": "",
+		"contact": "", <!-- z.Z. nicht verwendet -->
 		"enableSocialShareButtons": <xsl:value-of select="$enableSocialShareButtons" />,
 		"socialShareUrl": "<xsl:value-of select="xsltUtil:jsonString($socialShareUrl)" />",
 		"tags": "<xsl:value-of select="xsltUtil:jsonString($metaKeywords)" />",

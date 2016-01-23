@@ -1,3 +1,9 @@
+.idea/misc.xml
+.idea/uiDesigner.xml
+.idea/watcherTasks.xml
+.idea/workspace.xml
+.idea/scssLintPlugin.xml
+
 # Windows image file caches
 Thumbs.db
 ehthumbs.db
