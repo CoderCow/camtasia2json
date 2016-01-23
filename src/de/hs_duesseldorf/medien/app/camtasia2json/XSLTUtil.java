@@ -1,6 +1,6 @@
 /**
  * Diese Datei ist Teil der Anwendung "Camtasia2Json". Sie wird unter der "Attribution-NonCommercial-ShareAlike 4.0 International"
- * Lizenz von Creative Commons zur Verfügung gestellt, die hier zu finden ist: http://creativecommons.org/licenses/by-nc-sa/4.0/
+ * Lizenz von Creative Commons zur Verfï¿½gung gestellt, die hier zu finden ist: http://creativecommons.org/licenses/by-nc-sa/4.0/
  *
  * @author David Kay Posmyk <KayPosmyk@gmx.de>
  */
@@ -35,7 +35,7 @@ import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 
 /**
- * Stellt Erweiterungsmethoden für die XSL Transformation bereit. Die Methoden innerhalb dieser Klasse können direkt aus den XSL
+ * Stellt Erweiterungsmethoden fï¿½r die XSL Transformation bereit. Die Methoden innerhalb dieser Klasse kï¿½nnen direkt aus den XSL
  * dokumenten heraus aufgerufen werden.
  */
 @SuppressWarnings("unused")
@@ -43,7 +43,7 @@ public class XSLTUtil {
 	private static DateFormat englishDateFormat = new SimpleDateFormat("yyyy-MM-dd", Locale.ENGLISH);
 
 	/**
-	 * Gibt das heutige Datum zurück.
+	 * Gibt das heutige Datum zurï¿½ck.
 	 * @return Das heutige Datum im Format "yyyy-MM-dd".
 	 */
 	public static String dateNow() {
@@ -69,12 +69,22 @@ public class XSLTUtil {
 		SimpleDateFormat inputFormat = new SimpleDateFormat(inputFormatPattern);
 		SimpleDateFormat outputFormat = new SimpleDateFormat(outputFormatPattern);
 
-		Date date = inputFormat.parse(inputDate);
-		return outputFormat.format(date);
+		try {
+			Date date = inputFormat.parse(inputDate);
+			return outputFormat.format(date);
+		} catch (ParseException ex) {
+			// If the parsing fails, the date might be already in the correct format.
+			try {
+				Date date = outputFormat.parse(inputDate);
+				return outputFormat.format(date);
+			} catch (ParseException ex2) {
+				throw ex;
+			}
+		}
 	}
 
 	/**
-	 * Gibt die Eingabezeichenfolge in Kleinbuchstaben zurück.
+	 * Gibt die Eingabezeichenfolge in Kleinbuchstaben zurï¿½ck.
 	 * @param input Die Eingabezeichenfolge.
 	 * @return Die Eingabezeichenfolge in Kleinbuchstaben.
 	 */
@@ -87,9 +97,9 @@ public class XSLTUtil {
 
 	/**
 	 * Ermittelt das mathematische Maximum anhand der Textinhalte der Kindknoten im gegebenen XML Fragment.
-	 * @param fragment Das XML Fragment das die Kindknoten mit den Eingabewerten enthält.
+	 * @param fragment Das XML Fragment das die Kindknoten mit den Eingabewerten enthï¿½lt.
 	 * @return Das mathematische Maximum.
-	 * @throws ParseException Mindestens ein Kindknoten enthält einen Inhalt der nicht in eine Zahl konvertiert werden kann.
+	 * @throws ParseException Mindestens ein Kindknoten enthï¿½lt einen Inhalt der nicht in eine Zahl konvertiert werden kann.
 	 */
 	public static double max(@NotNull XMLDocumentFragment fragment) throws ParseException {
 		if (fragment == null)
@@ -110,10 +120,10 @@ public class XSLTUtil {
 	}
 
 	/**
-	 * Prüft, ob der gegebene Reguläre Ausdruck auf die Eingabezeichenfolge passt.
-	 * @param input Die Eingabezeichenfolge die geprüft werden soll.
-	 * @param pattern Der Reguläre Ausdruck gegen den die Zeichenfolge geprüft werden soll.
-	 * @return true, wenn die Eingabezeichenfolge auf den Regulären Ausdurck passt, sonst false.
+	 * Prï¿½ft, ob der gegebene Regulï¿½re Ausdruck auf die Eingabezeichenfolge passt.
+	 * @param input Die Eingabezeichenfolge die geprï¿½ft werden soll.
+	 * @param pattern Der Regulï¿½re Ausdruck gegen den die Zeichenfolge geprï¿½ft werden soll.
+	 * @return true, wenn die Eingabezeichenfolge auf den Regulï¿½ren Ausdurck passt, sonst false.
 	 */
 	public static boolean matches(@NotNull String input, @NotNull String pattern) {
 		if (input == null)
@@ -126,9 +136,9 @@ public class XSLTUtil {
 	}
 
 	/**
-	 * Ersetzt die Teile der Eingabezeichenfolge gegen die angegebene Zeichenfolge, die zum gegebenen Regulären Ausdruck passen.
+	 * Ersetzt die Teile der Eingabezeichenfolge gegen die angegebene Zeichenfolge, die zum gegebenen Regulï¿½ren Ausdruck passen.
 	 * @param input Die Eingabezeichenfolge.
-	 * @param searchPattern Der Reguläre Ausdruck zum bestimmen der zu ersetzenden Teile.
+	 * @param searchPattern Der Regulï¿½re Ausdruck zum bestimmen der zu ersetzenden Teile.
 	 * @param replacement Die Zeichenfolge mit der die gefundenen Teile ersetzt werden sollen.
 	 * @return Die Eingabezeichenfolge mit den entsprechend ersetzten Teilfolgen.
 	 */
@@ -147,7 +157,7 @@ public class XSLTUtil {
 	 * Zerlegt den Rich Text Format Inhalt eines Camtasia Studio Callouts in zwei Teile:
 	 *  * Den Formatierbaren Inhalt umgewandelt in ein HTML Fragment.
 	 *  * Die Liste der Attribute in Form von name / wert Paaren.
-	 * Die Daten werden dabei in einem XML Fragment mit folgender Struktur zurückgegeben:
+	 * Die Daten werden dabei in einem XML Fragment mit folgender Struktur zurï¿½ckgegeben:
 	 * <Html>
 	 *   Formatierbarer Inhalt als HTML Fragment.
 	 * </Html>
@@ -160,8 +170,8 @@ public class XSLTUtil {
 	 * vorhanden ist.
 	 * @param inputRtfText Der Inhalt eines Callouts im Rich Text Format.
 	 * @param textAttributesSeparatorLine Die Zeile die den formatierbaren Text und die Attributliste trennt.
-	 * @return Das XML Fragment welches HTML und Attributliste enthält
-	 * @throws IOException Des RTF Text ist entweder ungültig oder konnte nicht erfoglreich ins HTML Format überführt werden.
+	 * @return Das XML Fragment welches HTML und Attributliste enthï¿½lt
+	 * @throws IOException Des RTF Text ist entweder ungï¿½ltig oder konnte nicht erfoglreich ins HTML Format ï¿½berfï¿½hrt werden.
 	 */
 	public static XMLDocumentFragment camtasiaCalloutContentDataFromRtf(
 		@NotNull String inputRtfText, @NotNull String textAttributesSeparatorLine) throws IOException
@@ -190,7 +200,7 @@ public class XSLTUtil {
 			assert(firstSpan.nodeName().equalsIgnoreCase("span"));
 
 			boolean hasOneSpanOnly = (paragraph.children().last() == firstSpan);
-			// Wir möchten keine leeren Paragraphen, d.h. <p> Tags die nur einen einzigen leeren <span> enthalten.
+			// Wir mï¿½chten keine leeren Paragraphen, d.h. <p> Tags die nur einen einzigen leeren <span> enthalten.
 			if (firstSpan.text().length() > 0 || !hasOneSpanOnly) {
 				boolean isSeparator = (firstSpan.text().trim().equals(textAttributesSeparatorLine));
 				isHtmlContent = (isHtmlContent && !isSeparator);
@@ -222,12 +232,12 @@ public class XSLTUtil {
 	/**
 	 * Wandelt die RTF-Eingabezeichenfolge in ein HTML equivalente Zeichenfolge um.
 	 * Das HTML Markup ist immer so aufgebaut, dass jede Zeile der Eingabezeichenfolge in einem eigenen <p> Tag
-	 * vorliegt. Der eigentliche Text liegt in einem <span> Tag vor, wobei für jede Schriftänderung weitere <span> Tags
-	 * erzeugt werden. Für Formatierungen wie "Fett" or "Kursiv" werden die veralteten <b> und <i> Tags eingefügt.
+	 * vorliegt. Der eigentliche Text liegt in einem <span> Tag vor, wobei fï¿½r jede Schriftï¿½nderung weitere <span> Tags
+	 * erzeugt werden. Fï¿½r Formatierungen wie "Fett" or "Kursiv" werden die veralteten <b> und <i> Tags eingefï¿½gt.
 	 * @param inputRtfText Die Eingabezeichenfolge im Rich Text Format.
 	 * @param includeParasAndSpans Legt fest, ob das HTML auch <p> und <span> Tags beinhalten soll.
 	 * @return Die Eingabezeichenfolge im HTML Format.
-	 * @throws IOException Des RTF Text ist entweder ungültig oder konnte nicht erfoglreich ins HTML Format überführt werden.
+	 * @throws IOException Des RTF Text ist entweder ungï¿½ltig oder konnte nicht erfoglreich ins HTML Format ï¿½berfï¿½hrt werden.
 	 */
 	public static String rtfToHtml(@NotNull String inputRtfText, boolean includeParasAndSpans) throws IOException {
 		if (inputRtfText == null)
@@ -255,10 +265,10 @@ public class XSLTUtil {
 	}
 
 	/**
-	 * Wandelt die RTF-Eingabezeichenfolge in HTML Dokument um und gibt dessen <body> Tag zurück.
+	 * Wandelt die RTF-Eingabezeichenfolge in HTML Dokument um und gibt dessen <body> Tag zurï¿½ck.
 	 * @param inputRtfText Die Eingabezeichenfolge im Rich Text Format.
 	 * @return Das <body> Tag des resultierenden HTML Dokuments.
-	 * @throws IOException Des RTF Text ist entweder ungültig oder konnte nicht erfoglreich ins HTML Format überführt werden.
+	 * @throws IOException Des RTF Text ist entweder ungï¿½ltig oder konnte nicht erfoglreich ins HTML Format ï¿½berfï¿½hrt werden.
 	 */
 	public static Element rtfToHtmlBodyTag(@NotNull String inputRtfText) throws IOException {
 		if (inputRtfText == null)
@@ -290,7 +300,7 @@ public class XSLTUtil {
 	/**
 	 * Wandelt die Eingabezeichenfolge in einen JSON kompatibles string Literal um.
 	 * @param input Die Eingabezeichenfolge.
-	 * @return Die Eingabezeichenfolge als JSON kompatibles string Literal ohne Anführungszeichen.
+	 * @return Die Eingabezeichenfolge als JSON kompatibles string Literal ohne Anfï¿½hrungszeichen.
 	 */
 	public static String jsonString(@NotNull String input) {
 		StringBuilder builder = new StringBuilder();
@@ -337,7 +347,7 @@ public class XSLTUtil {
 	}
 
 	/**
-	 * Gibt Versionsinformationen zur Anwendung zurück.
+	 * Gibt Versionsinformationen zur Anwendung zurï¿½ck.
 	 * @return Die Versionsinformationen.
 	 */
 	public static String versionInfo() {
