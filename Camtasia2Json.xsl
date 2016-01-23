@@ -503,12 +503,13 @@
 			<xsl:variable name="closeAutomatically" select="c2jUtil:validateRequiredBooleanAttribute($contentAttributes/Attribute[@name = 'Automatisch schließen?']/@value, 'Automatisch schließen?', $metaMedium)" />
 			<xsl:variable name="tooltip" select="c2jUtil:validateRequiredAttribute($contentAttributes/Attribute[@name = 'Tooltip']/@value, 'Tooltip', $metaMedium, true)" />
 
-			<xsl:variable name="hotspotInfo" select="$metaMedium/ExtraData/Entry/HotspotInfo" />
+			<xsl:variable name="hotspotInfo" select="$metaMedium/HotspotInfo" />
 			<xsl:variable name="actionId" select="$hotspotInfo/@action" />
 			<xsl:variable name="actionTargetPos" select="c2jUtil:framesToSeconds($hotspotInfo/@gotoTime)" />
 			<xsl:variable name="actionTargetMarkerPos" select="c2jUtil:framesToSeconds($hotspotInfo/@markerTime)" />
 			<xsl:variable name="actionLinkUrl" select="$hotspotInfo/@url" />
 			<xsl:variable name="actionLinkNewWindow" select="c2jUtil:validateBooleanAttribute($hotspotInfo/@openURLInNewWindow, 'Hotspot Daten: Link in neuem Browserfenster öffnen', $metaMedium)" />
+			<xsl:variable name="pauseAtEnd" select="$hotspotInfo/@pauseAtEnd = 1" />
 
 			{
 				"id": <xsl:value-of select="@id" />,
@@ -562,7 +563,7 @@
 							"action": "link",
 							"actionParams": {
 								"href": "<xsl:value-of select="xsltUtil:jsonString($actionLinkUrl)" />",
-			          "inNewWindow": <xsl:value-of select="$actionLinkNewWindow" />"
+			          "inNewWindow": <xsl:value-of select="$actionLinkNewWindow" />
 							},
 						</xsl:when>
 						<xsl:when test="$actionId = 3"> <!-- goto marker -->
@@ -579,6 +580,7 @@
 							</xsl:message>
 						</xsl:otherwise>
 					</xsl:choose>
+			  "pauseAtEnd": <xsl:value-of select="$pauseAtEnd" />,
         "waitForAction": <xsl:value-of select="$waitForAction" />,
         "closeOnAction": <xsl:value-of select="$closeOnAction" />,
         "closeButton": <xsl:value-of select="$closeButton" />,

@@ -349,6 +349,12 @@
 				</CaptionData>
 			</xsl:if>
 
+			<!-- Hotspot Informationen -->
+			<xsl:variable name="hotspotInfo" select="$medium/ExtraData/Entry/HotspotInfo" />
+			<xsl:if test="$hotspotInfo">
+				<xsl:copy-of select="$hotspotInfo" />
+			</xsl:if>
+
 			<!-- Weitere Medien innerhalb diesem verarbeiten. Dies ist bei Gruppe-Medien der Fall. -->
 			<xsl:variable name="subMedia" select="$medium/GenericMixer/Tracks/GenericTrack/Medias" />
 			<xsl:if test="$subMedia">
