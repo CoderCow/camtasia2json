@@ -1,8 +1,8 @@
 {
   "id" : 1,
   "meta" : {
-    "version" : "1.0",
-    "generator" : "Camtasia to JSON v1.0 (2015-09-21)",
+    "version" : "1.1",
+    "generator" : "Camtasia to JSON v1.1 (2016-01-23)",
     "cat" : 1,
     "dur" : 121.8,
     "author" : "",
@@ -12,29 +12,33 @@
     "enableSocialShareButtons" : true,
     "socialShareUrl" : "",
     "tags" : "tag1 tag2",
-    "poster" : "//app.medien.fh-duesseldorf.de/eplayer/images/estudy.png",
+    "poster" : "http://www.hs-duesseldorf.de/Slideshow%20Content/01_768.png",
     "titles" : [ {
       "lang" : "de",
       "title" : "Videotitel"
     } ],
     "descriptions" : [ {
       "lang" : "de",
-      "description" : ""
+      "description" : "Beschreibungstext"
     } ]
   },
   "media" : {
     "digital" : [ {
       "lang" : "de",
-      "type" : "video/mp4",
+      "type" : "video/webm",
       "src" : "video_de.webm"
     }, {
       "lang" : "de",
       "type" : "video/mp4",
       "src" : "video_de.mp4"
+    }, {
+      "lang" : "de",
+      "type" : "video/ogg",
+      "src" : "video_de.ogv"
     } ]
   },
   "categories" : [ {
-    "id" : 531,
+    "id" : 634,
     "lang" : "de",
     "title" : "",
     "begin" : 0,
@@ -42,7 +46,7 @@
     "description" : "<p class=\"default\"><span style=\"color: #000000; font-size: 12pt; font-family: Arial\">Beschreibungstext</span><span style=\"color: #000000; font-size: 8pt; font-family: Courier New\"></span></p>\r\n",
     "tooltip" : ""
   }, {
-    "id" : 590,
+    "id" : 693,
     "lang" : "en",
     "title" : "",
     "begin" : 0,
@@ -51,14 +55,14 @@
     "tooltip" : ""
   } ],
   "chapters" : [ {
-    "id" : 651,
+    "id" : 752,
     "lang" : "de",
     "title" : "",
     "begin" : 0,
     "dur" : 67.97,
     "videoType" : "digital",
     "description" : "<p class=\"default\"><span style=\"color: #000000; font-size: 12pt; font-family: Arial\">Beschreibungstext</span><span style=\"color: #000000; font-size: 8pt; font-family: Courier New\"></span></p>\r\n",
-    "category" : 531,
+    "category" : 634,
     "tooltip" : "",
     "tags" : "",
     "charts" : [ ],
@@ -78,14 +82,14 @@
       } ]
     } ]
   }, {
-    "id" : 711,
+    "id" : 811,
     "lang" : "en",
     "title" : "",
     "begin" : 0,
     "dur" : 67.97,
     "videoType" : "digital",
     "description" : "<p class=\"default\"><span style=\"color: #000000; font-size: 12pt; font-family: Arial\">Description</span><span style=\"color: #000000; font-size: 8pt; font-family: Courier New\"></span></p>\r\n",
-    "category" : 590,
+    "category" : 693,
     "tooltip" : "",
     "tags" : "",
     "charts" : [ ],
@@ -111,7 +115,17 @@
     "title" : "",
     "tooltip" : "",
     "content" : "<p class=\"default\"><span style=\"color: #000000; font-size: 14pt; font-family: Arial\">Notizinhalt</span></p>\r\n",
-    "chapter" : 651,
+    "chapter" : 752,
+    "displayInTimeline" : true,
+    "displayInChapters" : true,
+    "displayOnScreen" : false
+  }, {
+    "lang" : "en",
+    "begin" : 54.73,
+    "title" : "",
+    "tooltip" : "",
+    "content" : "<p class=\"default\"><span style=\"color: #000000; font-size: 14pt; font-family: Arial\">Note content</span></p>\r\n",
+    "chapter" : 811,
     "displayInTimeline" : true,
     "displayInChapters" : true,
     "displayOnScreen" : false
@@ -133,12 +147,7 @@
   }, {
     "lang" : "de",
     "begin" : 5.5,
-    "dur" : 4.07,
-    "content" : "schöne"
-  }, {
-    "lang" : "de",
-    "begin" : 10.07,
-    "dur" : 5.86,
+    "dur" : 5.1,
     "content" : "Welt!!"
   }, {
     "lang" : "en",
@@ -148,12 +157,7 @@
   }, {
     "lang" : "en",
     "begin" : 5.5,
-    "dur" : 4.07,
-    "content" : "sw<b>ee</b>t"
-  }, {
-    "lang" : "en",
-    "begin" : 10.07,
-    "dur" : 5.86,
+    "dur" : 5.1,
     "content" : "world!"
   } ],
   "overlaySettings" : {
@@ -161,35 +165,39 @@
     "isSwitchable" : true
   },
   "overlays" : [ {
-    "id" : 1279,
+    "id" : 1428,
     "lang" : "de",
     "begin" : 0,
     "dur" : 15.1,
-    "content" : "<p class=\"default\"><span style=\"color: #000000; font-size: 12pt; font-family: Arial\">Inhaltstext</span><span style=\"color: #000000; font-size: 8pt; font-family: Courier New\"></span></p>\r\n",
+    "content" : "<p class=\"default\"><span style=\"color: #000000; font-size: 12pt; font-family: Arial\">Optionaler Inhaltstext</span><span style=\"color: #000000; font-size: 8pt; font-family: Courier New\"></span></p>\r\n",
     "isCopyableContent" : false,
     "style" : "Transparent",
     "position" : "Standard",
-    "action" : "none",
-    "actionParams" : { },
+    "action" : "link",
+    "actionParams" : {
+      "href" : "http://www.hs-duesseldorf.de/",
+      "inNewWindow" : true
+    },
+    "pauseAtEnd" : true,
     "waitForAction" : false,
     "closeOnAction" : false,
     "closeButton" : false,
     "forceVisibility" : true,
-    "translateTransform" : [ -545.83, 34.61, -3.41 ],
+    "translateTransform" : [ -42.64, -4.81, 0 ],
     "rotateTransform" : [ 0, 0, 0 ],
     "shearTransform" : [ 0, 0, 0 ],
-    "w" : 134,
-    "h" : 23,
+    "w" : 10.47,
+    "h" : 3.19,
     "opacity" : 1,
     "fadeInDuration" : 0.1,
     "fadeOutDuration" : 0.07,
     "tooltip" : ""
   }, {
-    "id" : 1334,
+    "id" : 1484,
     "lang" : "de",
     "begin" : 15.1,
     "dur" : 21.17,
-    "content" : "<p class=\"default\"><span style=\"color: #000000; font-size: 12pt; font-family: Arial\">Inhaltstext</span><span style=\"color: #000000; font-size: 8pt; font-family: Courier New\"></span></p>\r\n",
+    "content" : "<p class=\"default\"><span style=\"color: #000000; font-size: 12pt; font-family: Arial\">Optionaler Inhaltstext</span><span style=\"color: #000000; font-size: 8pt; font-family: Courier New\"></span></p>\r\n",
     "isCopyableContent" : false,
     "style" : "Transparent",
     "position" : "Default",
@@ -205,49 +213,54 @@
         "tooltip" : ""
       } ]
     },
+    "pauseAtEnd" : false,
     "waitForAction" : false,
     "closeOnAction" : false,
     "closeButton" : false,
     "forceVisibility" : true,
-    "translateTransform" : [ -313.39, 133.21, 2.27 ],
+    "translateTransform" : [ -24.48, -18.5, 0 ],
     "rotateTransform" : [ 0, 0, 0 ],
     "shearTransform" : [ 0, 0, 0 ],
-    "w" : 137,
-    "h" : 21,
+    "w" : 10.7,
+    "h" : 2.92,
     "opacity" : 1,
     "fadeInDuration" : 0.1,
     "fadeOutDuration" : 0.07,
     "tooltip" : "Besonders spezielle Dinge gibt's hier zu sehen!"
   }, {
-    "id" : 1560,
+    "id" : 1709,
     "lang" : "en",
     "begin" : 0,
     "dur" : 15.1,
-    "content" : "",
+    "content" : "<p class=\"default\"><span style=\"color: #000000; font-size: 12pt; font-family: Arial\">Optional content text</span><span style=\"color: #000000; font-size: 8pt; font-family: Courier New\"></span></p>\r\n",
     "isCopyableContent" : false,
     "style" : "Inhaltlos",
     "position" : "Standard",
-    "action" : "none",
-    "actionParams" : { },
+    "action" : "link",
+    "actionParams" : {
+      "href" : "http://www.hs-duesseldorf.de/",
+      "inNewWindow" : true
+    },
+    "pauseAtEnd" : true,
     "waitForAction" : false,
     "closeOnAction" : false,
     "closeButton" : false,
     "forceVisibility" : true,
-    "translateTransform" : [ -545.83, 34.61, -3.41 ],
+    "translateTransform" : [ -42.64, -4.81, 0 ],
     "rotateTransform" : [ 0, 0, 0 ],
     "shearTransform" : [ 0, 0, 0 ],
-    "w" : 134,
-    "h" : 23,
+    "w" : 10.47,
+    "h" : 3.19,
     "opacity" : 1,
     "fadeInDuration" : 0.1,
     "fadeOutDuration" : 0.07,
     "tooltip" : ""
   }, {
-    "id" : 1615,
+    "id" : 1765,
     "lang" : "en",
     "begin" : 15.1,
     "dur" : 21.17,
-    "content" : "<p class=\"default\"><span style=\"color: #000000; font-size: 12pt; font-family: Arial\">Contenttext</span><span style=\"color: #000000; font-size: 8pt; font-family: Courier New\"></span></p>\r\n",
+    "content" : "<p class=\"default\"><span style=\"color: #000000; font-size: 12pt; font-family: Arial\">Optional content text</span><span style=\"color: #000000; font-size: 8pt; font-family: Courier New\"></span></p>\r\n",
     "isCopyableContent" : false,
     "style" : "Transparent",
     "position" : "Default",
@@ -263,15 +276,16 @@
         "tooltip" : ""
       } ]
     },
+    "pauseAtEnd" : false,
     "waitForAction" : false,
     "closeOnAction" : false,
     "closeButton" : false,
     "forceVisibility" : true,
-    "translateTransform" : [ -313.39, 133.21, 2.27 ],
+    "translateTransform" : [ -24.48, -18.5, 0 ],
     "rotateTransform" : [ 0, 0, 0 ],
     "shearTransform" : [ 0, 0, 0 ],
-    "w" : 137,
-    "h" : 21,
+    "w" : 10.7,
+    "h" : 2.92,
     "opacity" : 1,
     "fadeInDuration" : 0.1,
     "fadeOutDuration" : 0.07,
@@ -284,9 +298,9 @@
     "isMoveable" : true,
     "isResizable" : true,
     "position" : "Standard",
-    "w" : 182.4,
-    "h" : 179.24,
-    "translateTransform" : [ -376.5, 139.22, 0 ],
+    "w" : 14.25,
+    "h" : 24.89,
+    "translateTransform" : [ -29.41, -19.34, 0 ],
     "rotateTransform" : [ 0, 0, 0 ],
     "shearTransform" : [ 0, 0, 0 ],
     "opacity" : 1,

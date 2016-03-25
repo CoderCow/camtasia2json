@@ -1,8 +1,8 @@
 {
   "id" : 1,
   "meta" : {
-    "version" : "1.0",
-    "generator" : "Camtasia to JSON v1.0 (2015-09-21)",
+    "version" : "1.1",
+    "generator" : "Camtasia to JSON v1.1 (2016-01-23)",
     "cat" : 1,
     "dur" : 121.8,
     "author" : "",
@@ -12,29 +12,33 @@
     "enableSocialShareButtons" : true,
     "socialShareUrl" : "",
     "tags" : "tag1 tag2",
-    "poster" : "//app.medien.fh-duesseldorf.de/eplayer/images/estudy.png",
+    "poster" : "http://www.hs-duesseldorf.de/Slideshow%20Content/01_768.png",
     "titles" : [ {
       "lang" : "de",
       "title" : "Videotitel"
     } ],
     "descriptions" : [ {
       "lang" : "de",
-      "description" : ""
+      "description" : "Beschreibungstext"
     } ]
   },
   "media" : {
     "digital" : [ {
       "lang" : "de",
-      "type" : "video/mp4",
+      "type" : "video/webm",
       "src" : "video_de.webm"
     }, {
       "lang" : "de",
       "type" : "video/mp4",
       "src" : "video_de.mp4"
+    }, {
+      "lang" : "de",
+      "type" : "video/ogg",
+      "src" : "video_de.ogv"
     } ]
   },
   "categories" : [ {
-    "id" : 305,
+    "id" : 355,
     "lang" : "de",
     "title" : "",
     "begin" : 0,
@@ -43,14 +47,14 @@
     "tooltip" : ""
   } ],
   "chapters" : [ {
-    "id" : 365,
+    "id" : 414,
     "lang" : "de",
     "title" : "",
     "begin" : 0,
     "dur" : 67.97,
     "videoType" : "digital",
     "description" : "<p class=\"default\"><span style=\"color: #000000; font-size: 12pt; font-family: Arial\">Beschreibungstext</span><span style=\"color: #000000; font-size: 8pt; font-family: Courier New\"></span></p>\r\n",
-    "category" : 305,
+    "category" : 355,
     "tooltip" : "",
     "tags" : "",
     "charts" : [ ],
@@ -76,7 +80,7 @@
     "title" : "",
     "tooltip" : "",
     "content" : "<p class=\"default\"><span style=\"color: #000000; font-size: 14pt; font-family: Arial\">Notizinhalt</span></p>\r\n",
-    "chapter" : 365,
+    "chapter" : 414,
     "displayInTimeline" : true,
     "displayInChapters" : true,
     "displayOnScreen" : false
@@ -98,12 +102,7 @@
   }, {
     "lang" : "de",
     "begin" : 5.5,
-    "dur" : 4.07,
-    "content" : "schöne"
-  }, {
-    "lang" : "de",
-    "begin" : 10.07,
-    "dur" : 5.86,
+    "dur" : 5.27,
     "content" : "Welt!!"
   } ],
   "overlaySettings" : {
@@ -111,35 +110,36 @@
     "isSwitchable" : true
   },
   "overlays" : [ {
-    "id" : 704,
+    "id" : 754,
     "lang" : "de",
     "begin" : 0,
     "dur" : 15.1,
-    "content" : "<p class=\"default\"><span style=\"color: #000000; font-size: 12pt; font-family: Arial\">Inhaltstext</span><span style=\"color: #000000; font-size: 8pt; font-family: Courier New\"></span></p>\r\n",
+    "content" : "<p class=\"default\"><span style=\"color: #000000; font-size: 12pt; font-family: Arial\">Optionaler Inhaltstext</span><span style=\"color: #000000; font-size: 8pt; font-family: Courier New\"></span></p>\r\n",
     "isCopyableContent" : false,
     "style" : "Transparent",
     "position" : "Standard",
     "action" : "none",
     "actionParams" : { },
+    "pauseAtEnd" : false,
     "waitForAction" : false,
     "closeOnAction" : false,
     "closeButton" : false,
     "forceVisibility" : true,
-    "translateTransform" : [ -545.83, 34.61, -3.41 ],
+    "translateTransform" : [ -42.64, -4.81, 0 ],
     "rotateTransform" : [ 0, 0, 0 ],
     "shearTransform" : [ 0, 0, 0 ],
-    "w" : 134,
-    "h" : 23,
+    "w" : 10.47,
+    "h" : 3.19,
     "opacity" : 1,
     "fadeInDuration" : 0.1,
     "fadeOutDuration" : 0.07,
     "tooltip" : ""
   }, {
-    "id" : 759,
+    "id" : 809,
     "lang" : "de",
     "begin" : 15.1,
     "dur" : 21.17,
-    "content" : "<p class=\"default\"><span style=\"color: #000000; font-size: 12pt; font-family: Arial\">Inhaltstext</span><span style=\"color: #000000; font-size: 8pt; font-family: Courier New\"></span></p>\r\n",
+    "content" : "<p class=\"default\"><span style=\"color: #000000; font-size: 12pt; font-family: Arial\">Optionaler Inhaltstext</span><span style=\"color: #000000; font-size: 8pt; font-family: Courier New\"></span></p>\r\n",
     "isCopyableContent" : false,
     "style" : "Transparent",
     "position" : "Default",
@@ -155,15 +155,16 @@
         "tooltip" : ""
       } ]
     },
+    "pauseAtEnd" : false,
     "waitForAction" : false,
     "closeOnAction" : false,
     "closeButton" : false,
     "forceVisibility" : true,
-    "translateTransform" : [ -313.39, 133.21, 2.27 ],
+    "translateTransform" : [ -24.48, -18.5, 0 ],
     "rotateTransform" : [ 0, 0, 0 ],
     "shearTransform" : [ 0, 0, 0 ],
-    "w" : 137,
-    "h" : 21,
+    "w" : 10.7,
+    "h" : 2.92,
     "opacity" : 1,
     "fadeInDuration" : 0.1,
     "fadeOutDuration" : 0.07,
@@ -176,9 +177,9 @@
     "isMoveable" : true,
     "isResizable" : true,
     "position" : "Standard",
-    "w" : 182.4,
-    "h" : 179.24,
-    "translateTransform" : [ -376.5, 139.22, 0 ],
+    "w" : 14.25,
+    "h" : 24.89,
+    "translateTransform" : [ -29.41, -19.34, 0 ],
     "rotateTransform" : [ 0, 0, 0 ],
     "shearTransform" : [ 0, 0, 0 ],
     "opacity" : 1,

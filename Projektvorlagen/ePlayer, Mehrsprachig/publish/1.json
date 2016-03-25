@@ -1,8 +1,8 @@
 {
   "id" : 1,
   "meta" : {
-    "version" : "1.0",
-    "generator" : "Camtasia to JSON v1.0 (2015-09-21)",
+    "version" : "1.1",
+    "generator" : "Camtasia to JSON v1.1 (2016-01-23)",
     "cat" : 1,
     "dur" : 67.97,
     "author" : "",
@@ -10,80 +10,84 @@
     "defaultLang" : "de",
     "contact" : "",
     "enableSocialShareButtons" : false,
-    "socialShareUrl" : "- nicht ePlayer -",
+    "socialShareUrl" : "",
     "tags" : "tag1 tag2",
-    "poster" : "//app.medien.fh-duesseldorf.de/eplayer/images/estudy.png",
+    "poster" : "http://www.hs-duesseldorf.de/Slideshow%20Content/01_768.png",
     "titles" : [ {
       "lang" : "de",
       "title" : "Videotitel"
     } ],
     "descriptions" : [ {
       "lang" : "de",
-      "description" : ""
+      "description" : "Beschreibungstext"
     } ]
   },
   "media" : {
     "digital" : [ {
       "lang" : "de",
-      "type" : "video/mp4",
+      "type" : "video/webm",
       "src" : "video_de.webm"
     }, {
       "lang" : "de",
       "type" : "video/mp4",
       "src" : "video_de.mp4"
+    }, {
+      "lang" : "de",
+      "type" : "video/ogg",
+      "src" : "video_de.ogv"
     } ]
   },
   "categories" : [ ],
   "chapters" : [ {
-    "id" : 529,
+    "id" : 634,
     "lang" : "de",
     "title" : "",
     "begin" : 0,
     "dur" : 67.97,
     "videoType" : "digital",
-    "description" : "<p class=\"default\"><span style=\"color: #000000; font-size: 12pt; font-family: Arial\">- Nicht ePlayer -</span><span style=\"color: #000000; font-size: 8pt; font-family: Courier New\"></span></p>\r\n",
-    "tooltip" : "- nicht ePlayer -",
-    "tags" : "- nicht ePlayer -",
+    "description" : "",
+    "tooltip" : "",
+    "tags" : "",
     "charts" : [ ],
     "additionals" : [ {
       "type" : "linklist",
       "title" : "",
       "description" : "",
-      "tooltip" : "- nicht ePlayer -",
+      "tooltip" : "",
       "links" : [ {
         "title" : "",
         "href" : "",
-        "tooltip" : "- nicht ePlayer -"
+        "tooltip" : ""
       }, {
         "title" : "",
         "href" : "",
-        "tooltip" : "- nicht ePlayer -"
+        "tooltip" : ""
       } ]
     } ]
   }, {
-    "id" : 589,
+    "id" : 693,
     "lang" : "en",
     "title" : "",
     "begin" : 0,
     "dur" : 67.97,
     "videoType" : "digital",
-    "description" : "<p class=\"default\"><span style=\"color: #000000; font-size: 12pt; font-family: Arial\">- Nicht ePlayer -</span><span style=\"color: #000000; font-size: 8pt; font-family: Courier New\"></span></p>\r\n",
-    "tooltip" : "- nicht ePlayer -",
-    "tags" : "- nicht ePlayer -",
+    "description" : "",
+    "tooltip" : "",
+    "tags" : "",
     "charts" : [ ],
     "additionals" : [ {
       "type" : "linklist",
       "title" : "",
       "description" : "",
-      "tooltip" : "- nicht ePlayer -",
+      "tooltip" : "",
       "links" : [ {
         "title" : "",
         "href" : "",
-        "tooltip" : "- nicht ePlayer -"
+        "tooltip" : ""
       }, {
         "title" : "",
         "href" : "",
-        "tooltip" : "- nicht ePlayer -"
+        "tooltip" : ""
       } ]
     } ]
   } ],
@@ -93,7 +97,17 @@
     "title" : "",
     "tooltip" : "",
     "content" : "<p class=\"default\"><span style=\"color: #000000; font-size: 14pt; font-family: Arial\">Notizinhalt</span></p>\r\n",
-    "chapter" : 529,
+    "chapter" : 634,
+    "displayInTimeline" : true,
+    "displayInChapters" : true,
+    "displayOnScreen" : false
+  }, {
+    "lang" : "en",
+    "begin" : 56,
+    "title" : "",
+    "tooltip" : "",
+    "content" : "<p class=\"default\"><span style=\"color: #000000; font-size: 14pt; font-family: Arial\">Note content</span></p>\r\n",
+    "chapter" : 693,
     "displayInTimeline" : true,
     "displayInChapters" : true,
     "displayOnScreen" : false
@@ -115,12 +129,7 @@
   }, {
     "lang" : "de",
     "begin" : 5.5,
-    "dur" : 4.07,
-    "content" : "schöne"
-  }, {
-    "lang" : "de",
-    "begin" : 10.07,
-    "dur" : 5.86,
+    "dur" : 5.37,
     "content" : "Welt!!"
   }, {
     "lang" : "en",
@@ -130,12 +139,7 @@
   }, {
     "lang" : "en",
     "begin" : 5.5,
-    "dur" : 4.07,
-    "content" : "sw<b>ee</b>t"
-  }, {
-    "lang" : "en",
-    "begin" : 10.07,
-    "dur" : 5.86,
+    "dur" : 5.37,
     "content" : "world!"
   } ],
   "overlaySettings" : {

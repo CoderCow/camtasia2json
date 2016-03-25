@@ -10,9 +10,9 @@
 </Project_Settings>
 
 
-<AutoSaveFile>C:\Users\CoderCow\AppData\Local\TechSmith\Camtasia Studio\8.0\Auto-Saves\Test Projektcd1c30a.autosave.camproj</AutoSaveFile>
+<AutoSaveFile>C:\Users\CC\AppData\Local\TechSmith\Camtasia Studio\8.0\Auto-Saves\Projekt460ec0.autosave.camproj</AutoSaveFile>
 
-<ProjectID>BC07E4CC-588F-42CB-9A96-FF2DBA5D2450</ProjectID>
+<ProjectID>7E2FD6AB-64EE-4CF0-8CD2-EC8DE31A1955</ProjectID>
 
 <PowerPointProject>0</PowerPointProject>
 
@@ -29,7 +29,7 @@
 </Project_MetaData_Object>
 <Project_MetaData_Object>
 <FieldArrayKey>13</FieldArrayKey>
-<Value>01.08.2015 12:00:00 </Value>
+<Value>2015-08-01 12:00:00 </Value>
 </Project_MetaData_Object>
 <Project_MetaData_Object>
 <FieldArrayKey>16</FieldArrayKey>
@@ -86,6 +86,10 @@
 <Project_MetaData_Object>
 <FieldArrayKey>23</FieldArrayKey>
 <Value>- nicht verwendet -</Value>
+</Project_MetaData_Object>
+<Project_MetaData_Object>
+<FieldArrayKey>12</FieldArrayKey>
+<Value>Beschreibungstext</Value>
 </Project_MetaData_Object>
 </Project_MetaData>
 
@@ -190,7 +194,7 @@
              </Parameter>
              <Parameter id="62"  name="text">
               <Keyframes>
-              <Keyframe id="63"  time="0/1" value="{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fmodern\fprq1\fcharset0 Courier New;}{\f1\fswiss\fprq2\fcharset0 Arial;}}&#xD;&#xa;{\colortbl ;\red0\green0\blue0;}&#xD;&#xa;\viewkind4\uc1\pard\cf1\f0\fs16 #!****\par&#xD;&#xa;Konfig Typ: Social Sharing\par&#xD;&#xa;Buttons Aktiv?: Nein\par&#xD;&#xa;Share URL: - nicht ePlayer -\f1\fs32\par&#xD;&#xa;}&#xD;&#xa;" leadInLength="0/1"  />
+              <Keyframe id="63"  time="0/1" value="{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fmodern\fprq1\fcharset0 Courier New;}{\f1\fswiss\fprq2\fcharset0 Arial;}}&#xD;&#xa;{\colortbl ;\red0\green0\blue0;}&#xD;&#xa;\viewkind4\uc1\pard\cf1\f0\fs16 #!****\par&#xD;&#xa;Folgende Attribute unterst\&apos;fctzt ePlayer nicht:\par&#xD;&#xa;Konfig Typ: Social Sharing\par&#xD;&#xa;Buttons Aktiv?: Nein\par&#xD;&#xa;Share URL: \f1\fs32\par&#xD;&#xa;}&#xD;&#xa;" leadInLength="0/1"  />
               </Keyframes>
              </Parameter>
              <Parameter id="64"  name="xmlContent">
@@ -297,7 +301,7 @@
              </Parameter>
              <Parameter id="119"  name="text">
               <Keyframes>
-              <Keyframe id="120"  time="0/1" value="{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fmodern\fprq1\fcharset0 Courier New;}{\f1\fswiss\fprq2\fcharset0 Arial;}}&#xD;&#xa;{\colortbl ;\red0\green0\blue0;}&#xD;&#xa;\viewkind4\uc1\pard\cf1\f0\fs16 #!****\par&#xD;&#xa;Konfig Typ: Overlays\par&#xD;&#xa;Standardm\&apos;e4\&apos;dfig Aktiv?: Nein\par&#xD;&#xa;Ausschaltbar?: Nein\f1\fs32\par&#xD;&#xa;}&#xD;&#xa;" leadInLength="0/1"  />
+              <Keyframe id="120"  time="0/1" value="{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fmodern\fprq1\fcharset0 Courier New;}{\f1\fswiss\fprq2\fcharset0 Arial;}}&#xD;&#xa;{\colortbl ;\red0\green0\blue0;}&#xD;&#xa;\viewkind4\uc1\pard\cf1\f0\fs16 #!****\par&#xD;&#xa;Folgende Attribute unterst\&apos;fctzt ePlayer nicht:\par&#xD;&#xa;Konfig Typ: Overlays\par&#xD;&#xa;Standardm\&apos;e4\&apos;dfig Aktiv?: Nein\par&#xD;&#xa;Ausschaltbar?: Nein\f1\fs32\par&#xD;&#xa;}&#xD;&#xa;" leadInLength="0/1"  />
               </Keyframes>
              </Parameter>
              <Parameter id="121"  name="xmlContent">
@@ -319,97 +323,97 @@
          </LeftEdgeMods>
          <RightEdgeMods length="0/1" groupName="OpacityFade">
           <EdgeMod parameter="101">
-           <FadeOutFunc id="67"  />
+           <FadeOutFunc id="123"  />
           </EdgeMod>
          </RightEdgeMods>
          <ExtraData>
           <Entry key="ZoomPanBin">
-           <ZoomPanBin id="123"  >
+           <ZoomPanBin id="124"  >
             <ZoomPanKeyframes>
-             <ZoomPanKeyframe id="124" timeRangeEnd="-9999999/1" timeRangeDuration="0/1" interpolaterName="linr"  />
+             <ZoomPanKeyframe id="125" timeRangeEnd="-9999999/1" timeRangeDuration="0/1" interpolaterName="linr"  />
             </ZoomPanKeyframes>
            </ZoomPanBin>
           </Entry>
          </ExtraData>
         </Callout>
-        <Callout id="125" start="2" duration="272" scalar="1/1" mediaStart="0/1" mediaDuration="272/1" >
+        <Callout id="126" start="2" duration="272" scalar="1/1" mediaStart="0/1" mediaDuration="272/1" >
          <Transformer>
-          <VectorParam id="126"  name="translation">
-           <InterpolatingParam id="127" interp="linr"  time="-9999999/1" value="1.801629404968141e-011" leadInLength="0/1"  />
-           <InterpolatingParam id="128" interp="linr"  time="-9999999/1" value="7.0130568019521888e-012" leadInLength="0/1"  />
-           <InterpolatingParam id="129" interp="linr"  time="-9999999/1" value="0" leadInLength="0/1"  />
+          <VectorParam id="127"  name="translation">
+           <InterpolatingParam id="128" interp="linr"  time="-9999999/1" value="1.801629404968141e-011" leadInLength="0/1"  />
+           <InterpolatingParam id="129" interp="linr"  time="-9999999/1" value="7.0130568019521888e-012" leadInLength="0/1"  />
+           <InterpolatingParam id="130" interp="linr"  time="-9999999/1" value="0" leadInLength="0/1"  />
           </VectorParam>
-          <VectorParam id="130"  name="rotation">
-           <InterpolatingParam id="131" interp="linr"  time="-9999999/1" value="0" leadInLength="0/1"  />
+          <VectorParam id="131"  name="rotation">
            <InterpolatingParam id="132" interp="linr"  time="-9999999/1" value="0" leadInLength="0/1"  />
            <InterpolatingParam id="133" interp="linr"  time="-9999999/1" value="0" leadInLength="0/1"  />
+           <InterpolatingParam id="134" interp="linr"  time="-9999999/1" value="0" leadInLength="0/1"  />
           </VectorParam>
-          <VectorParam id="134"  name="shear">
-           <InterpolatingParam id="135" interp="linr"  time="-9999999/1" value="0" leadInLength="0/1"  />
+          <VectorParam id="135"  name="shear">
            <InterpolatingParam id="136" interp="linr"  time="-9999999/1" value="0" leadInLength="0/1"  />
            <InterpolatingParam id="137" interp="linr"  time="-9999999/1" value="0" leadInLength="0/1"  />
+           <InterpolatingParam id="138" interp="linr"  time="-9999999/1" value="0" leadInLength="0/1"  />
           </VectorParam>
-          <VectorParam id="138"  name="scale">
-           <InterpolatingParam id="139" interp="linr"  time="-9999999/1" value="1" leadInLength="0/1"  />
+          <VectorParam id="139"  name="scale">
            <InterpolatingParam id="140" interp="linr"  time="-9999999/1" value="1" leadInLength="0/1"  />
            <InterpolatingParam id="141" interp="linr"  time="-9999999/1" value="1" leadInLength="0/1"  />
+           <InterpolatingParam id="142" interp="linr"  time="-9999999/1" value="1" leadInLength="0/1"  />
           </VectorParam>
-          <VectorParam id="142"  name="anchor">
-           <InterpolatingParam id="143" interp="linr"  time="0/1" value="0" leadInLength="0/1"  />
+          <VectorParam id="143"  name="anchor">
            <InterpolatingParam id="144" interp="linr"  time="0/1" value="0" leadInLength="0/1"  />
            <InterpolatingParam id="145" interp="linr"  time="0/1" value="0" leadInLength="0/1"  />
+           <InterpolatingParam id="146" interp="linr"  time="0/1" value="0" leadInLength="0/1"  />
           </VectorParam>
          </Transformer>
          <Parameters>
-          <VectorParam id="146"  name="sourceCrop">
-           <InterpolatingParam id="147" interp="linr"  time="0/1" value="0" leadInLength="0/1"  />
+          <VectorParam id="147"  name="sourceCrop">
            <InterpolatingParam id="148" interp="linr"  time="0/1" value="0" leadInLength="0/1"  />
            <InterpolatingParam id="149" interp="linr"  time="0/1" value="0" leadInLength="0/1"  />
            <InterpolatingParam id="150" interp="linr"  time="0/1" value="0" leadInLength="0/1"  />
+           <InterpolatingParam id="151" interp="linr"  time="0/1" value="0" leadInLength="0/1"  />
           </VectorParam>
-          <VectorParam id="151"  name="geometryCrop">
-           <InterpolatingParam id="152" interp="linr"  time="-9999999/1" value="0" leadInLength="0/1"  />
+          <VectorParam id="152"  name="geometryCrop">
            <InterpolatingParam id="153" interp="linr"  time="-9999999/1" value="0" leadInLength="0/1"  />
            <InterpolatingParam id="154" interp="linr"  time="-9999999/1" value="0" leadInLength="0/1"  />
            <InterpolatingParam id="155" interp="linr"  time="-9999999/1" value="0" leadInLength="0/1"  />
+           <InterpolatingParam id="156" interp="linr"  time="-9999999/1" value="0" leadInLength="0/1"  />
           </VectorParam>
-          <InterpolatingParam id="156" interp="linr"  time="-9999999/1" value="1" leadInLength="0/1"  name="opacity"/>
+          <InterpolatingParam id="157" interp="linr"  time="-9999999/1" value="1" leadInLength="0/1"  name="opacity"/>
          </Parameters>
          <Attributes>
-          <Attribute id="157"  name="vectorNode">
-           <VectorNode id="158" kind="TypeWinText"  >
+          <Attribute id="158"  name="vectorNode">
+           <VectorNode id="159" kind="TypeWinText"  >
             <DoubleParameters>
-             <InterpolatingParam id="159" interp="linr"  time="0/1" value="5" leadInLength="0/1"  name="Style"/>
-             <InterpolatingParam id="160" interp="linr"  time="0/1" value="0" leadInLength="0/1"  name="dimensionTime"/>
-             <InterpolatingParam id="161" interp="linr"  time="0/1" value="100" leadInLength="0/1"  name="height"/>
-             <InterpolatingParam id="162" interp="linr"  time="0/1" value="0" leadInLength="0/1"  name="textDropShadow"/>
-             <InterpolatingParam id="163" interp="linr"  time="0/1" value="0" leadInLength="0/1"  name="textIgnoresOpacity"/>
-             <InterpolatingParam id="164" interp="linr"  time="0/1" value="1" leadInLength="0/1"  name="textRectHeight"/>
-             <InterpolatingParam id="165" interp="linr"  time="0/1" value="1" leadInLength="0/1"  name="textRectWidth"/>
-             <InterpolatingParam id="166" interp="linr"  time="0/1" value="0" leadInLength="0/1"  name="textRectX"/>
-             <InterpolatingParam id="167" interp="linr"  time="0/1" value="0" leadInLength="0/1"  name="textRectY"/>
-             <InterpolatingParam id="168" interp="linr"  time="0/1" value="0" leadInLength="0/1"  name="textVerticalAlign"/>
-             <InterpolatingParam id="169" interp="linr"  time="0/1" value="100" leadInLength="0/1"  name="width"/>
+             <InterpolatingParam id="160" interp="linr"  time="0/1" value="5" leadInLength="0/1"  name="Style"/>
+             <InterpolatingParam id="161" interp="linr"  time="0/1" value="0" leadInLength="0/1"  name="dimensionTime"/>
+             <InterpolatingParam id="162" interp="linr"  time="0/1" value="100" leadInLength="0/1"  name="height"/>
+             <InterpolatingParam id="163" interp="linr"  time="0/1" value="0" leadInLength="0/1"  name="textDropShadow"/>
+             <InterpolatingParam id="164" interp="linr"  time="0/1" value="0" leadInLength="0/1"  name="textIgnoresOpacity"/>
+             <InterpolatingParam id="165" interp="linr"  time="0/1" value="1" leadInLength="0/1"  name="textRectHeight"/>
+             <InterpolatingParam id="166" interp="linr"  time="0/1" value="1" leadInLength="0/1"  name="textRectWidth"/>
+             <InterpolatingParam id="167" interp="linr"  time="0/1" value="0" leadInLength="0/1"  name="textRectX"/>
+             <InterpolatingParam id="168" interp="linr"  time="0/1" value="0" leadInLength="0/1"  name="textRectY"/>
+             <InterpolatingParam id="169" interp="linr"  time="0/1" value="0" leadInLength="0/1"  name="textVerticalAlign"/>
+             <InterpolatingParam id="170" interp="linr"  time="0/1" value="100" leadInLength="0/1"  name="width"/>
             </DoubleParameters>
             <StringParameters>
-             <Parameter id="170"  name="filename">
+             <Parameter id="171"  name="filename">
               <Keyframes>
-              <Keyframe id="171"  time="0/1" value="C:\Program Files (x86)\TechSmith\Camtasia Studio 8\Media\Studio\Callouts\trans_100x100.xml" leadInLength="0/1"  />
+              <Keyframe id="172"  time="0/1" value="C:\Program Files (x86)\TechSmith\Camtasia Studio 8\Media\Studio\Callouts\trans_100x100.xml" leadInLength="0/1"  />
               </Keyframes>
              </Parameter>
-             <Parameter id="172"  name="name">
+             <Parameter id="173"  name="name">
               <Keyframes>
-              <Keyframe id="173"  time="0/1" value="Text" leadInLength="0/1"  />
+              <Keyframe id="174"  time="0/1" value="Text" leadInLength="0/1"  />
               </Keyframes>
              </Parameter>
-             <Parameter id="174"  name="text">
+             <Parameter id="175"  name="text">
               <Keyframes>
-              <Keyframe id="175"  time="0/1" value="{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fmodern\fprq1\fcharset0 Courier New;}{\f1\fswiss\fprq2\fcharset0 Arial;}}&#xD;&#xa;{\colortbl ;\red0\green0\blue0;}&#xD;&#xa;\viewkind4\uc1\pard\cf1\f0\fs16 #!****\par&#xD;&#xa;Konfig Typ: Allgemein\par&#xD;&#xa;Autor: \par&#xD;&#xa;Platzhalter URL: //app.medien.fh-duesseldorf.de/eplayer/images/estudy.png\f1\fs32\par&#xD;&#xa;}&#xD;&#xa;" leadInLength="0/1"  />
+              <Keyframe id="176"  time="0/1" value="{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fmodern\fprq1\fcharset0 Courier New;}{\f1\fswiss\fprq2\fcharset0 Arial;}}&#xD;&#xa;{\colortbl ;\red0\green0\blue0;}&#xD;&#xa;\viewkind4\uc1\pard\cf1\f0\fs16 #!****\par&#xD;&#xa;Konfig Typ: Allgemein\par&#xD;&#xa;Autor: \par&#xD;&#xa;Platzhalter URL: http://www.hs-duesseldorf.de/Slideshow%20Content/01_768.png\f1\fs32\par&#xD;&#xa;}&#xD;&#xa;" leadInLength="0/1"  />
               </Keyframes>
              </Parameter>
-             <Parameter id="176"  name="xmlContent">
+             <Parameter id="177"  name="xmlContent">
               <Keyframes>
-              <Keyframe id="177"  time="0/1" value="﻿&lt;?xml version=&quot;1.0&quot;?&gt;&#xa;&#xa;&lt;Overlay version=&quot;1.0.1&quot;&gt;&#xa;&#xa;&lt;Overlay_Filename&gt;trans_100x100.png&lt;/Overlay_Filename&gt;&#xa;&lt;Overlay_Name&gt;Text&lt;/Overlay_Name&gt;&#xa;&lt;Text_Top&gt;0&lt;/Text_Top&gt;&#xa;&lt;Text_Left&gt;0&lt;/Text_Left&gt;&#xa;&lt;Text_Bottom&gt;0&lt;/Text_Bottom&gt;&#xa;&lt;Text_Right&gt;0&lt;/Text_Right&gt;&#xa;&lt;Fill_Color&gt;0&lt;/Fill_Color&gt;&#xa;&lt;Border_Color&gt;0&lt;/Border_Color&gt;&#xa;&lt;Style&gt;5&lt;/Style&gt;&#xa;&lt;/Overlay&gt;&#xa;&#xa;" leadInLength="0/1"  />
+              <Keyframe id="178"  time="0/1" value="﻿&lt;?xml version=&quot;1.0&quot;?&gt;&#xa;&#xa;&lt;Overlay version=&quot;1.0.1&quot;&gt;&#xa;&#xa;&lt;Overlay_Filename&gt;trans_100x100.png&lt;/Overlay_Filename&gt;&#xa;&lt;Overlay_Name&gt;Text&lt;/Overlay_Name&gt;&#xa;&lt;Text_Top&gt;0&lt;/Text_Top&gt;&#xa;&lt;Text_Left&gt;0&lt;/Text_Left&gt;&#xa;&lt;Text_Bottom&gt;0&lt;/Text_Bottom&gt;&#xa;&lt;Text_Right&gt;0&lt;/Text_Right&gt;&#xa;&lt;Fill_Color&gt;0&lt;/Fill_Color&gt;&#xa;&lt;Border_Color&gt;0&lt;/Border_Color&gt;&#xa;&lt;Style&gt;5&lt;/Style&gt;&#xa;&lt;/Overlay&gt;&#xa;&#xa;" leadInLength="0/1"  />
               </Keyframes>
              </Parameter>
             </StringParameters>
@@ -420,20 +424,20 @@
           <entry key="WinSubProjectDisplayName" val=""/>
          </MetaData>
          <LeftEdgeMods length="0/1" groupName="OpacityFade">
-          <EdgeMod parameter="156">
-           <FadeInFunc id="178"  />
+          <EdgeMod parameter="157">
+           <FadeInFunc id="66"  />
           </EdgeMod>
          </LeftEdgeMods>
          <RightEdgeMods length="0/1" groupName="OpacityFade">
-          <EdgeMod parameter="156">
-           <FadeOutFunc id="178"  />
+          <EdgeMod parameter="157">
+           <FadeOutFunc id="179"  />
           </EdgeMod>
          </RightEdgeMods>
          <ExtraData>
           <Entry key="ZoomPanBin">
-           <ZoomPanBin id="179"  >
+           <ZoomPanBin id="180"  >
             <ZoomPanKeyframes>
-             <ZoomPanKeyframe id="180" timeRangeEnd="-9999999/1" timeRangeDuration="0/1" interpolaterName="linr"  />
+             <ZoomPanKeyframe id="181" timeRangeEnd="-9999999/1" timeRangeDuration="0/1" interpolaterName="linr"  />
             </ZoomPanKeyframes>
            </ZoomPanBin>
           </Entry>
@@ -441,95 +445,95 @@
         </Callout>
        </Medias>
       </GenericTrack>
-      <GenericTrack id="181"  >
+      <GenericTrack id="182"  >
        <Attributes>
-        <Attribute id="182" value="#!meta" name="ident"/>
-        <Attribute id="183" value="1" name="audioMuted"/>
-        <Attribute id="184" value="1" name="videoHidden"/>
+        <Attribute id="183" value="#!meta" name="ident"/>
+        <Attribute id="184" value="1" name="audioMuted"/>
+        <Attribute id="185" value="1" name="videoHidden"/>
        </Attributes>
        <MetaData>
         <entry key="IsLocked" val="False"/>
         <entry key="WinTrackHeight" val="40"/>
        </MetaData>
        <Medias>
-        <Callout id="185" start="0" duration="272" scalar="1/1" mediaStart="0/1" mediaDuration="272/1" >
+        <Callout id="186" start="0" duration="272" scalar="1/1" mediaStart="0/1" mediaDuration="272/1" >
          <Transformer>
-          <VectorParam id="186"  name="translation">
-           <InterpolatingParam id="187" interp="linr"  time="-9999999/1" value="1.801629404968141e-011" leadInLength="0/1"  />
-           <InterpolatingParam id="188" interp="linr"  time="-9999999/1" value="7.0130568019521888e-012" leadInLength="0/1"  />
-           <InterpolatingParam id="189" interp="linr"  time="-9999999/1" value="0" leadInLength="0/1"  />
+          <VectorParam id="187"  name="translation">
+           <InterpolatingParam id="188" interp="linr"  time="-9999999/1" value="1.801629404968141e-011" leadInLength="0/1"  />
+           <InterpolatingParam id="189" interp="linr"  time="-9999999/1" value="7.0130568019521888e-012" leadInLength="0/1"  />
+           <InterpolatingParam id="190" interp="linr"  time="-9999999/1" value="0" leadInLength="0/1"  />
           </VectorParam>
-          <VectorParam id="190"  name="rotation">
-           <InterpolatingParam id="191" interp="linr"  time="-9999999/1" value="0" leadInLength="0/1"  />
+          <VectorParam id="191"  name="rotation">
            <InterpolatingParam id="192" interp="linr"  time="-9999999/1" value="0" leadInLength="0/1"  />
            <InterpolatingParam id="193" interp="linr"  time="-9999999/1" value="0" leadInLength="0/1"  />
+           <InterpolatingParam id="194" interp="linr"  time="-9999999/1" value="0" leadInLength="0/1"  />
           </VectorParam>
-          <VectorParam id="194"  name="shear">
-           <InterpolatingParam id="195" interp="linr"  time="-9999999/1" value="0" leadInLength="0/1"  />
+          <VectorParam id="195"  name="shear">
            <InterpolatingParam id="196" interp="linr"  time="-9999999/1" value="0" leadInLength="0/1"  />
            <InterpolatingParam id="197" interp="linr"  time="-9999999/1" value="0" leadInLength="0/1"  />
+           <InterpolatingParam id="198" interp="linr"  time="-9999999/1" value="0" leadInLength="0/1"  />
           </VectorParam>
-          <VectorParam id="198"  name="scale">
-           <InterpolatingParam id="199" interp="linr"  time="-9999999/1" value="1" leadInLength="0/1"  />
+          <VectorParam id="199"  name="scale">
            <InterpolatingParam id="200" interp="linr"  time="-9999999/1" value="1" leadInLength="0/1"  />
            <InterpolatingParam id="201" interp="linr"  time="-9999999/1" value="1" leadInLength="0/1"  />
+           <InterpolatingParam id="202" interp="linr"  time="-9999999/1" value="1" leadInLength="0/1"  />
           </VectorParam>
-          <VectorParam id="202"  name="anchor">
-           <InterpolatingParam id="203" interp="linr"  time="0/1" value="0" leadInLength="0/1"  />
+          <VectorParam id="203"  name="anchor">
            <InterpolatingParam id="204" interp="linr"  time="0/1" value="0" leadInLength="0/1"  />
            <InterpolatingParam id="205" interp="linr"  time="0/1" value="0" leadInLength="0/1"  />
+           <InterpolatingParam id="206" interp="linr"  time="0/1" value="0" leadInLength="0/1"  />
           </VectorParam>
          </Transformer>
          <Parameters>
-          <VectorParam id="206"  name="sourceCrop">
-           <InterpolatingParam id="207" interp="linr"  time="0/1" value="0" leadInLength="0/1"  />
+          <VectorParam id="207"  name="sourceCrop">
            <InterpolatingParam id="208" interp="linr"  time="0/1" value="0" leadInLength="0/1"  />
            <InterpolatingParam id="209" interp="linr"  time="0/1" value="0" leadInLength="0/1"  />
            <InterpolatingParam id="210" interp="linr"  time="0/1" value="0" leadInLength="0/1"  />
+           <InterpolatingParam id="211" interp="linr"  time="0/1" value="0" leadInLength="0/1"  />
           </VectorParam>
-          <VectorParam id="211"  name="geometryCrop">
-           <InterpolatingParam id="212" interp="linr"  time="-9999999/1" value="0" leadInLength="0/1"  />
+          <VectorParam id="212"  name="geometryCrop">
            <InterpolatingParam id="213" interp="linr"  time="-9999999/1" value="0" leadInLength="0/1"  />
            <InterpolatingParam id="214" interp="linr"  time="-9999999/1" value="0" leadInLength="0/1"  />
            <InterpolatingParam id="215" interp="linr"  time="-9999999/1" value="0" leadInLength="0/1"  />
+           <InterpolatingParam id="216" interp="linr"  time="-9999999/1" value="0" leadInLength="0/1"  />
           </VectorParam>
-          <InterpolatingParam id="216" interp="linr"  time="-9999999/1" value="1" leadInLength="0/1"  name="opacity"/>
+          <InterpolatingParam id="217" interp="linr"  time="-9999999/1" value="1" leadInLength="0/1"  name="opacity"/>
          </Parameters>
          <Attributes>
-          <Attribute id="217"  name="vectorNode">
-           <VectorNode id="218" kind="TypeWinText"  >
+          <Attribute id="218"  name="vectorNode">
+           <VectorNode id="219" kind="TypeWinText"  >
             <DoubleParameters>
-             <InterpolatingParam id="219" interp="linr"  time="0/1" value="5" leadInLength="0/1"  name="Style"/>
-             <InterpolatingParam id="220" interp="linr"  time="0/1" value="0" leadInLength="0/1"  name="dimensionTime"/>
-             <InterpolatingParam id="221" interp="linr"  time="0/1" value="100" leadInLength="0/1"  name="height"/>
-             <InterpolatingParam id="222" interp="linr"  time="0/1" value="0" leadInLength="0/1"  name="textDropShadow"/>
-             <InterpolatingParam id="223" interp="linr"  time="0/1" value="0" leadInLength="0/1"  name="textIgnoresOpacity"/>
-             <InterpolatingParam id="224" interp="linr"  time="0/1" value="1" leadInLength="0/1"  name="textRectHeight"/>
-             <InterpolatingParam id="225" interp="linr"  time="0/1" value="1" leadInLength="0/1"  name="textRectWidth"/>
-             <InterpolatingParam id="226" interp="linr"  time="0/1" value="0" leadInLength="0/1"  name="textRectX"/>
-             <InterpolatingParam id="227" interp="linr"  time="0/1" value="0" leadInLength="0/1"  name="textRectY"/>
-             <InterpolatingParam id="228" interp="linr"  time="0/1" value="0" leadInLength="0/1"  name="textVerticalAlign"/>
-             <InterpolatingParam id="229" interp="linr"  time="0/1" value="100" leadInLength="0/1"  name="width"/>
+             <InterpolatingParam id="220" interp="linr"  time="0/1" value="5" leadInLength="0/1"  name="Style"/>
+             <InterpolatingParam id="221" interp="linr"  time="0/1" value="0" leadInLength="0/1"  name="dimensionTime"/>
+             <InterpolatingParam id="222" interp="linr"  time="0/1" value="100" leadInLength="0/1"  name="height"/>
+             <InterpolatingParam id="223" interp="linr"  time="0/1" value="0" leadInLength="0/1"  name="textDropShadow"/>
+             <InterpolatingParam id="224" interp="linr"  time="0/1" value="0" leadInLength="0/1"  name="textIgnoresOpacity"/>
+             <InterpolatingParam id="225" interp="linr"  time="0/1" value="1" leadInLength="0/1"  name="textRectHeight"/>
+             <InterpolatingParam id="226" interp="linr"  time="0/1" value="1" leadInLength="0/1"  name="textRectWidth"/>
+             <InterpolatingParam id="227" interp="linr"  time="0/1" value="0" leadInLength="0/1"  name="textRectX"/>
+             <InterpolatingParam id="228" interp="linr"  time="0/1" value="0" leadInLength="0/1"  name="textRectY"/>
+             <InterpolatingParam id="229" interp="linr"  time="0/1" value="0" leadInLength="0/1"  name="textVerticalAlign"/>
+             <InterpolatingParam id="230" interp="linr"  time="0/1" value="100" leadInLength="0/1"  name="width"/>
             </DoubleParameters>
             <StringParameters>
-             <Parameter id="230"  name="filename">
+             <Parameter id="231"  name="filename">
               <Keyframes>
-              <Keyframe id="231"  time="0/1" value="C:\Program Files (x86)\TechSmith\Camtasia Studio 8\Media\Studio\Callouts\trans_100x100.xml" leadInLength="0/1"  />
+              <Keyframe id="232"  time="0/1" value="C:\Program Files (x86)\TechSmith\Camtasia Studio 8\Media\Studio\Callouts\trans_100x100.xml" leadInLength="0/1"  />
               </Keyframes>
              </Parameter>
-             <Parameter id="232"  name="name">
+             <Parameter id="233"  name="name">
               <Keyframes>
-              <Keyframe id="233"  time="0/1" value="Text" leadInLength="0/1"  />
+              <Keyframe id="234"  time="0/1" value="Text" leadInLength="0/1"  />
               </Keyframes>
              </Parameter>
-             <Parameter id="234"  name="text">
+             <Parameter id="235"  name="text">
               <Keyframes>
-              <Keyframe id="235"  time="0/1" value="{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fmodern\fprq1\fcharset0 Courier New;}{\f1\fswiss\fprq2\fcharset0 Arial;}}&#xD;&#xa;{\colortbl ;\red0\green0\blue0;}&#xD;&#xa;\viewkind4\uc1\pard\cf1\f0\fs16 #!****\par&#xD;&#xa;Metadaten Typ: Medium\par&#xD;&#xa;Mediendatei URL: video_de.webm\par&#xD;&#xa;MIME Typ: video/mp4\f1\fs32\par&#xD;&#xa;}&#xD;&#xa;" leadInLength="0/1"  />
+              <Keyframe id="236"  time="0/1" value="{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fmodern\fprq1\fcharset0 Courier New;}{\f1\fswiss\fprq2\fcharset0 Arial;}}&#xD;&#xa;{\colortbl ;\red0\green0\blue0;}&#xD;&#xa;\viewkind4\uc1\pard\cf1\f0\fs16 #!****\par&#xD;&#xa;Metadaten Typ: Medium\par&#xD;&#xa;Mediendatei URL: video_de.webm\par&#xD;&#xa;MIME Typ: video/webm\f1\fs32\par&#xD;&#xa;}&#xD;&#xa;" leadInLength="0/1"  />
               </Keyframes>
              </Parameter>
-             <Parameter id="236"  name="xmlContent">
+             <Parameter id="237"  name="xmlContent">
               <Keyframes>
-              <Keyframe id="237"  time="0/1" value="﻿&lt;?xml version=&quot;1.0&quot;?&gt;&#xa;&#xa;&lt;Overlay version=&quot;1.0.1&quot;&gt;&#xa;&#xa;&lt;Overlay_Filename&gt;trans_100x100.png&lt;/Overlay_Filename&gt;&#xa;&lt;Overlay_Name&gt;Text&lt;/Overlay_Name&gt;&#xa;&lt;Text_Top&gt;0&lt;/Text_Top&gt;&#xa;&lt;Text_Left&gt;0&lt;/Text_Left&gt;&#xa;&lt;Text_Bottom&gt;0&lt;/Text_Bottom&gt;&#xa;&lt;Text_Right&gt;0&lt;/Text_Right&gt;&#xa;&lt;Fill_Color&gt;0&lt;/Fill_Color&gt;&#xa;&lt;Border_Color&gt;0&lt;/Border_Color&gt;&#xa;&lt;Style&gt;5&lt;/Style&gt;&#xa;&lt;/Overlay&gt;&#xa;&#xa;" leadInLength="0/1"  />
+              <Keyframe id="238"  time="0/1" value="﻿&lt;?xml version=&quot;1.0&quot;?&gt;&#xa;&#xa;&lt;Overlay version=&quot;1.0.1&quot;&gt;&#xa;&#xa;&lt;Overlay_Filename&gt;trans_100x100.png&lt;/Overlay_Filename&gt;&#xa;&lt;Overlay_Name&gt;Text&lt;/Overlay_Name&gt;&#xa;&lt;Text_Top&gt;0&lt;/Text_Top&gt;&#xa;&lt;Text_Left&gt;0&lt;/Text_Left&gt;&#xa;&lt;Text_Bottom&gt;0&lt;/Text_Bottom&gt;&#xa;&lt;Text_Right&gt;0&lt;/Text_Right&gt;&#xa;&lt;Fill_Color&gt;0&lt;/Fill_Color&gt;&#xa;&lt;Border_Color&gt;0&lt;/Border_Color&gt;&#xa;&lt;Style&gt;5&lt;/Style&gt;&#xa;&lt;/Overlay&gt;&#xa;&#xa;" leadInLength="0/1"  />
               </Keyframes>
              </Parameter>
             </StringParameters>
@@ -540,13 +544,13 @@
           <entry key="WinSubProjectDisplayName" val=""/>
          </MetaData>
          <LeftEdgeMods length="0/1" groupName="OpacityFade">
-          <EdgeMod parameter="216">
-           <FadeInFunc id="238"  />
+          <EdgeMod parameter="217">
+           <FadeInFunc id="66"  />
           </EdgeMod>
          </LeftEdgeMods>
          <RightEdgeMods length="0/1" groupName="OpacityFade">
-          <EdgeMod parameter="216">
-           <FadeOutFunc id="238"  />
+          <EdgeMod parameter="217">
+           <FadeOutFunc id="67"  />
           </EdgeMod>
          </RightEdgeMods>
          <ExtraData>
@@ -648,115 +652,102 @@
          </MetaData>
          <LeftEdgeMods length="0/1" groupName="OpacityFade">
           <EdgeMod parameter="272">
-           <FadeInFunc id="294"  />
+           <FadeInFunc id="66"  />
           </EdgeMod>
          </LeftEdgeMods>
          <RightEdgeMods length="0/1" groupName="OpacityFade">
           <EdgeMod parameter="272">
-           <FadeOutFunc id="294"  />
+           <FadeOutFunc id="123"  />
           </EdgeMod>
          </RightEdgeMods>
          <ExtraData>
           <Entry key="ZoomPanBin">
-           <ZoomPanBin id="295"  >
+           <ZoomPanBin id="294"  >
             <ZoomPanKeyframes>
-             <ZoomPanKeyframe id="296" timeRangeEnd="-9999999/1" timeRangeDuration="0/1" interpolaterName="linr"  />
+             <ZoomPanKeyframe id="295" timeRangeEnd="-9999999/1" timeRangeDuration="0/1" interpolaterName="linr"  />
             </ZoomPanKeyframes>
            </ZoomPanBin>
           </Entry>
          </ExtraData>
         </Callout>
-       </Medias>
-      </GenericTrack>
-      <GenericTrack id="297"  >
-       <Attributes>
-        <Attribute id="298" value="#!kapitel" name="ident"/>
-        <Attribute id="299" value="1" name="audioMuted"/>
-        <Attribute id="300" value="1" name="videoHidden"/>
-       </Attributes>
-       <MetaData>
-        <entry key="IsLocked" val="False"/>
-        <entry key="WinTrackHeight" val="40"/>
-       </MetaData>
-       <Medias>
-        <Callout id="301" start="0" duration="2039" scalar="1/1" mediaStart="0/1" mediaDuration="2039/1" >
+        <Callout id="296" start="544" duration="272" scalar="1/1" mediaStart="0/1" mediaDuration="272/1" >
          <Transformer>
-          <VectorParam id="302"  name="translation">
-           <InterpolatingParam id="303" interp="linr"  time="-9999999/1" value="1.801629404968141e-011" leadInLength="0/1"  />
-           <InterpolatingParam id="304" interp="linr"  time="-9999999/1" value="7.0130568019521888e-012" leadInLength="0/1"  />
-           <InterpolatingParam id="305" interp="linr"  time="-9999999/1" value="0" leadInLength="0/1"  />
+          <VectorParam id="297"  name="translation">
+           <InterpolatingParam id="298" interp="linr"  time="-9999999/1" value="1.801629404968141e-011" leadInLength="0/1"  />
+           <InterpolatingParam id="299" interp="linr"  time="-9999999/1" value="7.0130568019521888e-012" leadInLength="0/1"  />
+           <InterpolatingParam id="300" interp="linr"  time="-9999999/1" value="0" leadInLength="0/1"  />
           </VectorParam>
-          <VectorParam id="306"  name="rotation">
+          <VectorParam id="301"  name="rotation">
+           <InterpolatingParam id="302" interp="linr"  time="-9999999/1" value="0" leadInLength="0/1"  />
+           <InterpolatingParam id="303" interp="linr"  time="-9999999/1" value="0" leadInLength="0/1"  />
+           <InterpolatingParam id="304" interp="linr"  time="-9999999/1" value="0" leadInLength="0/1"  />
+          </VectorParam>
+          <VectorParam id="305"  name="shear">
+           <InterpolatingParam id="306" interp="linr"  time="-9999999/1" value="0" leadInLength="0/1"  />
            <InterpolatingParam id="307" interp="linr"  time="-9999999/1" value="0" leadInLength="0/1"  />
            <InterpolatingParam id="308" interp="linr"  time="-9999999/1" value="0" leadInLength="0/1"  />
-           <InterpolatingParam id="309" interp="linr"  time="-9999999/1" value="0" leadInLength="0/1"  />
           </VectorParam>
-          <VectorParam id="310"  name="shear">
-           <InterpolatingParam id="311" interp="linr"  time="-9999999/1" value="0" leadInLength="0/1"  />
-           <InterpolatingParam id="312" interp="linr"  time="-9999999/1" value="0" leadInLength="0/1"  />
-           <InterpolatingParam id="313" interp="linr"  time="-9999999/1" value="0" leadInLength="0/1"  />
+          <VectorParam id="309"  name="scale">
+           <InterpolatingParam id="310" interp="linr"  time="-9999999/1" value="1" leadInLength="0/1"  />
+           <InterpolatingParam id="311" interp="linr"  time="-9999999/1" value="1" leadInLength="0/1"  />
+           <InterpolatingParam id="312" interp="linr"  time="-9999999/1" value="1" leadInLength="0/1"  />
           </VectorParam>
-          <VectorParam id="314"  name="scale">
-           <InterpolatingParam id="315" interp="linr"  time="-9999999/1" value="1" leadInLength="0/1"  />
-           <InterpolatingParam id="316" interp="linr"  time="-9999999/1" value="1" leadInLength="0/1"  />
-           <InterpolatingParam id="317" interp="linr"  time="-9999999/1" value="1" leadInLength="0/1"  />
+          <VectorParam id="313"  name="anchor">
+           <InterpolatingParam id="314" interp="linr"  time="0/1" value="0" leadInLength="0/1"  />
+           <InterpolatingParam id="315" interp="linr"  time="0/1" value="0" leadInLength="0/1"  />
+           <InterpolatingParam id="316" interp="linr"  time="0/1" value="0" leadInLength="0/1"  />
           </VectorParam>
-          <VectorParam id="318"  name="anchor">
+         </Transformer>
+         <Parameters>
+          <VectorParam id="317"  name="sourceCrop">
+           <InterpolatingParam id="318" interp="linr"  time="0/1" value="0" leadInLength="0/1"  />
            <InterpolatingParam id="319" interp="linr"  time="0/1" value="0" leadInLength="0/1"  />
            <InterpolatingParam id="320" interp="linr"  time="0/1" value="0" leadInLength="0/1"  />
            <InterpolatingParam id="321" interp="linr"  time="0/1" value="0" leadInLength="0/1"  />
           </VectorParam>
-         </Transformer>
-         <Parameters>
-          <VectorParam id="322"  name="sourceCrop">
-           <InterpolatingParam id="323" interp="linr"  time="0/1" value="0" leadInLength="0/1"  />
-           <InterpolatingParam id="324" interp="linr"  time="0/1" value="0" leadInLength="0/1"  />
-           <InterpolatingParam id="325" interp="linr"  time="0/1" value="0" leadInLength="0/1"  />
-           <InterpolatingParam id="326" interp="linr"  time="0/1" value="0" leadInLength="0/1"  />
+          <VectorParam id="322"  name="geometryCrop">
+           <InterpolatingParam id="323" interp="linr"  time="-9999999/1" value="0" leadInLength="0/1"  />
+           <InterpolatingParam id="324" interp="linr"  time="-9999999/1" value="0" leadInLength="0/1"  />
+           <InterpolatingParam id="325" interp="linr"  time="-9999999/1" value="0" leadInLength="0/1"  />
+           <InterpolatingParam id="326" interp="linr"  time="-9999999/1" value="0" leadInLength="0/1"  />
           </VectorParam>
-          <VectorParam id="327"  name="geometryCrop">
-           <InterpolatingParam id="328" interp="linr"  time="-9999999/1" value="0" leadInLength="0/1"  />
-           <InterpolatingParam id="329" interp="linr"  time="-9999999/1" value="0" leadInLength="0/1"  />
-           <InterpolatingParam id="330" interp="linr"  time="-9999999/1" value="0" leadInLength="0/1"  />
-           <InterpolatingParam id="331" interp="linr"  time="-9999999/1" value="0" leadInLength="0/1"  />
-          </VectorParam>
-          <InterpolatingParam id="332" interp="linr"  time="-9999999/1" value="1" leadInLength="0/1"  name="opacity"/>
+          <InterpolatingParam id="327" interp="linr"  time="-9999999/1" value="1" leadInLength="0/1"  name="opacity"/>
          </Parameters>
          <Attributes>
-          <Attribute id="333"  name="vectorNode">
-           <VectorNode id="334" kind="TypeWinText"  >
+          <Attribute id="328"  name="vectorNode">
+           <VectorNode id="329" kind="TypeWinText"  >
             <DoubleParameters>
-             <InterpolatingParam id="335" interp="linr"  time="0/1" value="5" leadInLength="0/1"  name="Style"/>
-             <InterpolatingParam id="336" interp="linr"  time="0/1" value="0" leadInLength="0/1"  name="dimensionTime"/>
-             <InterpolatingParam id="337" interp="linr"  time="0/1" value="100" leadInLength="0/1"  name="height"/>
-             <InterpolatingParam id="338" interp="linr"  time="0/1" value="0" leadInLength="0/1"  name="textDropShadow"/>
-             <InterpolatingParam id="339" interp="linr"  time="0/1" value="0" leadInLength="0/1"  name="textIgnoresOpacity"/>
-             <InterpolatingParam id="340" interp="linr"  time="0/1" value="1" leadInLength="0/1"  name="textRectHeight"/>
-             <InterpolatingParam id="341" interp="linr"  time="0/1" value="1" leadInLength="0/1"  name="textRectWidth"/>
-             <InterpolatingParam id="342" interp="linr"  time="0/1" value="0" leadInLength="0/1"  name="textRectX"/>
-             <InterpolatingParam id="343" interp="linr"  time="0/1" value="0" leadInLength="0/1"  name="textRectY"/>
-             <InterpolatingParam id="344" interp="linr"  time="0/1" value="0" leadInLength="0/1"  name="textVerticalAlign"/>
-             <InterpolatingParam id="345" interp="linr"  time="0/1" value="100" leadInLength="0/1"  name="width"/>
+             <InterpolatingParam id="330" interp="linr"  time="0/1" value="5" leadInLength="0/1"  name="Style"/>
+             <InterpolatingParam id="331" interp="linr"  time="0/1" value="0" leadInLength="0/1"  name="dimensionTime"/>
+             <InterpolatingParam id="332" interp="linr"  time="0/1" value="100" leadInLength="0/1"  name="height"/>
+             <InterpolatingParam id="333" interp="linr"  time="0/1" value="0" leadInLength="0/1"  name="textDropShadow"/>
+             <InterpolatingParam id="334" interp="linr"  time="0/1" value="0" leadInLength="0/1"  name="textIgnoresOpacity"/>
+             <InterpolatingParam id="335" interp="linr"  time="0/1" value="1" leadInLength="0/1"  name="textRectHeight"/>
+             <InterpolatingParam id="336" interp="linr"  time="0/1" value="1" leadInLength="0/1"  name="textRectWidth"/>
+             <InterpolatingParam id="337" interp="linr"  time="0/1" value="0" leadInLength="0/1"  name="textRectX"/>
+             <InterpolatingParam id="338" interp="linr"  time="0/1" value="0" leadInLength="0/1"  name="textRectY"/>
+             <InterpolatingParam id="339" interp="linr"  time="0/1" value="0" leadInLength="0/1"  name="textVerticalAlign"/>
+             <InterpolatingParam id="340" interp="linr"  time="0/1" value="100" leadInLength="0/1"  name="width"/>
             </DoubleParameters>
             <StringParameters>
-             <Parameter id="346"  name="filename">
+             <Parameter id="341"  name="filename">
               <Keyframes>
-              <Keyframe id="347"  time="0/1" value="C:\Program Files (x86)\TechSmith\Camtasia Studio 8\Media\Studio\Callouts\trans_100x100.xml" leadInLength="0/1"  />
+              <Keyframe id="342"  time="0/1" value="C:\Program Files (x86)\TechSmith\Camtasia Studio 8\Media\Studio\Callouts\trans_100x100.xml" leadInLength="0/1"  />
               </Keyframes>
              </Parameter>
-             <Parameter id="348"  name="name">
+             <Parameter id="343"  name="name">
               <Keyframes>
-              <Keyframe id="349"  time="0/1" value="Text" leadInLength="0/1"  />
+              <Keyframe id="344"  time="0/1" value="Text" leadInLength="0/1"  />
               </Keyframes>
              </Parameter>
-             <Parameter id="350"  name="text">
+             <Parameter id="345"  name="text">
               <Keyframes>
-              <Keyframe id="351"  time="0/1" value="{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fswiss\fprq2\fcharset0 Arial;}{\f1\fmodern\fprq1\fcharset0 Courier New;}}&#xD;&#xa;{\colortbl ;\red0\green0\blue0;}&#xD;&#xa;\viewkind4\uc1\pard\cf1\f0\fs24 - Nicht ePlayer -\f1\fs16\par&#xD;&#xa;\par&#xD;&#xa;#!****\par&#xD;&#xa;Titel: \par&#xD;&#xa;Tooltip: - nicht ePlayer -\par&#xD;&#xa;Tags: - nicht ePlayer -\f0\fs32\par&#xD;&#xa;\par&#xD;&#xa;}&#xD;&#xa;" leadInLength="0/1"  />
+              <Keyframe id="346"  time="0/1" value="{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fmodern\fprq1\fcharset0 Courier New;}{\f1\fswiss\fprq2\fcharset0 Arial;}}&#xD;&#xa;{\colortbl ;\red0\green0\blue0;}&#xD;&#xa;\viewkind4\uc1\pard\cf1\f0\fs16 #!****\par&#xD;&#xa;Metadaten Typ: Medium\par&#xD;&#xa;Mediendatei URL: video_de.ogv\par&#xD;&#xa;MIME Typ: video/ogg\f1\fs32\par&#xD;&#xa;}&#xD;&#xa;" leadInLength="0/1"  />
               </Keyframes>
              </Parameter>
-             <Parameter id="352"  name="xmlContent">
+             <Parameter id="347"  name="xmlContent">
               <Keyframes>
-              <Keyframe id="353"  time="0/1" value="﻿&lt;?xml version=&quot;1.0&quot;?&gt;&#xa;&#xa;&lt;Overlay version=&quot;1.0.1&quot;&gt;&#xa;&#xa;&lt;Overlay_Filename&gt;trans_100x100.png&lt;/Overlay_Filename&gt;&#xa;&lt;Overlay_Name&gt;Text&lt;/Overlay_Name&gt;&#xa;&lt;Text_Top&gt;0&lt;/Text_Top&gt;&#xa;&lt;Text_Left&gt;0&lt;/Text_Left&gt;&#xa;&lt;Text_Bottom&gt;0&lt;/Text_Bottom&gt;&#xa;&lt;Text_Right&gt;0&lt;/Text_Right&gt;&#xa;&lt;Fill_Color&gt;0&lt;/Fill_Color&gt;&#xa;&lt;Border_Color&gt;0&lt;/Border_Color&gt;&#xa;&lt;Style&gt;5&lt;/Style&gt;&#xa;&lt;/Overlay&gt;&#xa;&#xa;" leadInLength="0/1"  />
+              <Keyframe id="348"  time="0/1" value="﻿&lt;?xml version=&quot;1.0&quot;?&gt;&#xa;&#xa;&lt;Overlay version=&quot;1.0.1&quot;&gt;&#xa;&#xa;&lt;Overlay_Filename&gt;trans_100x100.png&lt;/Overlay_Filename&gt;&#xa;&lt;Overlay_Name&gt;Text&lt;/Overlay_Name&gt;&#xa;&lt;Text_Top&gt;0&lt;/Text_Top&gt;&#xa;&lt;Text_Left&gt;0&lt;/Text_Left&gt;&#xa;&lt;Text_Bottom&gt;0&lt;/Text_Bottom&gt;&#xa;&lt;Text_Right&gt;0&lt;/Text_Right&gt;&#xa;&lt;Fill_Color&gt;0&lt;/Fill_Color&gt;&#xa;&lt;Border_Color&gt;0&lt;/Border_Color&gt;&#xa;&lt;Style&gt;5&lt;/Style&gt;&#xa;&lt;/Overlay&gt;&#xa;&#xa;" leadInLength="0/1"  />
               </Keyframes>
              </Parameter>
             </StringParameters>
@@ -767,20 +758,20 @@
           <entry key="WinSubProjectDisplayName" val=""/>
          </MetaData>
          <LeftEdgeMods length="0/1" groupName="OpacityFade">
-          <EdgeMod parameter="332">
-           <FadeInFunc id="238"  />
+          <EdgeMod parameter="327">
+           <FadeInFunc id="66"  />
           </EdgeMod>
          </LeftEdgeMods>
          <RightEdgeMods length="0/1" groupName="OpacityFade">
-          <EdgeMod parameter="332">
-           <FadeOutFunc id="67"  />
+          <EdgeMod parameter="327">
+           <FadeOutFunc id="179"  />
           </EdgeMod>
          </RightEdgeMods>
          <ExtraData>
           <Entry key="ZoomPanBin">
-           <ZoomPanBin id="354"  >
+           <ZoomPanBin id="349"  >
             <ZoomPanKeyframes>
-             <ZoomPanKeyframe id="355" timeRangeEnd="-9999999/1" timeRangeDuration="0/1" interpolaterName="linr"  />
+             <ZoomPanKeyframe id="350" timeRangeEnd="-9999999/1" timeRangeDuration="0/1" interpolaterName="linr"  />
             </ZoomPanKeyframes>
            </ZoomPanBin>
           </Entry>
@@ -788,275 +779,275 @@
         </Callout>
        </Medias>
       </GenericTrack>
-      <GenericTrack id="356"  >
+      <GenericTrack id="351"  >
        <Attributes>
-        <Attribute id="357" value="#!k-extras" name="ident"/>
-        <Attribute id="358" value="1" name="audioMuted"/>
-        <Attribute id="359" value="1" name="videoHidden"/>
+        <Attribute id="352" value="#!kapitel" name="ident"/>
+        <Attribute id="353" value="1" name="audioMuted"/>
+        <Attribute id="354" value="1" name="videoHidden"/>
        </Attributes>
        <MetaData>
         <entry key="IsLocked" val="False"/>
         <entry key="WinTrackHeight" val="40"/>
        </MetaData>
        <Medias>
-        <Group id="360" start="0" duration="272" scalar="1" mediaStart="0" mediaDuration="272" baseWidthAttr="0" baseHeightAttr="0"  >
-         <Parameters>
-          <VectorParam id="361"  name="sourceCrop">
-           <InterpolatingParam id="362" interp="linr"  time="0/1" value="0" leadInLength="0/1"  />
-           <InterpolatingParam id="363" interp="linr"  time="0/1" value="0" leadInLength="0/1"  />
-           <InterpolatingParam id="364" interp="linr"  time="0/1" value="0" leadInLength="0/1"  />
-           <InterpolatingParam id="365" interp="linr"  time="0/1" value="0" leadInLength="0/1"  />
-          </VectorParam>
-          <VectorParam id="366"  name="geometryCrop">
-           <InterpolatingParam id="367" interp="linr"  time="-9999999/1" value="0" leadInLength="0/1"  />
-           <InterpolatingParam id="368" interp="linr"  time="-9999999/1" value="0" leadInLength="0/1"  />
-           <InterpolatingParam id="369" interp="linr"  time="-9999999/1" value="0" leadInLength="0/1"  />
-           <InterpolatingParam id="370" interp="linr"  time="-9999999/1" value="0" leadInLength="0/1"  />
-          </VectorParam>
-          <InterpolatingParam id="371" interp="linr"  time="-9999999/1" value="1" leadInLength="0/1"  name="opacity"/>
-          <Parameter id="372"  name="captions"/>
-          <InterpolatingParam id="373" interp="linr"  time="0/1" value="1" leadInLength="0/1"  name="volume"/>
-         </Parameters>
+        <Callout id="355" start="0" duration="2039" scalar="1/1" mediaStart="0/1" mediaDuration="2039/1" >
          <Transformer>
-          <VectorParam id="374"  name="translation">
-           <InterpolatingParam id="375" interp="linr"  time="-9999999/1" value="122.99999999984004" leadInLength="0/1"  />
-           <InterpolatingParam id="376" interp="linr"  time="-9999999/1" value="4.2490455598453991e-012" leadInLength="0/1"  />
-           <InterpolatingParam id="377" interp="linr"  time="-9999999/1" value="0" leadInLength="0/1"  />
+          <VectorParam id="356"  name="translation">
+           <InterpolatingParam id="357" interp="linr"  time="-9999999/1" value="1.801629404968141e-011" leadInLength="0/1"  />
+           <InterpolatingParam id="358" interp="linr"  time="-9999999/1" value="7.0130568019521888e-012" leadInLength="0/1"  />
+           <InterpolatingParam id="359" interp="linr"  time="-9999999/1" value="0" leadInLength="0/1"  />
           </VectorParam>
-          <VectorParam id="378"  name="rotation">
-           <InterpolatingParam id="379" interp="linr"  time="-9999999/1" value="0" leadInLength="0/1"  />
-           <InterpolatingParam id="380" interp="linr"  time="-9999999/1" value="0" leadInLength="0/1"  />
-           <InterpolatingParam id="381" interp="linr"  time="-9999999/1" value="0" leadInLength="0/1"  />
+          <VectorParam id="360"  name="rotation">
+           <InterpolatingParam id="361" interp="linr"  time="-9999999/1" value="0" leadInLength="0/1"  />
+           <InterpolatingParam id="362" interp="linr"  time="-9999999/1" value="0" leadInLength="0/1"  />
+           <InterpolatingParam id="363" interp="linr"  time="-9999999/1" value="0" leadInLength="0/1"  />
           </VectorParam>
-          <VectorParam id="382"  name="shear">
+          <VectorParam id="364"  name="shear">
+           <InterpolatingParam id="365" interp="linr"  time="-9999999/1" value="0" leadInLength="0/1"  />
+           <InterpolatingParam id="366" interp="linr"  time="-9999999/1" value="0" leadInLength="0/1"  />
+           <InterpolatingParam id="367" interp="linr"  time="-9999999/1" value="0" leadInLength="0/1"  />
+          </VectorParam>
+          <VectorParam id="368"  name="scale">
+           <InterpolatingParam id="369" interp="linr"  time="-9999999/1" value="1" leadInLength="0/1"  />
+           <InterpolatingParam id="370" interp="linr"  time="-9999999/1" value="1" leadInLength="0/1"  />
+           <InterpolatingParam id="371" interp="linr"  time="-9999999/1" value="1" leadInLength="0/1"  />
+          </VectorParam>
+          <VectorParam id="372"  name="anchor">
+           <InterpolatingParam id="373" interp="linr"  time="0/1" value="0" leadInLength="0/1"  />
+           <InterpolatingParam id="374" interp="linr"  time="0/1" value="0" leadInLength="0/1"  />
+           <InterpolatingParam id="375" interp="linr"  time="0/1" value="0" leadInLength="0/1"  />
+          </VectorParam>
+         </Transformer>
+         <Parameters>
+          <VectorParam id="376"  name="sourceCrop">
+           <InterpolatingParam id="377" interp="linr"  time="0/1" value="0" leadInLength="0/1"  />
+           <InterpolatingParam id="378" interp="linr"  time="0/1" value="0" leadInLength="0/1"  />
+           <InterpolatingParam id="379" interp="linr"  time="0/1" value="0" leadInLength="0/1"  />
+           <InterpolatingParam id="380" interp="linr"  time="0/1" value="0" leadInLength="0/1"  />
+          </VectorParam>
+          <VectorParam id="381"  name="geometryCrop">
+           <InterpolatingParam id="382" interp="linr"  time="-9999999/1" value="0" leadInLength="0/1"  />
            <InterpolatingParam id="383" interp="linr"  time="-9999999/1" value="0" leadInLength="0/1"  />
            <InterpolatingParam id="384" interp="linr"  time="-9999999/1" value="0" leadInLength="0/1"  />
            <InterpolatingParam id="385" interp="linr"  time="-9999999/1" value="0" leadInLength="0/1"  />
           </VectorParam>
-          <VectorParam id="386"  name="scale">
-           <InterpolatingParam id="387" interp="linr"  time="-9999999/1" value="1" leadInLength="0/1"  />
-           <InterpolatingParam id="388" interp="linr"  time="-9999999/1" value="1" leadInLength="0/1"  />
-           <InterpolatingParam id="389" interp="linr"  time="-9999999/1" value="1" leadInLength="0/1"  />
+          <InterpolatingParam id="386" interp="linr"  time="-9999999/1" value="1" leadInLength="0/1"  name="opacity"/>
+         </Parameters>
+         <Attributes>
+          <Attribute id="387"  name="vectorNode">
+           <VectorNode id="388" kind="TypeWinText"  >
+            <DoubleParameters>
+             <InterpolatingParam id="389" interp="linr"  time="0/1" value="5" leadInLength="0/1"  name="Style"/>
+             <InterpolatingParam id="390" interp="linr"  time="0/1" value="0" leadInLength="0/1"  name="dimensionTime"/>
+             <InterpolatingParam id="391" interp="linr"  time="0/1" value="100" leadInLength="0/1"  name="height"/>
+             <InterpolatingParam id="392" interp="linr"  time="0/1" value="0" leadInLength="0/1"  name="textDropShadow"/>
+             <InterpolatingParam id="393" interp="linr"  time="0/1" value="0" leadInLength="0/1"  name="textIgnoresOpacity"/>
+             <InterpolatingParam id="394" interp="linr"  time="0/1" value="1" leadInLength="0/1"  name="textRectHeight"/>
+             <InterpolatingParam id="395" interp="linr"  time="0/1" value="1" leadInLength="0/1"  name="textRectWidth"/>
+             <InterpolatingParam id="396" interp="linr"  time="0/1" value="0" leadInLength="0/1"  name="textRectX"/>
+             <InterpolatingParam id="397" interp="linr"  time="0/1" value="0" leadInLength="0/1"  name="textRectY"/>
+             <InterpolatingParam id="398" interp="linr"  time="0/1" value="0" leadInLength="0/1"  name="textVerticalAlign"/>
+             <InterpolatingParam id="399" interp="linr"  time="0/1" value="100" leadInLength="0/1"  name="width"/>
+            </DoubleParameters>
+            <StringParameters>
+             <Parameter id="400"  name="filename">
+              <Keyframes>
+              <Keyframe id="401"  time="0/1" value="C:\Program Files (x86)\TechSmith\Camtasia Studio 8\Media\Studio\Callouts\trans_100x100.xml" leadInLength="0/1"  />
+              </Keyframes>
+             </Parameter>
+             <Parameter id="402"  name="name">
+              <Keyframes>
+              <Keyframe id="403"  time="0/1" value="Text" leadInLength="0/1"  />
+              </Keyframes>
+             </Parameter>
+             <Parameter id="404"  name="text">
+              <Keyframes>
+              <Keyframe id="405"  time="0/1" value="{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fmodern\fprq1\fcharset0 Courier New;}{\f1\fswiss\fprq2\fcharset0 Arial;}}&#xD;&#xa;{\colortbl ;\red0\green0\blue0;}&#xD;&#xa;\viewkind4\uc1\pard\cf1\f0\fs16 #!****\par&#xD;&#xa;Titel: \par&#xD;&#xa;\par&#xD;&#xa;\par&#xD;&#xa;\par&#xD;&#xa;\par&#xD;&#xa;Folgende Attribute unterst\&apos;fctzt ePlayer nicht:\par&#xD;&#xa;Tooltip: \par&#xD;&#xa;Tags: \f1\fs32\par&#xD;&#xa;\par&#xD;&#xa;}&#xD;&#xa;" leadInLength="0/1"  />
+              </Keyframes>
+             </Parameter>
+             <Parameter id="406"  name="xmlContent">
+              <Keyframes>
+              <Keyframe id="407"  time="0/1" value="﻿&lt;?xml version=&quot;1.0&quot;?&gt;&#xa;&#xa;&lt;Overlay version=&quot;1.0.1&quot;&gt;&#xa;&#xa;&lt;Overlay_Filename&gt;trans_100x100.png&lt;/Overlay_Filename&gt;&#xa;&lt;Overlay_Name&gt;Text&lt;/Overlay_Name&gt;&#xa;&lt;Text_Top&gt;0&lt;/Text_Top&gt;&#xa;&lt;Text_Left&gt;0&lt;/Text_Left&gt;&#xa;&lt;Text_Bottom&gt;0&lt;/Text_Bottom&gt;&#xa;&lt;Text_Right&gt;0&lt;/Text_Right&gt;&#xa;&lt;Fill_Color&gt;0&lt;/Fill_Color&gt;&#xa;&lt;Border_Color&gt;0&lt;/Border_Color&gt;&#xa;&lt;Style&gt;5&lt;/Style&gt;&#xa;&lt;/Overlay&gt;&#xa;&#xa;" leadInLength="0/1"  />
+              </Keyframes>
+             </Parameter>
+            </StringParameters>
+           </VectorNode>
+          </Attribute>
+         </Attributes>
+         <MetaData>
+          <entry key="WinSubProjectDisplayName" val=""/>
+         </MetaData>
+         <LeftEdgeMods length="0/1" groupName="OpacityFade">
+          <EdgeMod parameter="386">
+           <FadeInFunc id="66"  />
+          </EdgeMod>
+         </LeftEdgeMods>
+         <RightEdgeMods length="0/1" groupName="OpacityFade">
+          <EdgeMod parameter="386">
+           <FadeOutFunc id="67"  />
+          </EdgeMod>
+         </RightEdgeMods>
+         <ExtraData>
+          <Entry key="ZoomPanBin">
+           <ZoomPanBin id="408"  >
+            <ZoomPanKeyframes>
+             <ZoomPanKeyframe id="409" timeRangeEnd="-9999999/1" timeRangeDuration="0/1" interpolaterName="linr"  />
+            </ZoomPanKeyframes>
+           </ZoomPanBin>
+          </Entry>
+         </ExtraData>
+        </Callout>
+       </Medias>
+      </GenericTrack>
+      <GenericTrack id="410"  >
+       <Attributes>
+        <Attribute id="411" value="#!k-extras" name="ident"/>
+        <Attribute id="412" value="1" name="audioMuted"/>
+        <Attribute id="413" value="1" name="videoHidden"/>
+       </Attributes>
+       <MetaData>
+        <entry key="IsLocked" val="False"/>
+        <entry key="WinTrackHeight" val="40"/>
+       </MetaData>
+       <Medias>
+        <Group id="414" start="0" duration="272" scalar="1" mediaStart="0" mediaDuration="272" baseWidthAttr="0" baseHeightAttr="0"  >
+         <Parameters>
+          <VectorParam id="415"  name="sourceCrop">
+           <InterpolatingParam id="416" interp="linr"  time="0/1" value="0" leadInLength="0/1"  />
+           <InterpolatingParam id="417" interp="linr"  time="0/1" value="0" leadInLength="0/1"  />
+           <InterpolatingParam id="418" interp="linr"  time="0/1" value="0" leadInLength="0/1"  />
+           <InterpolatingParam id="419" interp="linr"  time="0/1" value="0" leadInLength="0/1"  />
           </VectorParam>
-          <VectorParam id="390"  name="anchor">
-           <InterpolatingParam id="391" interp="linr"  time="0/1" value="-147" leadInLength="0/1"  />
-           <InterpolatingParam id="392" interp="linr"  time="0/1" value="109" leadInLength="0/1"  />
-           <InterpolatingParam id="393" interp="linr"  time="0/1" value="0" leadInLength="0/1"  />
+          <VectorParam id="420"  name="geometryCrop">
+           <InterpolatingParam id="421" interp="linr"  time="-9999999/1" value="0" leadInLength="0/1"  />
+           <InterpolatingParam id="422" interp="linr"  time="-9999999/1" value="0" leadInLength="0/1"  />
+           <InterpolatingParam id="423" interp="linr"  time="-9999999/1" value="0" leadInLength="0/1"  />
+           <InterpolatingParam id="424" interp="linr"  time="-9999999/1" value="0" leadInLength="0/1"  />
+          </VectorParam>
+          <InterpolatingParam id="425" interp="linr"  time="-9999999/1" value="1" leadInLength="0/1"  name="opacity"/>
+          <Parameter id="426"  name="captions"/>
+          <InterpolatingParam id="427" interp="linr"  time="0/1" value="1" leadInLength="0/1"  name="volume"/>
+         </Parameters>
+         <Transformer>
+          <VectorParam id="428"  name="translation">
+           <InterpolatingParam id="429" interp="linr"  time="-9999999/1" value="122.99999999984004" leadInLength="0/1"  />
+           <InterpolatingParam id="430" interp="linr"  time="-9999999/1" value="4.2490455598453991e-012" leadInLength="0/1"  />
+           <InterpolatingParam id="431" interp="linr"  time="-9999999/1" value="0" leadInLength="0/1"  />
+          </VectorParam>
+          <VectorParam id="432"  name="rotation">
+           <InterpolatingParam id="433" interp="linr"  time="-9999999/1" value="0" leadInLength="0/1"  />
+           <InterpolatingParam id="434" interp="linr"  time="-9999999/1" value="0" leadInLength="0/1"  />
+           <InterpolatingParam id="435" interp="linr"  time="-9999999/1" value="0" leadInLength="0/1"  />
+          </VectorParam>
+          <VectorParam id="436"  name="shear">
+           <InterpolatingParam id="437" interp="linr"  time="-9999999/1" value="0" leadInLength="0/1"  />
+           <InterpolatingParam id="438" interp="linr"  time="-9999999/1" value="0" leadInLength="0/1"  />
+           <InterpolatingParam id="439" interp="linr"  time="-9999999/1" value="0" leadInLength="0/1"  />
+          </VectorParam>
+          <VectorParam id="440"  name="scale">
+           <InterpolatingParam id="441" interp="linr"  time="-9999999/1" value="1" leadInLength="0/1"  />
+           <InterpolatingParam id="442" interp="linr"  time="-9999999/1" value="1" leadInLength="0/1"  />
+           <InterpolatingParam id="443" interp="linr"  time="-9999999/1" value="1" leadInLength="0/1"  />
+          </VectorParam>
+          <VectorParam id="444"  name="anchor">
+           <InterpolatingParam id="445" interp="linr"  time="0/1" value="-147" leadInLength="0/1"  />
+           <InterpolatingParam id="446" interp="linr"  time="0/1" value="109" leadInLength="0/1"  />
+           <InterpolatingParam id="447" interp="linr"  time="0/1" value="0" leadInLength="0/1"  />
           </VectorParam>
          </Transformer>
-         <GenericMixer id="394"  >
+         <GenericMixer id="448"  >
           <MetaData>
           </MetaData>
           <Tracks>
-           <GenericTrack id="395"  >
+           <GenericTrack id="449"  >
             <Attributes>
-             <Attribute id="396" value="" name="ident"/>
-             <Attribute id="397" value="1" name="audioMuted"/>
-             <Attribute id="398" value="1" name="videoHidden"/>
+             <Attribute id="450" value="" name="ident"/>
+             <Attribute id="451" value="1" name="audioMuted"/>
+             <Attribute id="452" value="1" name="videoHidden"/>
             </Attributes>
             <MetaData>
              <entry key="IsLocked" val="False"/>
              <entry key="WinTrackHeight" val="0"/>
             </MetaData>
             <Medias>
-             <Callout id="399" start="-42" duration="314" scalar="1/1" mediaStart="229/1" mediaDuration="314/1" >
+             <Callout id="453" start="-42" duration="314" scalar="1/1" mediaStart="229/1" mediaDuration="314/1" >
               <Transformer>
-               <VectorParam id="400"  name="translation">
-                <InterpolatingParam id="401" interp="linr"  time="-9999999/1" value="-210.00000000010237" leadInLength="0/1"  />
-                <InterpolatingParam id="402" interp="linr"  time="-9999999/1" value="120.50000000005049" leadInLength="0/1"  />
-                <InterpolatingParam id="403" interp="linr"  time="-9999999/1" value="0" leadInLength="0/1"  />
+               <VectorParam id="454"  name="translation">
+                <InterpolatingParam id="455" interp="linr"  time="-9999999/1" value="-210.00000000010237" leadInLength="0/1"  />
+                <InterpolatingParam id="456" interp="linr"  time="-9999999/1" value="120.50000000005049" leadInLength="0/1"  />
+                <InterpolatingParam id="457" interp="linr"  time="-9999999/1" value="0" leadInLength="0/1"  />
                </VectorParam>
-               <VectorParam id="404"  name="rotation">
-                <InterpolatingParam id="405" interp="linr"  time="-9999999/1" value="0" leadInLength="0/1"  />
-                <InterpolatingParam id="406" interp="linr"  time="-9999999/1" value="0" leadInLength="0/1"  />
-                <InterpolatingParam id="407" interp="linr"  time="-9999999/1" value="0" leadInLength="0/1"  />
+               <VectorParam id="458"  name="rotation">
+                <InterpolatingParam id="459" interp="linr"  time="-9999999/1" value="0" leadInLength="0/1"  />
+                <InterpolatingParam id="460" interp="linr"  time="-9999999/1" value="0" leadInLength="0/1"  />
+                <InterpolatingParam id="461" interp="linr"  time="-9999999/1" value="0" leadInLength="0/1"  />
                </VectorParam>
-               <VectorParam id="408"  name="shear">
-                <InterpolatingParam id="409" interp="linr"  time="-9999999/1" value="0" leadInLength="0/1"  />
-                <InterpolatingParam id="410" interp="linr"  time="-9999999/1" value="0" leadInLength="0/1"  />
-                <InterpolatingParam id="411" interp="linr"  time="-9999999/1" value="0" leadInLength="0/1"  />
-               </VectorParam>
-               <VectorParam id="412"  name="scale">
-                <InterpolatingParam id="413" interp="linr"  time="-9999999/1" value="2.1999999999981803" leadInLength="0/1"  />
-                <InterpolatingParam id="414" interp="linr"  time="-9999999/1" value="0.78999999999875659" leadInLength="0/1"  />
-                <InterpolatingParam id="415" interp="linr"  time="-9999999/1" value="1" leadInLength="0/1"  />
-               </VectorParam>
-               <VectorParam id="416"  name="anchor">
-                <InterpolatingParam id="417" interp="linr"  time="0/1" value="0" leadInLength="0/1"  />
-                <InterpolatingParam id="418" interp="linr"  time="0/1" value="0" leadInLength="0/1"  />
-                <InterpolatingParam id="419" interp="linr"  time="0/1" value="0" leadInLength="0/1"  />
-               </VectorParam>
-              </Transformer>
-              <Parameters>
-               <VectorParam id="420"  name="sourceCrop">
-                <InterpolatingParam id="421" interp="linr"  time="0/1" value="0" leadInLength="0/1"  />
-                <InterpolatingParam id="422" interp="linr"  time="0/1" value="0" leadInLength="0/1"  />
-                <InterpolatingParam id="423" interp="linr"  time="0/1" value="0" leadInLength="0/1"  />
-                <InterpolatingParam id="424" interp="linr"  time="0/1" value="0" leadInLength="0/1"  />
-               </VectorParam>
-               <VectorParam id="425"  name="geometryCrop">
-                <InterpolatingParam id="426" interp="linr"  time="-9999999/1" value="0" leadInLength="0/1"  />
-                <InterpolatingParam id="427" interp="linr"  time="-9999999/1" value="0" leadInLength="0/1"  />
-                <InterpolatingParam id="428" interp="linr"  time="-9999999/1" value="0" leadInLength="0/1"  />
-                <InterpolatingParam id="429" interp="linr"  time="-9999999/1" value="0" leadInLength="0/1"  />
-               </VectorParam>
-               <InterpolatingParam id="430" interp="linr"  time="-9999999/1" value="1" leadInLength="0/1"  name="opacity"/>
-              </Parameters>
-              <Attributes>
-               <Attribute id="431"  name="vectorNode">
-                <VectorNode id="432" kind="TypeWinText"  >
-                 <DoubleParameters>
-                  <InterpolatingParam id="433" interp="linr"  time="0/1" value="5" leadInLength="0/1"  name="Style"/>
-                  <InterpolatingParam id="434" interp="linr"  time="0/1" value="0" leadInLength="0/1"  name="dimensionTime"/>
-                  <InterpolatingParam id="435" interp="linr"  time="0/1" value="100" leadInLength="0/1"  name="height"/>
-                  <InterpolatingParam id="436" interp="linr"  time="0/1" value="0" leadInLength="0/1"  name="textDropShadow"/>
-                  <InterpolatingParam id="437" interp="linr"  time="0/1" value="0" leadInLength="0/1"  name="textIgnoresOpacity"/>
-                  <InterpolatingParam id="438" interp="linr"  time="0/1" value="1" leadInLength="0/1"  name="textRectHeight"/>
-                  <InterpolatingParam id="439" interp="linr"  time="0/1" value="1" leadInLength="0/1"  name="textRectWidth"/>
-                  <InterpolatingParam id="440" interp="linr"  time="0/1" value="0" leadInLength="0/1"  name="textRectX"/>
-                  <InterpolatingParam id="441" interp="linr"  time="0/1" value="0" leadInLength="0/1"  name="textRectY"/>
-                  <InterpolatingParam id="442" interp="linr"  time="0/1" value="0" leadInLength="0/1"  name="textVerticalAlign"/>
-                  <InterpolatingParam id="443" interp="linr"  time="0/1" value="100" leadInLength="0/1"  name="width"/>
-                 </DoubleParameters>
-                 <StringParameters>
-                  <Parameter id="444"  name="filename">
-                   <Keyframes>
-                   <Keyframe id="445"  time="0/1" value="C:\Program Files (x86)\TechSmith\Camtasia Studio 8\Media\Studio\Callouts\trans_100x100.xml" leadInLength="0/1"  />
-                   </Keyframes>
-                  </Parameter>
-                  <Parameter id="446"  name="name">
-                   <Keyframes>
-                   <Keyframe id="447"  time="0/1" value="Text" leadInLength="0/1"  />
-                   </Keyframes>
-                  </Parameter>
-                  <Parameter id="448"  name="text">
-                   <Keyframes>
-                   <Keyframe id="449"  time="0/1" value="{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fswiss\fprq2\fcharset0 Arial;}{\f1\fmodern\fprq1\fcharset0 Courier New;}}&#xD;&#xa;{\colortbl ;\red0\green0\blue0;}&#xD;&#xa;\viewkind4\uc1\pard\cf1\f0\fs24 Beschreibungstext\f1\fs16\par&#xD;&#xa;\par&#xD;&#xa;#!****\par&#xD;&#xa;Titel: \par&#xD;&#xa;Tooltip: - nicht ePlayer -\f0\fs32\par&#xD;&#xa;}&#xD;&#xa;" leadInLength="0/1"  />
-                   </Keyframes>
-                  </Parameter>
-                  <Parameter id="450"  name="xmlContent">
-                   <Keyframes>
-                   <Keyframe id="451"  time="0/1" value="﻿&lt;?xml version=&quot;1.0&quot;?&gt;&#xa;&#xa;&lt;Overlay version=&quot;1.0.1&quot;&gt;&#xa;&#xa;&lt;Overlay_Filename&gt;trans_100x100.png&lt;/Overlay_Filename&gt;&#xa;&lt;Overlay_Name&gt;Text&lt;/Overlay_Name&gt;&#xa;&lt;Text_Top&gt;0&lt;/Text_Top&gt;&#xa;&lt;Text_Left&gt;0&lt;/Text_Left&gt;&#xa;&lt;Text_Bottom&gt;0&lt;/Text_Bottom&gt;&#xa;&lt;Text_Right&gt;0&lt;/Text_Right&gt;&#xa;&lt;Fill_Color&gt;0&lt;/Fill_Color&gt;&#xa;&lt;Border_Color&gt;0&lt;/Border_Color&gt;&#xa;&lt;Style&gt;5&lt;/Style&gt;&#xa;&lt;/Overlay&gt;&#xa;&#xa;" leadInLength="0/1"  />
-                   </Keyframes>
-                  </Parameter>
-                 </StringParameters>
-                </VectorNode>
-               </Attribute>
-              </Attributes>
-              <MetaData>
-               <entry key="WinSubProjectDisplayName" val=""/>
-              </MetaData>
-              <LeftEdgeMods length="0/1" groupName="OpacityFade">
-               <EdgeMod parameter="430">
-                <FadeInFunc id="452"  />
-               </EdgeMod>
-              </LeftEdgeMods>
-              <RightEdgeMods length="0/1" groupName="OpacityFade">
-               <EdgeMod parameter="430">
-                <FadeOutFunc id="453"  />
-               </EdgeMod>
-              </RightEdgeMods>
-              <ExtraData>
-               <Entry key="ZoomPanBin">
-                <ZoomPanBin id="454"  >
-                 <ZoomPanKeyframes>
-                  <ZoomPanKeyframe id="455" timeRangeEnd="-9999999/1" timeRangeDuration="0/1" interpolaterName="linr"  />
-                 </ZoomPanKeyframes>
-                </ZoomPanBin>
-               </Entry>
-              </ExtraData>
-             </Callout>
-            </Medias>
-           </GenericTrack>
-           <GenericTrack id="456"  >
-            <Attributes>
-             <Attribute id="457" value="" name="ident"/>
-             <Attribute id="458" value="1" name="audioMuted"/>
-             <Attribute id="459" value="1" name="videoHidden"/>
-            </Attributes>
-            <MetaData>
-             <entry key="IsLocked" val="False"/>
-             <entry key="WinTrackHeight" val="0"/>
-            </MetaData>
-            <Medias>
-             <Callout id="460" start="-38" duration="177" scalar="1/1" mediaStart="0/1" mediaDuration="177/1" >
-              <Transformer>
-               <VectorParam id="461"  name="translation">
-                <InterpolatingParam id="462" interp="linr"  time="-9999999/1" value="-146.99999999999341" leadInLength="0/1"  />
-                <InterpolatingParam id="463" interp="linr"  time="-9999999/1" value="109.99999999995482" leadInLength="0/1"  />
+               <VectorParam id="462"  name="shear">
+                <InterpolatingParam id="463" interp="linr"  time="-9999999/1" value="0" leadInLength="0/1"  />
                 <InterpolatingParam id="464" interp="linr"  time="-9999999/1" value="0" leadInLength="0/1"  />
+                <InterpolatingParam id="465" interp="linr"  time="-9999999/1" value="0" leadInLength="0/1"  />
                </VectorParam>
-               <VectorParam id="465"  name="rotation">
-                <InterpolatingParam id="466" interp="linr"  time="-9999999/1" value="0" leadInLength="0/1"  />
-                <InterpolatingParam id="467" interp="linr"  time="-9999999/1" value="0" leadInLength="0/1"  />
-                <InterpolatingParam id="468" interp="linr"  time="-9999999/1" value="0" leadInLength="0/1"  />
+               <VectorParam id="466"  name="scale">
+                <InterpolatingParam id="467" interp="linr"  time="-9999999/1" value="2.1999999999981803" leadInLength="0/1"  />
+                <InterpolatingParam id="468" interp="linr"  time="-9999999/1" value="0.78999999999875659" leadInLength="0/1"  />
+                <InterpolatingParam id="469" interp="linr"  time="-9999999/1" value="1" leadInLength="0/1"  />
                </VectorParam>
-               <VectorParam id="469"  name="shear">
-                <InterpolatingParam id="470" interp="linr"  time="-9999999/1" value="0" leadInLength="0/1"  />
-                <InterpolatingParam id="471" interp="linr"  time="-9999999/1" value="0" leadInLength="0/1"  />
-                <InterpolatingParam id="472" interp="linr"  time="-9999999/1" value="0" leadInLength="0/1"  />
-               </VectorParam>
-               <VectorParam id="473"  name="scale">
-                <InterpolatingParam id="474" interp="linr"  time="-9999999/1" value="3.460000000000135" leadInLength="0/1"  />
-                <InterpolatingParam id="475" interp="linr"  time="-9999999/1" value="1" leadInLength="0/1"  />
-                <InterpolatingParam id="476" interp="linr"  time="-9999999/1" value="1" leadInLength="0/1"  />
-               </VectorParam>
-               <VectorParam id="477"  name="anchor">
-                <InterpolatingParam id="478" interp="linr"  time="0/1" value="0" leadInLength="0/1"  />
-                <InterpolatingParam id="479" interp="linr"  time="0/1" value="0" leadInLength="0/1"  />
-                <InterpolatingParam id="480" interp="linr"  time="0/1" value="0" leadInLength="0/1"  />
+               <VectorParam id="470"  name="anchor">
+                <InterpolatingParam id="471" interp="linr"  time="0/1" value="0" leadInLength="0/1"  />
+                <InterpolatingParam id="472" interp="linr"  time="0/1" value="0" leadInLength="0/1"  />
+                <InterpolatingParam id="473" interp="linr"  time="0/1" value="0" leadInLength="0/1"  />
                </VectorParam>
               </Transformer>
               <Parameters>
-               <VectorParam id="481"  name="sourceCrop">
-                <InterpolatingParam id="482" interp="linr"  time="0/1" value="0" leadInLength="0/1"  />
-                <InterpolatingParam id="483" interp="linr"  time="0/1" value="0" leadInLength="0/1"  />
-                <InterpolatingParam id="484" interp="linr"  time="0/1" value="0" leadInLength="0/1"  />
-                <InterpolatingParam id="485" interp="linr"  time="0/1" value="0" leadInLength="0/1"  />
+               <VectorParam id="474"  name="sourceCrop">
+                <InterpolatingParam id="475" interp="linr"  time="0/1" value="0" leadInLength="0/1"  />
+                <InterpolatingParam id="476" interp="linr"  time="0/1" value="0" leadInLength="0/1"  />
+                <InterpolatingParam id="477" interp="linr"  time="0/1" value="0" leadInLength="0/1"  />
+                <InterpolatingParam id="478" interp="linr"  time="0/1" value="0" leadInLength="0/1"  />
                </VectorParam>
-               <VectorParam id="486"  name="geometryCrop">
-                <InterpolatingParam id="487" interp="linr"  time="-9999999/1" value="0" leadInLength="0/1"  />
-                <InterpolatingParam id="488" interp="linr"  time="-9999999/1" value="0" leadInLength="0/1"  />
-                <InterpolatingParam id="489" interp="linr"  time="-9999999/1" value="0" leadInLength="0/1"  />
-                <InterpolatingParam id="490" interp="linr"  time="-9999999/1" value="0" leadInLength="0/1"  />
+               <VectorParam id="479"  name="geometryCrop">
+                <InterpolatingParam id="480" interp="linr"  time="-9999999/1" value="0" leadInLength="0/1"  />
+                <InterpolatingParam id="481" interp="linr"  time="-9999999/1" value="0" leadInLength="0/1"  />
+                <InterpolatingParam id="482" interp="linr"  time="-9999999/1" value="0" leadInLength="0/1"  />
+                <InterpolatingParam id="483" interp="linr"  time="-9999999/1" value="0" leadInLength="0/1"  />
                </VectorParam>
-               <InterpolatingParam id="491" interp="linr"  time="-9999999/1" value="1" leadInLength="0/1"  name="opacity"/>
+               <InterpolatingParam id="484" interp="linr"  time="-9999999/1" value="1" leadInLength="0/1"  name="opacity"/>
               </Parameters>
               <Attributes>
-               <Attribute id="492"  name="vectorNode">
-                <VectorNode id="493" kind="TypeWinText"  >
+               <Attribute id="485"  name="vectorNode">
+                <VectorNode id="486" kind="TypeWinText"  >
                  <DoubleParameters>
-                  <InterpolatingParam id="494" interp="linr"  time="0/1" value="5" leadInLength="0/1"  name="Style"/>
-                  <InterpolatingParam id="495" interp="linr"  time="0/1" value="0" leadInLength="0/1"  name="dimensionTime"/>
-                  <InterpolatingParam id="496" interp="linr"  time="0/1" value="100" leadInLength="0/1"  name="height"/>
-                  <InterpolatingParam id="497" interp="linr"  time="0/1" value="0" leadInLength="0/1"  name="textDropShadow"/>
-                  <InterpolatingParam id="498" interp="linr"  time="0/1" value="0" leadInLength="0/1"  name="textIgnoresOpacity"/>
-                  <InterpolatingParam id="499" interp="linr"  time="0/1" value="1" leadInLength="0/1"  name="textRectHeight"/>
-                  <InterpolatingParam id="500" interp="linr"  time="0/1" value="1" leadInLength="0/1"  name="textRectWidth"/>
-                  <InterpolatingParam id="501" interp="linr"  time="0/1" value="0" leadInLength="0/1"  name="textRectX"/>
-                  <InterpolatingParam id="502" interp="linr"  time="0/1" value="0" leadInLength="0/1"  name="textRectY"/>
-                  <InterpolatingParam id="503" interp="linr"  time="0/1" value="0" leadInLength="0/1"  name="textVerticalAlign"/>
-                  <InterpolatingParam id="504" interp="linr"  time="0/1" value="100" leadInLength="0/1"  name="width"/>
+                  <InterpolatingParam id="487" interp="linr"  time="0/1" value="5" leadInLength="0/1"  name="Style"/>
+                  <InterpolatingParam id="488" interp="linr"  time="0/1" value="0" leadInLength="0/1"  name="dimensionTime"/>
+                  <InterpolatingParam id="489" interp="linr"  time="0/1" value="100" leadInLength="0/1"  name="height"/>
+                  <InterpolatingParam id="490" interp="linr"  time="0/1" value="0" leadInLength="0/1"  name="textDropShadow"/>
+                  <InterpolatingParam id="491" interp="linr"  time="0/1" value="0" leadInLength="0/1"  name="textIgnoresOpacity"/>
+                  <InterpolatingParam id="492" interp="linr"  time="0/1" value="1" leadInLength="0/1"  name="textRectHeight"/>
+                  <InterpolatingParam id="493" interp="linr"  time="0/1" value="1" leadInLength="0/1"  name="textRectWidth"/>
+                  <InterpolatingParam id="494" interp="linr"  time="0/1" value="0" leadInLength="0/1"  name="textRectX"/>
+                  <InterpolatingParam id="495" interp="linr"  time="0/1" value="0" leadInLength="0/1"  name="textRectY"/>
+                  <InterpolatingParam id="496" interp="linr"  time="0/1" value="0" leadInLength="0/1"  name="textVerticalAlign"/>
+                  <InterpolatingParam id="497" interp="linr"  time="0/1" value="100" leadInLength="0/1"  name="width"/>
                  </DoubleParameters>
                  <StringParameters>
-                  <Parameter id="505"  name="filename">
+                  <Parameter id="498"  name="filename">
                    <Keyframes>
-                   <Keyframe id="506"  time="0/1" value="C:\Program Files (x86)\TechSmith\Camtasia Studio 8\Media\Studio\Callouts\trans_100x100.xml" leadInLength="0/1"  />
+                   <Keyframe id="499"  time="0/1" value="C:\Program Files (x86)\TechSmith\Camtasia Studio 8\Media\Studio\Callouts\trans_100x100.xml" leadInLength="0/1"  />
                    </Keyframes>
                   </Parameter>
-                  <Parameter id="507"  name="name">
+                  <Parameter id="500"  name="name">
                    <Keyframes>
-                   <Keyframe id="508"  time="0/1" value="Text" leadInLength="0/1"  />
+                   <Keyframe id="501"  time="0/1" value="Text" leadInLength="0/1"  />
                    </Keyframes>
                   </Parameter>
-                  <Parameter id="509"  name="text">
+                  <Parameter id="502"  name="text">
                    <Keyframes>
-                   <Keyframe id="510"  time="0/1" value="{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fmodern\fprq1\fcharset0 Courier New;}{\f1\fswiss\fprq2\fcharset0 Arial;}}&#xD;&#xa;{\colortbl ;\red0\green0\blue0;}&#xD;&#xa;\viewkind4\uc1\pard\cf1\f0\fs16 #!****\par&#xD;&#xa;Titel: \par&#xD;&#xa;URL: \par&#xD;&#xa;Tooltip: - nicht ePlayer -\f1\fs32\par&#xD;&#xa;}&#xD;&#xa;" leadInLength="0/1"  />
+                   <Keyframe id="503"  time="0/1" value="{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fswiss\fprq2\fcharset0 Arial;}{\f1\fmodern\fprq1\fcharset0 Courier New;}}&#xD;&#xa;{\colortbl ;\red0\green0\blue0;}&#xD;&#xa;\viewkind4\uc1\pard\cf1\f0\fs24 Beschreibungstext\f1\fs16\par&#xD;&#xa;\par&#xD;&#xa;#!****\par&#xD;&#xa;Titel: \par&#xD;&#xa;\par&#xD;&#xa;\par&#xD;&#xa;\par&#xD;&#xa;Folgende Attribute unterst\&apos;fctzt ePlayer nicht:\par&#xD;&#xa;Tooltip: \f0\fs32\par&#xD;&#xa;}&#xD;&#xa;" leadInLength="0/1"  />
                    </Keyframes>
                   </Parameter>
-                  <Parameter id="511"  name="xmlContent">
+                  <Parameter id="504"  name="xmlContent">
                    <Keyframes>
-                   <Keyframe id="512"  time="0/1" value="﻿&lt;?xml version=&quot;1.0&quot;?&gt;&#xa;&#xa;&lt;Overlay version=&quot;1.0.1&quot;&gt;&#xa;&#xa;&lt;Overlay_Filename&gt;trans_100x100.png&lt;/Overlay_Filename&gt;&#xa;&lt;Overlay_Name&gt;Text&lt;/Overlay_Name&gt;&#xa;&lt;Text_Top&gt;0&lt;/Text_Top&gt;&#xa;&lt;Text_Left&gt;0&lt;/Text_Left&gt;&#xa;&lt;Text_Bottom&gt;0&lt;/Text_Bottom&gt;&#xa;&lt;Text_Right&gt;0&lt;/Text_Right&gt;&#xa;&lt;Fill_Color&gt;0&lt;/Fill_Color&gt;&#xa;&lt;Border_Color&gt;0&lt;/Border_Color&gt;&#xa;&lt;Style&gt;5&lt;/Style&gt;&#xa;&lt;/Overlay&gt;&#xa;&#xa;" leadInLength="0/1"  />
+                   <Keyframe id="505"  time="0/1" value="﻿&lt;?xml version=&quot;1.0&quot;?&gt;&#xa;&#xa;&lt;Overlay version=&quot;1.0.1&quot;&gt;&#xa;&#xa;&lt;Overlay_Filename&gt;trans_100x100.png&lt;/Overlay_Filename&gt;&#xa;&lt;Overlay_Name&gt;Text&lt;/Overlay_Name&gt;&#xa;&lt;Text_Top&gt;0&lt;/Text_Top&gt;&#xa;&lt;Text_Left&gt;0&lt;/Text_Left&gt;&#xa;&lt;Text_Bottom&gt;0&lt;/Text_Bottom&gt;&#xa;&lt;Text_Right&gt;0&lt;/Text_Right&gt;&#xa;&lt;Fill_Color&gt;0&lt;/Fill_Color&gt;&#xa;&lt;Border_Color&gt;0&lt;/Border_Color&gt;&#xa;&lt;Style&gt;5&lt;/Style&gt;&#xa;&lt;/Overlay&gt;&#xa;&#xa;" leadInLength="0/1"  />
                    </Keyframes>
                   </Parameter>
                  </StringParameters>
@@ -1067,20 +1058,20 @@
                <entry key="WinSubProjectDisplayName" val=""/>
               </MetaData>
               <LeftEdgeMods length="0/1" groupName="OpacityFade">
-               <EdgeMod parameter="491">
-                <FadeInFunc id="513"  />
+               <EdgeMod parameter="484">
+                <FadeInFunc id="506"  />
                </EdgeMod>
               </LeftEdgeMods>
               <RightEdgeMods length="0/1" groupName="OpacityFade">
-               <EdgeMod parameter="491">
-                <FadeOutFunc id="514"  />
+               <EdgeMod parameter="484">
+                <FadeOutFunc id="507"  />
                </EdgeMod>
               </RightEdgeMods>
               <ExtraData>
                <Entry key="ZoomPanBin">
-                <ZoomPanBin id="515"  >
+                <ZoomPanBin id="508"  >
                  <ZoomPanKeyframes>
-                  <ZoomPanKeyframe id="516" timeRangeEnd="-9999999/1" timeRangeDuration="0/1" interpolaterName="linr"  />
+                  <ZoomPanKeyframe id="509" timeRangeEnd="-9999999/1" timeRangeDuration="0/1" interpolaterName="linr"  />
                  </ZoomPanKeyframes>
                 </ZoomPanBin>
                </Entry>
@@ -1088,95 +1079,95 @@
              </Callout>
             </Medias>
            </GenericTrack>
-           <GenericTrack id="517"  >
+           <GenericTrack id="510"  >
             <Attributes>
-             <Attribute id="518" value="" name="ident"/>
-             <Attribute id="519" value="1" name="audioMuted"/>
-             <Attribute id="520" value="1" name="videoHidden"/>
+             <Attribute id="511" value="" name="ident"/>
+             <Attribute id="512" value="1" name="audioMuted"/>
+             <Attribute id="513" value="1" name="videoHidden"/>
             </Attributes>
             <MetaData>
              <entry key="IsLocked" val="False"/>
              <entry key="WinTrackHeight" val="0"/>
             </MetaData>
             <Medias>
-             <Callout id="521" start="-11" duration="150" scalar="1/1" mediaStart="0/1" mediaDuration="150/1" >
+             <Callout id="514" start="-38" duration="177" scalar="1/1" mediaStart="0/1" mediaDuration="177/1" >
               <Transformer>
-               <VectorParam id="522"  name="translation">
-                <InterpolatingParam id="523" interp="linr"  time="-9999999/1" value="-146.99999999999341" leadInLength="0/1"  />
-                <InterpolatingParam id="524" interp="linr"  time="-9999999/1" value="109.99999999995482" leadInLength="0/1"  />
+               <VectorParam id="515"  name="translation">
+                <InterpolatingParam id="516" interp="linr"  time="-9999999/1" value="-146.99999999999341" leadInLength="0/1"  />
+                <InterpolatingParam id="517" interp="linr"  time="-9999999/1" value="109.99999999995482" leadInLength="0/1"  />
+                <InterpolatingParam id="518" interp="linr"  time="-9999999/1" value="0" leadInLength="0/1"  />
+               </VectorParam>
+               <VectorParam id="519"  name="rotation">
+                <InterpolatingParam id="520" interp="linr"  time="-9999999/1" value="0" leadInLength="0/1"  />
+                <InterpolatingParam id="521" interp="linr"  time="-9999999/1" value="0" leadInLength="0/1"  />
+                <InterpolatingParam id="522" interp="linr"  time="-9999999/1" value="0" leadInLength="0/1"  />
+               </VectorParam>
+               <VectorParam id="523"  name="shear">
+                <InterpolatingParam id="524" interp="linr"  time="-9999999/1" value="0" leadInLength="0/1"  />
                 <InterpolatingParam id="525" interp="linr"  time="-9999999/1" value="0" leadInLength="0/1"  />
+                <InterpolatingParam id="526" interp="linr"  time="-9999999/1" value="0" leadInLength="0/1"  />
                </VectorParam>
-               <VectorParam id="526"  name="rotation">
-                <InterpolatingParam id="527" interp="linr"  time="-9999999/1" value="0" leadInLength="0/1"  />
-                <InterpolatingParam id="528" interp="linr"  time="-9999999/1" value="0" leadInLength="0/1"  />
-                <InterpolatingParam id="529" interp="linr"  time="-9999999/1" value="0" leadInLength="0/1"  />
+               <VectorParam id="527"  name="scale">
+                <InterpolatingParam id="528" interp="linr"  time="-9999999/1" value="3.460000000000135" leadInLength="0/1"  />
+                <InterpolatingParam id="529" interp="linr"  time="-9999999/1" value="1" leadInLength="0/1"  />
+                <InterpolatingParam id="530" interp="linr"  time="-9999999/1" value="1" leadInLength="0/1"  />
                </VectorParam>
-               <VectorParam id="530"  name="shear">
-                <InterpolatingParam id="531" interp="linr"  time="-9999999/1" value="0" leadInLength="0/1"  />
-                <InterpolatingParam id="532" interp="linr"  time="-9999999/1" value="0" leadInLength="0/1"  />
-                <InterpolatingParam id="533" interp="linr"  time="-9999999/1" value="0" leadInLength="0/1"  />
-               </VectorParam>
-               <VectorParam id="534"  name="scale">
-                <InterpolatingParam id="535" interp="linr"  time="-9999999/1" value="3.460000000000135" leadInLength="0/1"  />
-                <InterpolatingParam id="536" interp="linr"  time="-9999999/1" value="1" leadInLength="0/1"  />
-                <InterpolatingParam id="537" interp="linr"  time="-9999999/1" value="1" leadInLength="0/1"  />
-               </VectorParam>
-               <VectorParam id="538"  name="anchor">
-                <InterpolatingParam id="539" interp="linr"  time="0/1" value="0" leadInLength="0/1"  />
-                <InterpolatingParam id="540" interp="linr"  time="0/1" value="0" leadInLength="0/1"  />
-                <InterpolatingParam id="541" interp="linr"  time="0/1" value="0" leadInLength="0/1"  />
+               <VectorParam id="531"  name="anchor">
+                <InterpolatingParam id="532" interp="linr"  time="0/1" value="0" leadInLength="0/1"  />
+                <InterpolatingParam id="533" interp="linr"  time="0/1" value="0" leadInLength="0/1"  />
+                <InterpolatingParam id="534" interp="linr"  time="0/1" value="0" leadInLength="0/1"  />
                </VectorParam>
               </Transformer>
               <Parameters>
-               <VectorParam id="542"  name="sourceCrop">
-                <InterpolatingParam id="543" interp="linr"  time="0/1" value="0" leadInLength="0/1"  />
-                <InterpolatingParam id="544" interp="linr"  time="0/1" value="0" leadInLength="0/1"  />
-                <InterpolatingParam id="545" interp="linr"  time="0/1" value="0" leadInLength="0/1"  />
-                <InterpolatingParam id="546" interp="linr"  time="0/1" value="0" leadInLength="0/1"  />
+               <VectorParam id="535"  name="sourceCrop">
+                <InterpolatingParam id="536" interp="linr"  time="0/1" value="0" leadInLength="0/1"  />
+                <InterpolatingParam id="537" interp="linr"  time="0/1" value="0" leadInLength="0/1"  />
+                <InterpolatingParam id="538" interp="linr"  time="0/1" value="0" leadInLength="0/1"  />
+                <InterpolatingParam id="539" interp="linr"  time="0/1" value="0" leadInLength="0/1"  />
                </VectorParam>
-               <VectorParam id="547"  name="geometryCrop">
-                <InterpolatingParam id="548" interp="linr"  time="-9999999/1" value="0" leadInLength="0/1"  />
-                <InterpolatingParam id="549" interp="linr"  time="-9999999/1" value="0" leadInLength="0/1"  />
-                <InterpolatingParam id="550" interp="linr"  time="-9999999/1" value="0" leadInLength="0/1"  />
-                <InterpolatingParam id="551" interp="linr"  time="-9999999/1" value="0" leadInLength="0/1"  />
+               <VectorParam id="540"  name="geometryCrop">
+                <InterpolatingParam id="541" interp="linr"  time="-9999999/1" value="0" leadInLength="0/1"  />
+                <InterpolatingParam id="542" interp="linr"  time="-9999999/1" value="0" leadInLength="0/1"  />
+                <InterpolatingParam id="543" interp="linr"  time="-9999999/1" value="0" leadInLength="0/1"  />
+                <InterpolatingParam id="544" interp="linr"  time="-9999999/1" value="0" leadInLength="0/1"  />
                </VectorParam>
-               <InterpolatingParam id="552" interp="linr"  time="-9999999/1" value="1" leadInLength="0/1"  name="opacity"/>
+               <InterpolatingParam id="545" interp="linr"  time="-9999999/1" value="1" leadInLength="0/1"  name="opacity"/>
               </Parameters>
               <Attributes>
-               <Attribute id="553"  name="vectorNode">
-                <VectorNode id="554" kind="TypeWinText"  >
+               <Attribute id="546"  name="vectorNode">
+                <VectorNode id="547" kind="TypeWinText"  >
                  <DoubleParameters>
-                  <InterpolatingParam id="555" interp="linr"  time="0/1" value="5" leadInLength="0/1"  name="Style"/>
-                  <InterpolatingParam id="556" interp="linr"  time="0/1" value="0" leadInLength="0/1"  name="dimensionTime"/>
-                  <InterpolatingParam id="557" interp="linr"  time="0/1" value="100" leadInLength="0/1"  name="height"/>
-                  <InterpolatingParam id="558" interp="linr"  time="0/1" value="0" leadInLength="0/1"  name="textDropShadow"/>
-                  <InterpolatingParam id="559" interp="linr"  time="0/1" value="0" leadInLength="0/1"  name="textIgnoresOpacity"/>
-                  <InterpolatingParam id="560" interp="linr"  time="0/1" value="1" leadInLength="0/1"  name="textRectHeight"/>
-                  <InterpolatingParam id="561" interp="linr"  time="0/1" value="1" leadInLength="0/1"  name="textRectWidth"/>
-                  <InterpolatingParam id="562" interp="linr"  time="0/1" value="0" leadInLength="0/1"  name="textRectX"/>
-                  <InterpolatingParam id="563" interp="linr"  time="0/1" value="0" leadInLength="0/1"  name="textRectY"/>
-                  <InterpolatingParam id="564" interp="linr"  time="0/1" value="0" leadInLength="0/1"  name="textVerticalAlign"/>
-                  <InterpolatingParam id="565" interp="linr"  time="0/1" value="100" leadInLength="0/1"  name="width"/>
+                  <InterpolatingParam id="548" interp="linr"  time="0/1" value="5" leadInLength="0/1"  name="Style"/>
+                  <InterpolatingParam id="549" interp="linr"  time="0/1" value="0" leadInLength="0/1"  name="dimensionTime"/>
+                  <InterpolatingParam id="550" interp="linr"  time="0/1" value="100" leadInLength="0/1"  name="height"/>
+                  <InterpolatingParam id="551" interp="linr"  time="0/1" value="0" leadInLength="0/1"  name="textDropShadow"/>
+                  <InterpolatingParam id="552" interp="linr"  time="0/1" value="0" leadInLength="0/1"  name="textIgnoresOpacity"/>
+                  <InterpolatingParam id="553" interp="linr"  time="0/1" value="1" leadInLength="0/1"  name="textRectHeight"/>
+                  <InterpolatingParam id="554" interp="linr"  time="0/1" value="1" leadInLength="0/1"  name="textRectWidth"/>
+                  <InterpolatingParam id="555" interp="linr"  time="0/1" value="0" leadInLength="0/1"  name="textRectX"/>
+                  <InterpolatingParam id="556" interp="linr"  time="0/1" value="0" leadInLength="0/1"  name="textRectY"/>
+                  <InterpolatingParam id="557" interp="linr"  time="0/1" value="0" leadInLength="0/1"  name="textVerticalAlign"/>
+                  <InterpolatingParam id="558" interp="linr"  time="0/1" value="100" leadInLength="0/1"  name="width"/>
                  </DoubleParameters>
                  <StringParameters>
-                  <Parameter id="566"  name="filename">
+                  <Parameter id="559"  name="filename">
                    <Keyframes>
-                   <Keyframe id="567"  time="0/1" value="C:\Program Files (x86)\TechSmith\Camtasia Studio 8\Media\Studio\Callouts\trans_100x100.xml" leadInLength="0/1"  />
+                   <Keyframe id="560"  time="0/1" value="C:\Program Files (x86)\TechSmith\Camtasia Studio 8\Media\Studio\Callouts\trans_100x100.xml" leadInLength="0/1"  />
                    </Keyframes>
                   </Parameter>
-                  <Parameter id="568"  name="name">
+                  <Parameter id="561"  name="name">
                    <Keyframes>
-                   <Keyframe id="569"  time="0/1" value="Text" leadInLength="0/1"  />
+                   <Keyframe id="562"  time="0/1" value="Text" leadInLength="0/1"  />
                    </Keyframes>
                   </Parameter>
-                  <Parameter id="570"  name="text">
+                  <Parameter id="563"  name="text">
                    <Keyframes>
-                   <Keyframe id="571"  time="0/1" value="{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fmodern\fprq1\fcharset0 Courier New;}{\f1\fswiss\fprq2\fcharset0 Arial;}}&#xD;&#xa;{\colortbl ;\red0\green0\blue0;}&#xD;&#xa;\viewkind4\uc1\pard\cf1\f0\fs16 #!****\par&#xD;&#xa;Titel: \par&#xD;&#xa;URL: \par&#xD;&#xa;Tooltip: - nicht ePlayer -\f1\fs32\par&#xD;&#xa;}&#xD;&#xa;" leadInLength="0/1"  />
+                   <Keyframe id="564"  time="0/1" value="{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fmodern\fprq1\fcharset0 Courier New;}{\f1\fswiss\fprq2\fcharset0 Arial;}}&#xD;&#xa;{\colortbl ;\red0\green0\blue0;}&#xD;&#xa;\viewkind4\uc1\pard\cf1\f0\fs16 #!****\par&#xD;&#xa;Titel: \par&#xD;&#xa;URL: \par&#xD;&#xa;\par&#xD;&#xa;\par&#xD;&#xa;\par&#xD;&#xa;Folgende Attribute unterst\&apos;fctzt ePlayer nicht:\par&#xD;&#xa;Tooltip: \f1\fs32\par&#xD;&#xa;}&#xD;&#xa;" leadInLength="0/1"  />
                    </Keyframes>
                   </Parameter>
-                  <Parameter id="572"  name="xmlContent">
+                  <Parameter id="565"  name="xmlContent">
                    <Keyframes>
-                   <Keyframe id="573"  time="0/1" value="﻿&lt;?xml version=&quot;1.0&quot;?&gt;&#xa;&#xa;&lt;Overlay version=&quot;1.0.1&quot;&gt;&#xa;&#xa;&lt;Overlay_Filename&gt;trans_100x100.png&lt;/Overlay_Filename&gt;&#xa;&lt;Overlay_Name&gt;Text&lt;/Overlay_Name&gt;&#xa;&lt;Text_Top&gt;0&lt;/Text_Top&gt;&#xa;&lt;Text_Left&gt;0&lt;/Text_Left&gt;&#xa;&lt;Text_Bottom&gt;0&lt;/Text_Bottom&gt;&#xa;&lt;Text_Right&gt;0&lt;/Text_Right&gt;&#xa;&lt;Fill_Color&gt;0&lt;/Fill_Color&gt;&#xa;&lt;Border_Color&gt;0&lt;/Border_Color&gt;&#xa;&lt;Style&gt;5&lt;/Style&gt;&#xa;&lt;/Overlay&gt;&#xa;&#xa;" leadInLength="0/1"  />
+                   <Keyframe id="566"  time="0/1" value="﻿&lt;?xml version=&quot;1.0&quot;?&gt;&#xa;&#xa;&lt;Overlay version=&quot;1.0.1&quot;&gt;&#xa;&#xa;&lt;Overlay_Filename&gt;trans_100x100.png&lt;/Overlay_Filename&gt;&#xa;&lt;Overlay_Name&gt;Text&lt;/Overlay_Name&gt;&#xa;&lt;Text_Top&gt;0&lt;/Text_Top&gt;&#xa;&lt;Text_Left&gt;0&lt;/Text_Left&gt;&#xa;&lt;Text_Bottom&gt;0&lt;/Text_Bottom&gt;&#xa;&lt;Text_Right&gt;0&lt;/Text_Right&gt;&#xa;&lt;Fill_Color&gt;0&lt;/Fill_Color&gt;&#xa;&lt;Border_Color&gt;0&lt;/Border_Color&gt;&#xa;&lt;Style&gt;5&lt;/Style&gt;&#xa;&lt;/Overlay&gt;&#xa;&#xa;" leadInLength="0/1"  />
                    </Keyframes>
                   </Parameter>
                  </StringParameters>
@@ -1187,20 +1178,140 @@
                <entry key="WinSubProjectDisplayName" val=""/>
               </MetaData>
               <LeftEdgeMods length="0/1" groupName="OpacityFade">
-               <EdgeMod parameter="552">
-                <FadeInFunc id="453"  />
+               <EdgeMod parameter="545">
+                <FadeInFunc id="506"  />
                </EdgeMod>
               </LeftEdgeMods>
               <RightEdgeMods length="0/1" groupName="OpacityFade">
-               <EdgeMod parameter="552">
-                <FadeOutFunc id="574"  />
+               <EdgeMod parameter="545">
+                <FadeOutFunc id="567"  />
                </EdgeMod>
               </RightEdgeMods>
               <ExtraData>
                <Entry key="ZoomPanBin">
-                <ZoomPanBin id="575"  >
+                <ZoomPanBin id="568"  >
                  <ZoomPanKeyframes>
-                  <ZoomPanKeyframe id="576" timeRangeEnd="-9999999/1" timeRangeDuration="0/1" interpolaterName="linr"  />
+                  <ZoomPanKeyframe id="569" timeRangeEnd="-9999999/1" timeRangeDuration="0/1" interpolaterName="linr"  />
+                 </ZoomPanKeyframes>
+                </ZoomPanBin>
+               </Entry>
+              </ExtraData>
+             </Callout>
+            </Medias>
+           </GenericTrack>
+           <GenericTrack id="570"  >
+            <Attributes>
+             <Attribute id="571" value="" name="ident"/>
+             <Attribute id="572" value="1" name="audioMuted"/>
+             <Attribute id="573" value="1" name="videoHidden"/>
+            </Attributes>
+            <MetaData>
+             <entry key="IsLocked" val="False"/>
+             <entry key="WinTrackHeight" val="0"/>
+            </MetaData>
+            <Medias>
+             <Callout id="574" start="-11" duration="150" scalar="1/1" mediaStart="0/1" mediaDuration="150/1" >
+              <Transformer>
+               <VectorParam id="575"  name="translation">
+                <InterpolatingParam id="576" interp="linr"  time="-9999999/1" value="-146.99999999999341" leadInLength="0/1"  />
+                <InterpolatingParam id="577" interp="linr"  time="-9999999/1" value="109.99999999995482" leadInLength="0/1"  />
+                <InterpolatingParam id="578" interp="linr"  time="-9999999/1" value="0" leadInLength="0/1"  />
+               </VectorParam>
+               <VectorParam id="579"  name="rotation">
+                <InterpolatingParam id="580" interp="linr"  time="-9999999/1" value="0" leadInLength="0/1"  />
+                <InterpolatingParam id="581" interp="linr"  time="-9999999/1" value="0" leadInLength="0/1"  />
+                <InterpolatingParam id="582" interp="linr"  time="-9999999/1" value="0" leadInLength="0/1"  />
+               </VectorParam>
+               <VectorParam id="583"  name="shear">
+                <InterpolatingParam id="584" interp="linr"  time="-9999999/1" value="0" leadInLength="0/1"  />
+                <InterpolatingParam id="585" interp="linr"  time="-9999999/1" value="0" leadInLength="0/1"  />
+                <InterpolatingParam id="586" interp="linr"  time="-9999999/1" value="0" leadInLength="0/1"  />
+               </VectorParam>
+               <VectorParam id="587"  name="scale">
+                <InterpolatingParam id="588" interp="linr"  time="-9999999/1" value="3.460000000000135" leadInLength="0/1"  />
+                <InterpolatingParam id="589" interp="linr"  time="-9999999/1" value="1" leadInLength="0/1"  />
+                <InterpolatingParam id="590" interp="linr"  time="-9999999/1" value="1" leadInLength="0/1"  />
+               </VectorParam>
+               <VectorParam id="591"  name="anchor">
+                <InterpolatingParam id="592" interp="linr"  time="0/1" value="0" leadInLength="0/1"  />
+                <InterpolatingParam id="593" interp="linr"  time="0/1" value="0" leadInLength="0/1"  />
+                <InterpolatingParam id="594" interp="linr"  time="0/1" value="0" leadInLength="0/1"  />
+               </VectorParam>
+              </Transformer>
+              <Parameters>
+               <VectorParam id="595"  name="sourceCrop">
+                <InterpolatingParam id="596" interp="linr"  time="0/1" value="0" leadInLength="0/1"  />
+                <InterpolatingParam id="597" interp="linr"  time="0/1" value="0" leadInLength="0/1"  />
+                <InterpolatingParam id="598" interp="linr"  time="0/1" value="0" leadInLength="0/1"  />
+                <InterpolatingParam id="599" interp="linr"  time="0/1" value="0" leadInLength="0/1"  />
+               </VectorParam>
+               <VectorParam id="600"  name="geometryCrop">
+                <InterpolatingParam id="601" interp="linr"  time="-9999999/1" value="0" leadInLength="0/1"  />
+                <InterpolatingParam id="602" interp="linr"  time="-9999999/1" value="0" leadInLength="0/1"  />
+                <InterpolatingParam id="603" interp="linr"  time="-9999999/1" value="0" leadInLength="0/1"  />
+                <InterpolatingParam id="604" interp="linr"  time="-9999999/1" value="0" leadInLength="0/1"  />
+               </VectorParam>
+               <InterpolatingParam id="605" interp="linr"  time="-9999999/1" value="1" leadInLength="0/1"  name="opacity"/>
+              </Parameters>
+              <Attributes>
+               <Attribute id="606"  name="vectorNode">
+                <VectorNode id="607" kind="TypeWinText"  >
+                 <DoubleParameters>
+                  <InterpolatingParam id="608" interp="linr"  time="0/1" value="5" leadInLength="0/1"  name="Style"/>
+                  <InterpolatingParam id="609" interp="linr"  time="0/1" value="0" leadInLength="0/1"  name="dimensionTime"/>
+                  <InterpolatingParam id="610" interp="linr"  time="0/1" value="100" leadInLength="0/1"  name="height"/>
+                  <InterpolatingParam id="611" interp="linr"  time="0/1" value="0" leadInLength="0/1"  name="textDropShadow"/>
+                  <InterpolatingParam id="612" interp="linr"  time="0/1" value="0" leadInLength="0/1"  name="textIgnoresOpacity"/>
+                  <InterpolatingParam id="613" interp="linr"  time="0/1" value="1" leadInLength="0/1"  name="textRectHeight"/>
+                  <InterpolatingParam id="614" interp="linr"  time="0/1" value="1" leadInLength="0/1"  name="textRectWidth"/>
+                  <InterpolatingParam id="615" interp="linr"  time="0/1" value="0" leadInLength="0/1"  name="textRectX"/>
+                  <InterpolatingParam id="616" interp="linr"  time="0/1" value="0" leadInLength="0/1"  name="textRectY"/>
+                  <InterpolatingParam id="617" interp="linr"  time="0/1" value="0" leadInLength="0/1"  name="textVerticalAlign"/>
+                  <InterpolatingParam id="618" interp="linr"  time="0/1" value="100" leadInLength="0/1"  name="width"/>
+                 </DoubleParameters>
+                 <StringParameters>
+                  <Parameter id="619"  name="filename">
+                   <Keyframes>
+                   <Keyframe id="620"  time="0/1" value="C:\Program Files (x86)\TechSmith\Camtasia Studio 8\Media\Studio\Callouts\trans_100x100.xml" leadInLength="0/1"  />
+                   </Keyframes>
+                  </Parameter>
+                  <Parameter id="621"  name="name">
+                   <Keyframes>
+                   <Keyframe id="622"  time="0/1" value="Text" leadInLength="0/1"  />
+                   </Keyframes>
+                  </Parameter>
+                  <Parameter id="623"  name="text">
+                   <Keyframes>
+                   <Keyframe id="624"  time="0/1" value="{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fmodern\fprq1\fcharset0 Courier New;}{\f1\fswiss\fprq2\fcharset0 Arial;}}&#xD;&#xa;{\colortbl ;\red0\green0\blue0;}&#xD;&#xa;\viewkind4\uc1\pard\cf1\f0\fs16 #!****\par&#xD;&#xa;Titel: \par&#xD;&#xa;URL: \par&#xD;&#xa;\par&#xD;&#xa;\par&#xD;&#xa;\par&#xD;&#xa;Folgende Attribute unterst\&apos;fctzt ePlayer nicht:\par&#xD;&#xa;Tooltip: \f1\fs32\par&#xD;&#xa;}&#xD;&#xa;" leadInLength="0/1"  />
+                   </Keyframes>
+                  </Parameter>
+                  <Parameter id="625"  name="xmlContent">
+                   <Keyframes>
+                   <Keyframe id="626"  time="0/1" value="﻿&lt;?xml version=&quot;1.0&quot;?&gt;&#xa;&#xa;&lt;Overlay version=&quot;1.0.1&quot;&gt;&#xa;&#xa;&lt;Overlay_Filename&gt;trans_100x100.png&lt;/Overlay_Filename&gt;&#xa;&lt;Overlay_Name&gt;Text&lt;/Overlay_Name&gt;&#xa;&lt;Text_Top&gt;0&lt;/Text_Top&gt;&#xa;&lt;Text_Left&gt;0&lt;/Text_Left&gt;&#xa;&lt;Text_Bottom&gt;0&lt;/Text_Bottom&gt;&#xa;&lt;Text_Right&gt;0&lt;/Text_Right&gt;&#xa;&lt;Fill_Color&gt;0&lt;/Fill_Color&gt;&#xa;&lt;Border_Color&gt;0&lt;/Border_Color&gt;&#xa;&lt;Style&gt;5&lt;/Style&gt;&#xa;&lt;/Overlay&gt;&#xa;&#xa;" leadInLength="0/1"  />
+                   </Keyframes>
+                  </Parameter>
+                 </StringParameters>
+                </VectorNode>
+               </Attribute>
+              </Attributes>
+              <MetaData>
+               <entry key="WinSubProjectDisplayName" val=""/>
+              </MetaData>
+              <LeftEdgeMods length="0/1" groupName="OpacityFade">
+               <EdgeMod parameter="605">
+                <FadeInFunc id="506"  />
+               </EdgeMod>
+              </LeftEdgeMods>
+              <RightEdgeMods length="0/1" groupName="OpacityFade">
+               <EdgeMod parameter="605">
+                <FadeOutFunc id="627"  />
+               </EdgeMod>
+              </RightEdgeMods>
+              <ExtraData>
+               <Entry key="ZoomPanBin">
+                <ZoomPanBin id="628"  >
+                 <ZoomPanKeyframes>
+                  <ZoomPanKeyframe id="629" timeRangeEnd="-9999999/1" timeRangeDuration="0/1" interpolaterName="linr"  />
                  </ZoomPanKeyframes>
                 </ZoomPanBin>
                </Entry>
@@ -1216,9 +1327,9 @@
          </MetaData>
          <ExtraData>
           <Entry key="ZoomPanBin">
-           <ZoomPanBin id="577"  >
+           <ZoomPanBin id="630"  >
             <ZoomPanKeyframes>
-             <ZoomPanKeyframe id="578" timeRangeEnd="-9999999/1" timeRangeDuration="0/1" interpolaterName="linr"  />
+             <ZoomPanKeyframe id="631" timeRangeEnd="-9999999/1" timeRangeDuration="0/1" interpolaterName="linr"  />
             </ZoomPanKeyframes>
            </ZoomPanBin>
           </Entry>
@@ -1226,95 +1337,95 @@
         </Group>
        </Medias>
       </GenericTrack>
-      <GenericTrack id="579"  >
+      <GenericTrack id="632"  >
        <Attributes>
-        <Attribute id="580" value="#!notizen" name="ident"/>
-        <Attribute id="581" value="1" name="audioMuted"/>
-        <Attribute id="582" value="1" name="videoHidden"/>
+        <Attribute id="633" value="#!notizen" name="ident"/>
+        <Attribute id="634" value="1" name="audioMuted"/>
+        <Attribute id="635" value="1" name="videoHidden"/>
        </Attributes>
        <MetaData>
         <entry key="IsLocked" val="False"/>
         <entry key="WinTrackHeight" val="40"/>
        </MetaData>
        <Medias>
-        <Callout id="583" start="1755" duration="147" scalar="1/1" mediaStart="0/1" mediaDuration="147/1" >
+        <Callout id="636" start="1755" duration="147" scalar="1/1" mediaStart="0/1" mediaDuration="147/1" >
          <Transformer>
-          <VectorParam id="584"  name="translation">
-           <InterpolatingParam id="585" interp="linr"  time="-9999999/1" value="-7.7136519394116476e-011" leadInLength="0/1"  />
-           <InterpolatingParam id="586" interp="linr"  time="-9999999/1" value="-2.0172308268229244e-011" leadInLength="0/1"  />
-           <InterpolatingParam id="587" interp="linr"  time="-9999999/1" value="0" leadInLength="0/1"  />
+          <VectorParam id="637"  name="translation">
+           <InterpolatingParam id="638" interp="linr"  time="-9999999/1" value="-7.7136519394116476e-011" leadInLength="0/1"  />
+           <InterpolatingParam id="639" interp="linr"  time="-9999999/1" value="-2.0172308268229244e-011" leadInLength="0/1"  />
+           <InterpolatingParam id="640" interp="linr"  time="-9999999/1" value="0" leadInLength="0/1"  />
           </VectorParam>
-          <VectorParam id="588"  name="rotation">
-           <InterpolatingParam id="589" interp="linr"  time="-9999999/1" value="0" leadInLength="0/1"  />
-           <InterpolatingParam id="590" interp="linr"  time="-9999999/1" value="0" leadInLength="0/1"  />
-           <InterpolatingParam id="591" interp="linr"  time="-9999999/1" value="0" leadInLength="0/1"  />
+          <VectorParam id="641"  name="rotation">
+           <InterpolatingParam id="642" interp="linr"  time="-9999999/1" value="0" leadInLength="0/1"  />
+           <InterpolatingParam id="643" interp="linr"  time="-9999999/1" value="0" leadInLength="0/1"  />
+           <InterpolatingParam id="644" interp="linr"  time="-9999999/1" value="0" leadInLength="0/1"  />
           </VectorParam>
-          <VectorParam id="592"  name="shear">
-           <InterpolatingParam id="593" interp="linr"  time="-9999999/1" value="0" leadInLength="0/1"  />
-           <InterpolatingParam id="594" interp="linr"  time="-9999999/1" value="0" leadInLength="0/1"  />
-           <InterpolatingParam id="595" interp="linr"  time="-9999999/1" value="0" leadInLength="0/1"  />
+          <VectorParam id="645"  name="shear">
+           <InterpolatingParam id="646" interp="linr"  time="-9999999/1" value="0" leadInLength="0/1"  />
+           <InterpolatingParam id="647" interp="linr"  time="-9999999/1" value="0" leadInLength="0/1"  />
+           <InterpolatingParam id="648" interp="linr"  time="-9999999/1" value="0" leadInLength="0/1"  />
           </VectorParam>
-          <VectorParam id="596"  name="scale">
-           <InterpolatingParam id="597" interp="linr"  time="-9999999/1" value="1" leadInLength="0/1"  />
-           <InterpolatingParam id="598" interp="linr"  time="-9999999/1" value="1" leadInLength="0/1"  />
-           <InterpolatingParam id="599" interp="linr"  time="-9999999/1" value="1" leadInLength="0/1"  />
+          <VectorParam id="649"  name="scale">
+           <InterpolatingParam id="650" interp="linr"  time="-9999999/1" value="1" leadInLength="0/1"  />
+           <InterpolatingParam id="651" interp="linr"  time="-9999999/1" value="1" leadInLength="0/1"  />
+           <InterpolatingParam id="652" interp="linr"  time="-9999999/1" value="1" leadInLength="0/1"  />
           </VectorParam>
-          <VectorParam id="600"  name="anchor">
-           <InterpolatingParam id="601" interp="linr"  time="0/1" value="0" leadInLength="0/1"  />
-           <InterpolatingParam id="602" interp="linr"  time="0/1" value="0" leadInLength="0/1"  />
-           <InterpolatingParam id="603" interp="linr"  time="0/1" value="0" leadInLength="0/1"  />
+          <VectorParam id="653"  name="anchor">
+           <InterpolatingParam id="654" interp="linr"  time="0/1" value="0" leadInLength="0/1"  />
+           <InterpolatingParam id="655" interp="linr"  time="0/1" value="0" leadInLength="0/1"  />
+           <InterpolatingParam id="656" interp="linr"  time="0/1" value="0" leadInLength="0/1"  />
           </VectorParam>
          </Transformer>
          <Parameters>
-          <VectorParam id="604"  name="sourceCrop">
-           <InterpolatingParam id="605" interp="linr"  time="0/1" value="0" leadInLength="0/1"  />
-           <InterpolatingParam id="606" interp="linr"  time="0/1" value="0" leadInLength="0/1"  />
-           <InterpolatingParam id="607" interp="linr"  time="0/1" value="0" leadInLength="0/1"  />
-           <InterpolatingParam id="608" interp="linr"  time="0/1" value="0" leadInLength="0/1"  />
+          <VectorParam id="657"  name="sourceCrop">
+           <InterpolatingParam id="658" interp="linr"  time="0/1" value="0" leadInLength="0/1"  />
+           <InterpolatingParam id="659" interp="linr"  time="0/1" value="0" leadInLength="0/1"  />
+           <InterpolatingParam id="660" interp="linr"  time="0/1" value="0" leadInLength="0/1"  />
+           <InterpolatingParam id="661" interp="linr"  time="0/1" value="0" leadInLength="0/1"  />
           </VectorParam>
-          <VectorParam id="609"  name="geometryCrop">
-           <InterpolatingParam id="610" interp="linr"  time="-9999999/1" value="0" leadInLength="0/1"  />
-           <InterpolatingParam id="611" interp="linr"  time="-9999999/1" value="0" leadInLength="0/1"  />
-           <InterpolatingParam id="612" interp="linr"  time="-9999999/1" value="0" leadInLength="0/1"  />
-           <InterpolatingParam id="613" interp="linr"  time="-9999999/1" value="0" leadInLength="0/1"  />
+          <VectorParam id="662"  name="geometryCrop">
+           <InterpolatingParam id="663" interp="linr"  time="-9999999/1" value="0" leadInLength="0/1"  />
+           <InterpolatingParam id="664" interp="linr"  time="-9999999/1" value="0" leadInLength="0/1"  />
+           <InterpolatingParam id="665" interp="linr"  time="-9999999/1" value="0" leadInLength="0/1"  />
+           <InterpolatingParam id="666" interp="linr"  time="-9999999/1" value="0" leadInLength="0/1"  />
           </VectorParam>
-          <InterpolatingParam id="614" interp="linr"  time="-9999999/1" value="1" leadInLength="0/1"  name="opacity"/>
+          <InterpolatingParam id="667" interp="linr"  time="-9999999/1" value="1" leadInLength="0/1"  name="opacity"/>
          </Parameters>
          <Attributes>
-          <Attribute id="615"  name="vectorNode">
-           <VectorNode id="616" kind="TypeWinText"  >
+          <Attribute id="668"  name="vectorNode">
+           <VectorNode id="669" kind="TypeWinText"  >
             <DoubleParameters>
-             <InterpolatingParam id="617" interp="linr"  time="0/1" value="5" leadInLength="0/1"  name="Style"/>
-             <InterpolatingParam id="618" interp="linr"  time="0/1" value="0" leadInLength="0/1"  name="dimensionTime"/>
-             <InterpolatingParam id="619" interp="linr"  time="0/1" value="100" leadInLength="0/1"  name="height"/>
-             <InterpolatingParam id="620" interp="linr"  time="0/1" value="0" leadInLength="0/1"  name="textDropShadow"/>
-             <InterpolatingParam id="621" interp="linr"  time="0/1" value="0" leadInLength="0/1"  name="textIgnoresOpacity"/>
-             <InterpolatingParam id="622" interp="linr"  time="0/1" value="1" leadInLength="0/1"  name="textRectHeight"/>
-             <InterpolatingParam id="623" interp="linr"  time="0/1" value="1" leadInLength="0/1"  name="textRectWidth"/>
-             <InterpolatingParam id="624" interp="linr"  time="0/1" value="0" leadInLength="0/1"  name="textRectX"/>
-             <InterpolatingParam id="625" interp="linr"  time="0/1" value="0" leadInLength="0/1"  name="textRectY"/>
-             <InterpolatingParam id="626" interp="linr"  time="0/1" value="0" leadInLength="0/1"  name="textVerticalAlign"/>
-             <InterpolatingParam id="627" interp="linr"  time="0/1" value="100" leadInLength="0/1"  name="width"/>
+             <InterpolatingParam id="670" interp="linr"  time="0/1" value="5" leadInLength="0/1"  name="Style"/>
+             <InterpolatingParam id="671" interp="linr"  time="0/1" value="0" leadInLength="0/1"  name="dimensionTime"/>
+             <InterpolatingParam id="672" interp="linr"  time="0/1" value="100" leadInLength="0/1"  name="height"/>
+             <InterpolatingParam id="673" interp="linr"  time="0/1" value="0" leadInLength="0/1"  name="textDropShadow"/>
+             <InterpolatingParam id="674" interp="linr"  time="0/1" value="0" leadInLength="0/1"  name="textIgnoresOpacity"/>
+             <InterpolatingParam id="675" interp="linr"  time="0/1" value="1" leadInLength="0/1"  name="textRectHeight"/>
+             <InterpolatingParam id="676" interp="linr"  time="0/1" value="1" leadInLength="0/1"  name="textRectWidth"/>
+             <InterpolatingParam id="677" interp="linr"  time="0/1" value="0" leadInLength="0/1"  name="textRectX"/>
+             <InterpolatingParam id="678" interp="linr"  time="0/1" value="0" leadInLength="0/1"  name="textRectY"/>
+             <InterpolatingParam id="679" interp="linr"  time="0/1" value="0" leadInLength="0/1"  name="textVerticalAlign"/>
+             <InterpolatingParam id="680" interp="linr"  time="0/1" value="100" leadInLength="0/1"  name="width"/>
             </DoubleParameters>
             <StringParameters>
-             <Parameter id="628"  name="filename">
+             <Parameter id="681"  name="filename">
               <Keyframes>
-              <Keyframe id="629"  time="0/1" value="C:\Program Files (x86)\TechSmith\Camtasia Studio 8\Media\Studio\Callouts\trans_100x100.xml" leadInLength="0/1"  />
+              <Keyframe id="682"  time="0/1" value="C:\Program Files (x86)\TechSmith\Camtasia Studio 8\Media\Studio\Callouts\trans_100x100.xml" leadInLength="0/1"  />
               </Keyframes>
              </Parameter>
-             <Parameter id="630"  name="name">
+             <Parameter id="683"  name="name">
               <Keyframes>
-              <Keyframe id="631"  time="0/1" value="Text" leadInLength="0/1"  />
+              <Keyframe id="684"  time="0/1" value="Text" leadInLength="0/1"  />
               </Keyframes>
              </Parameter>
-             <Parameter id="632"  name="text">
+             <Parameter id="685"  name="text">
               <Keyframes>
-              <Keyframe id="633"  time="0/1" value="{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fswiss\fprq2\fcharset0 Arial;}{\f1\fmodern\fprq1\fcharset0 Courier New;}}&#xD;&#xa;{\colortbl ;\red0\green0\blue0;}&#xD;&#xa;\viewkind4\uc1\pard\cf1\f0\fs28 Notizinhalt\par&#xD;&#xa;\f1\fs16\par&#xD;&#xa;#!****\par&#xD;&#xa;Titel: \par&#xD;&#xa;\par&#xD;&#xa;Folgende Attribute: sind nicht ePlayer komp.\par&#xD;&#xa;Tooltip: \par&#xD;&#xa;L\&apos;e4nge \&apos;fcbernehmen?: Nein\par&#xD;&#xa;In Zeitleiste anzeigen?: Ja\par&#xD;&#xa;In Kapiteln anzeigen?: Ja\par&#xD;&#xa;Auf Bildschirm anzeigen?: Nein\f0\fs32\par&#xD;&#xa;}&#xD;&#xa;" leadInLength="0/1"  />
+              <Keyframe id="686"  time="0/1" value="{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fswiss\fprq2\fcharset0 Arial;}{\f1\fmodern\fprq1\fcharset0 Courier New;}}&#xD;&#xa;{\colortbl ;\red0\green0\blue0;}&#xD;&#xa;\viewkind4\uc1\pard\cf1\f0\fs28 Notizinhalt\par&#xD;&#xa;\f1\fs16\par&#xD;&#xa;#!****\par&#xD;&#xa;Titel: \par&#xD;&#xa;\par&#xD;&#xa;\par&#xD;&#xa;\par&#xD;&#xa;Folgende Attribute unterst\&apos;fctzt ePlayer nicht:\par&#xD;&#xa;Tooltip: \par&#xD;&#xa;L\&apos;e4nge \&apos;fcbernehmen?: Nein\par&#xD;&#xa;In Zeitleiste anzeigen?: Ja\par&#xD;&#xa;In Kapiteln anzeigen?: Ja\par&#xD;&#xa;Auf Bildschirm anzeigen?: Nein\f0\fs32\par&#xD;&#xa;}&#xD;&#xa;" leadInLength="0/1"  />
               </Keyframes>
              </Parameter>
-             <Parameter id="634"  name="xmlContent">
+             <Parameter id="687"  name="xmlContent">
               <Keyframes>
-              <Keyframe id="635"  time="0/1" value="﻿&lt;?xml version=&quot;1.0&quot;?&gt;&#xa;&#xa;&lt;Overlay version=&quot;1.0.1&quot;&gt;&#xa;&#xa;&lt;Overlay_Filename&gt;trans_100x100.png&lt;/Overlay_Filename&gt;&#xa;&lt;Overlay_Name&gt;Text&lt;/Overlay_Name&gt;&#xa;&lt;Text_Top&gt;0&lt;/Text_Top&gt;&#xa;&lt;Text_Left&gt;0&lt;/Text_Left&gt;&#xa;&lt;Text_Bottom&gt;0&lt;/Text_Bottom&gt;&#xa;&lt;Text_Right&gt;0&lt;/Text_Right&gt;&#xa;&lt;Fill_Color&gt;0&lt;/Fill_Color&gt;&#xa;&lt;Border_Color&gt;0&lt;/Border_Color&gt;&#xa;&lt;Style&gt;5&lt;/Style&gt;&#xa;&lt;/Overlay&gt;&#xa;&#xa;" leadInLength="0/1"  />
+              <Keyframe id="688"  time="0/1" value="﻿&lt;?xml version=&quot;1.0&quot;?&gt;&#xa;&#xa;&lt;Overlay version=&quot;1.0.1&quot;&gt;&#xa;&#xa;&lt;Overlay_Filename&gt;trans_100x100.png&lt;/Overlay_Filename&gt;&#xa;&lt;Overlay_Name&gt;Text&lt;/Overlay_Name&gt;&#xa;&lt;Text_Top&gt;0&lt;/Text_Top&gt;&#xa;&lt;Text_Left&gt;0&lt;/Text_Left&gt;&#xa;&lt;Text_Bottom&gt;0&lt;/Text_Bottom&gt;&#xa;&lt;Text_Right&gt;0&lt;/Text_Right&gt;&#xa;&lt;Fill_Color&gt;0&lt;/Fill_Color&gt;&#xa;&lt;Border_Color&gt;0&lt;/Border_Color&gt;&#xa;&lt;Style&gt;5&lt;/Style&gt;&#xa;&lt;/Overlay&gt;&#xa;&#xa;" leadInLength="0/1"  />
               </Keyframes>
              </Parameter>
             </StringParameters>
@@ -1325,20 +1436,20 @@
           <entry key="WinSubProjectDisplayName" val=""/>
          </MetaData>
          <LeftEdgeMods length="0/1" groupName="OpacityFade">
-          <EdgeMod parameter="614">
-           <FadeInFunc id="294"  />
+          <EdgeMod parameter="667">
+           <FadeInFunc id="67"  />
           </EdgeMod>
          </LeftEdgeMods>
          <RightEdgeMods length="0/1" groupName="OpacityFade">
-          <EdgeMod parameter="614">
-           <FadeOutFunc id="238"  />
+          <EdgeMod parameter="667">
+           <FadeOutFunc id="123"  />
           </EdgeMod>
          </RightEdgeMods>
          <ExtraData>
           <Entry key="ZoomPanBin">
-           <ZoomPanBin id="636"  >
+           <ZoomPanBin id="689"  >
             <ZoomPanKeyframes>
-             <ZoomPanKeyframe id="637" timeRangeEnd="-9999999/1" timeRangeDuration="0/1" interpolaterName="linr"  />
+             <ZoomPanKeyframe id="690" timeRangeEnd="-9999999/1" timeRangeDuration="0/1" interpolaterName="linr"  />
             </ZoomPanKeyframes>
            </ZoomPanBin>
           </Entry>
@@ -1346,28 +1457,27 @@
         </Callout>
        </Medias>
       </GenericTrack>
-      <GenericTrack id="638"  >
+      <GenericTrack id="691"  >
        <Attributes>
-        <Attribute id="639" value="#!utitel" name="ident"/>
-        <Attribute id="640" value="0" name="audioMuted"/>
-        <Attribute id="641" value="0" name="videoHidden"/>
+        <Attribute id="692" value="#!utitel" name="ident"/>
+        <Attribute id="693" value="1" name="audioMuted"/>
+        <Attribute id="694" value="1" name="videoHidden"/>
        </Attributes>
        <MetaData>
         <entry key="IsLocked" val="False"/>
         <entry key="WinTrackHeight" val="40"/>
        </MetaData>
        <Medias>
-        <Caption id="642" start="0" duration="493" scalar="1/1" mediaStart="0/1" mediaDuration="493/1" maxMediaDuration="9.22337e+018"  allowTrimOut="1"  >
+        <Caption id="695" start="0" duration="351" scalar="1/1" mediaStart="0/1" mediaDuration="351/1" maxMediaDuration="9.22337e+018"  allowTrimOut="1"  >
          <Parameters>
-          <Parameter id="643"  name="captionData">
+          <Parameter id="696"  name="captionData">
            <Keyframes>
-           <Keyframe id="644"  time="-9999999/1" value="{5,Hallo,0}" leadInLength="0/1"  />
-           <Keyframe id="645"  time="165/1" value="{7,schöne,0}" leadInLength="0/1"  />
-           <Keyframe id="646"  time="302/1" value="{6,Welt!!,0}" leadInLength="0/1"  />
+           <Keyframe id="697"  time="-9999999/1" value="{5,Hallo,0}" leadInLength="0/1"  />
+           <Keyframe id="698"  time="165/1" value="{6,Welt!!,0}" leadInLength="0/1"  />
            </Keyframes>
           </Parameter>
-          <Parameter id="647"  name="toc"/>
-          <Parameter id="648"  name="quiz"/>
+          <Parameter id="699"  name="toc"/>
+          <Parameter id="700"  name="quiz"/>
          </Parameters>
          <Attributes>
          </Attributes>
@@ -1377,11 +1487,11 @@
         </Caption>
        </Medias>
       </GenericTrack>
-      <GenericTrack id="649"  >
+      <GenericTrack id="701"  >
        <Attributes>
-        <Attribute id="650" value="" name="ident"/>
-        <Attribute id="651" value="0" name="audioMuted"/>
-        <Attribute id="652" value="0" name="videoHidden"/>
+        <Attribute id="702" value="" name="ident"/>
+        <Attribute id="703" value="0" name="audioMuted"/>
+        <Attribute id="704" value="0" name="videoHidden"/>
        </Attributes>
        <MetaData>
         <entry key="IsLocked" val="False"/>
@@ -1390,11 +1500,11 @@
        <Medias>
        </Medias>
       </GenericTrack>
-      <GenericTrack id="653"  >
+      <GenericTrack id="705"  >
        <Attributes>
-        <Attribute id="654" value="" name="ident"/>
-        <Attribute id="655" value="0" name="audioMuted"/>
-        <Attribute id="656" value="0" name="videoHidden"/>
+        <Attribute id="706" value="" name="ident"/>
+        <Attribute id="707" value="0" name="audioMuted"/>
+        <Attribute id="708" value="0" name="videoHidden"/>
        </Attributes>
        <MetaData>
         <entry key="IsLocked" val="False"/>
@@ -1403,11 +1513,11 @@
        <Medias>
        </Medias>
       </GenericTrack>
-      <GenericTrack id="657"  >
+      <GenericTrack id="709"  >
        <Attributes>
-        <Attribute id="658" value="" name="ident"/>
-        <Attribute id="659" value="0" name="audioMuted"/>
-        <Attribute id="660" value="0" name="videoHidden"/>
+        <Attribute id="710" value="" name="ident"/>
+        <Attribute id="711" value="0" name="audioMuted"/>
+        <Attribute id="712" value="0" name="videoHidden"/>
        </Attributes>
        <MetaData>
         <entry key="IsLocked" val="False"/>
@@ -1416,11 +1526,11 @@
        <Medias>
        </Medias>
       </GenericTrack>
-      <GenericTrack id="661"  >
+      <GenericTrack id="713"  >
        <Attributes>
-        <Attribute id="662" value="" name="ident"/>
-        <Attribute id="663" value="0" name="audioMuted"/>
-        <Attribute id="664" value="0" name="videoHidden"/>
+        <Attribute id="714" value="" name="ident"/>
+        <Attribute id="715" value="0" name="audioMuted"/>
+        <Attribute id="716" value="0" name="videoHidden"/>
        </Attributes>
        <MetaData>
         <entry key="IsLocked" val="False"/>
@@ -1431,41 +1541,41 @@
       </GenericTrack>
      </Tracks>
     </GenericMixer>
-   <CaptionAttributes id="665"  >
-    <Attribute id="666" value="1" name="captionsEnabled"/>
-    <Attribute id="667" value="Arial" name="captionsFontName"/>
-    <Attribute id="668" value="28" name="captionsFontSize"/>
-    <Attribute id="669" value="(0,0,0,255)" name="captionsBackgroundColor"/>
-    <Attribute id="670" value="(255,255,255,255)" name="captionsForegroundColor"/>
-    <Attribute id="671" value="en" name="lang"/>
-    <Attribute id="672" value="0" name="captionsAlignment"/>
-    <Attribute id="673" value="1" name="captionsDefaultFontSize"/>
-    <Attribute id="674" value="0.5" name="captionsOpacity"/>
-    <Attribute id="675" value="1" name="captionsBackgroundEnabled"/>
-    <Attribute id="676" value="1" name="captionsBackgroundOnlyAroundText"/>
+   <CaptionAttributes id="717"  >
+    <Attribute id="718" value="1" name="captionsEnabled"/>
+    <Attribute id="719" value="Arial" name="captionsFontName"/>
+    <Attribute id="720" value="28" name="captionsFontSize"/>
+    <Attribute id="721" value="(0,0,0,255)" name="captionsBackgroundColor"/>
+    <Attribute id="722" value="(255,255,255,255)" name="captionsForegroundColor"/>
+    <Attribute id="723" value="en" name="lang"/>
+    <Attribute id="724" value="0" name="captionsAlignment"/>
+    <Attribute id="725" value="1" name="captionsDefaultFontSize"/>
+    <Attribute id="726" value="0.5" name="captionsOpacity"/>
+    <Attribute id="727" value="1" name="captionsBackgroundEnabled"/>
+    <Attribute id="728" value="1" name="captionsBackgroundOnlyAroundText"/>
    </CaptionAttributes>
    <Parameters>
-    <VectorParam id="677"  name="eyePosition">
-     <InterpolatingParam id="678" interp="linr"  time="0/1" value="0" leadInLength="0/1"  />
-     <InterpolatingParam id="679" interp="linr"  time="0/1" value="0" leadInLength="0/1"  />
-     <InterpolatingParam id="680" interp="linr"  time="0/1" value="3000" leadInLength="0/1"  />
+    <VectorParam id="729"  name="eyePosition">
+     <InterpolatingParam id="730" interp="linr"  time="0/1" value="0" leadInLength="0/1"  />
+     <InterpolatingParam id="731" interp="linr"  time="0/1" value="0" leadInLength="0/1"  />
+     <InterpolatingParam id="732" interp="linr"  time="0/1" value="3000" leadInLength="0/1"  />
     </VectorParam>
-    <VectorParam id="681"  name="eyeLookAtPosition">
-     <InterpolatingParam id="682" interp="linr"  time="0/1" value="0" leadInLength="0/1"  />
-     <InterpolatingParam id="683" interp="linr"  time="0/1" value="0" leadInLength="0/1"  />
-     <InterpolatingParam id="684" interp="linr"  time="0/1" value="0" leadInLength="0/1"  />
+    <VectorParam id="733"  name="eyeLookAtPosition">
+     <InterpolatingParam id="734" interp="linr"  time="0/1" value="0" leadInLength="0/1"  />
+     <InterpolatingParam id="735" interp="linr"  time="0/1" value="0" leadInLength="0/1"  />
+     <InterpolatingParam id="736" interp="linr"  time="0/1" value="0" leadInLength="0/1"  />
     </VectorParam>
-    <VectorParam id="685"  name="eyeUpVector">
-     <InterpolatingParam id="686" interp="linr"  time="0/1" value="0" leadInLength="0/1"  />
-     <InterpolatingParam id="687" interp="linr"  time="0/1" value="1" leadInLength="0/1"  />
-     <InterpolatingParam id="688" interp="linr"  time="0/1" value="0" leadInLength="0/1"  />
+    <VectorParam id="737"  name="eyeUpVector">
+     <InterpolatingParam id="738" interp="linr"  time="0/1" value="0" leadInLength="0/1"  />
+     <InterpolatingParam id="739" interp="linr"  time="0/1" value="1" leadInLength="0/1"  />
+     <InterpolatingParam id="740" interp="linr"  time="0/1" value="0" leadInLength="0/1"  />
     </VectorParam>
-    <InterpolatingParam id="689" interp="linr"  time="0/1" value="0.23885785" leadInLength="0/1"  name="fov"/>
-    <InterpolatingParam id="690" interp="linr"  time="0/1" value="1.5" leadInLength="0/1"  name="nearClipDistance"/>
-    <InterpolatingParam id="691" interp="linr"  time="0/1" value="6000" leadInLength="0/1"  name="farClipDistance"/>
-    <Parameter id="692"  name="quiz">
+    <InterpolatingParam id="741" interp="linr"  time="0/1" value="0.23885785" leadInLength="0/1"  name="fov"/>
+    <InterpolatingParam id="742" interp="linr"  time="0/1" value="1.5" leadInLength="0/1"  name="nearClipDistance"/>
+    <InterpolatingParam id="743" interp="linr"  time="0/1" value="6000" leadInLength="0/1"  name="farClipDistance"/>
+    <Parameter id="744"  name="quiz">
      <Keyframes>
-     <Keyframe id="693"  time="115/1" value="&lt;Quiz id=&quot;1001&quot; name=&quot;Quiz&quot;&gt;&lt;Options feedback=&quot;1&quot; graded=&quot;1&quot;/&gt;&lt;Questions&gt;&lt;ShortAnswer id=&quot;105&quot; text=&quot;Wie ist ihre Meinung zu diesem Video?&quot; scored=&quot;1&quot;&gt;&lt;/ShortAnswer&gt;&lt;/Questions&gt;&lt;/Quiz&gt;" leadInLength="0/1"  />
+     <Keyframe id="745"  time="115/1" value="&lt;Quiz id=&quot;1001&quot; name=&quot;Quiz&quot;&gt;&lt;Options feedback=&quot;1&quot; graded=&quot;1&quot;/&gt;&lt;Questions&gt;&lt;ShortAnswer id=&quot;105&quot; text=&quot;Wie ist ihre Meinung zu diesem Video?&quot; scored=&quot;1&quot;&gt;&lt;/ShortAnswer&gt;&lt;/Questions&gt;&lt;/Quiz&gt;" leadInLength="0/1"  />
      </Keyframes>
     </Parameter>
    </Parameters>

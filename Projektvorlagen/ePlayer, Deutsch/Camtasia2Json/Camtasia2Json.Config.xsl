@@ -12,7 +12,7 @@
 	xmlns:xsltUtil="http://www.oracle.com/XSL/Transform/java/de.hs_duesseldorf.medien.app.camtasia2json.XSLTUtil"
 >
 	<!-- ** Konstante Werte für die Ausgabedatei ** -->
-	<xsl:variable name="OUTPUT_FILE_VERSION">1.0</xsl:variable>
+	<xsl:variable name="OUTPUT_FILE_VERSION">1.1</xsl:variable>
 	<xsl:variable name="GENERATOR_INFO">
 		<xsl:text>Camtasia to JSON </xsl:text>
 		<xsl:value-of select="xsltUtil:versionInfo()" />

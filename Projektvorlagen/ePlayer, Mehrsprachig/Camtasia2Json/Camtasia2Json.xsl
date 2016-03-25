@@ -38,7 +38,7 @@
 
 	<!-- Primäres Template -->
 	<xsl:template match="/">
-		<!-- Manchmal ist es nützlich XML Daten aus debug Gründen direkt anzeigen zu lassen. Dafür das "method" Attribut im
+		<!-- Manchmal ist es nützlich XML Daten aus debug gründen direkt anzeigen zu lassen. Dafür das "method" Attribut im
 		     <xsl:output> Element auf "xml" umstellen, damit bei der Ausgabe die XML Daten erhalten bleiben.
 		     Achtung: Hierfür muss außerdem in der Java Hauptklasse der Debug-Modus aktiviert werden! -->
 		<!-- <xsl:copy-of select="$transformedTracks" />-->
@@ -130,7 +130,7 @@
 		"author": "<xsl:value-of select="xsltUtil:jsonString($authorName)" />",
 		"date": "<xsl:value-of select="xsltUtil:jsonString($metaDate)" />",
 		"defaultLang": "<xsl:value-of select="xsltUtil:jsonString($metaLanguage)" />",
-		"contact": "",
+		"contact": "", <!-- z.Z. nicht verwendet -->
 		"enableSocialShareButtons": <xsl:value-of select="$enableSocialShareButtons" />,
 		"socialShareUrl": "<xsl:value-of select="xsltUtil:jsonString($socialShareUrl)" />",
 		"tags": "<xsl:value-of select="xsltUtil:jsonString($metaKeywords)" />",
@@ -503,12 +503,13 @@
 			<xsl:variable name="closeAutomatically" select="c2jUtil:validateRequiredBooleanAttribute($contentAttributes/Attribute[@name = 'Automatisch schließen?']/@value, 'Automatisch schließen?', $metaMedium)" />
 			<xsl:variable name="tooltip" select="c2jUtil:validateRequiredAttribute($contentAttributes/Attribute[@name = 'Tooltip']/@value, 'Tooltip', $metaMedium, true)" />
 
-			<xsl:variable name="hotspotInfo" select="$metaMedium/ExtraData/Entry/HotspotInfo" />
+			<xsl:variable name="hotspotInfo" select="$metaMedium/HotspotInfo" />
 			<xsl:variable name="actionId" select="$hotspotInfo/@action" />
 			<xsl:variable name="actionTargetPos" select="c2jUtil:framesToSeconds($hotspotInfo/@gotoTime)" />
 			<xsl:variable name="actionTargetMarkerPos" select="c2jUtil:framesToSeconds($hotspotInfo/@markerTime)" />
 			<xsl:variable name="actionLinkUrl" select="$hotspotInfo/@url" />
 			<xsl:variable name="actionLinkNewWindow" select="c2jUtil:validateBooleanAttribute($hotspotInfo/@openURLInNewWindow, 'Hotspot Daten: Link in neuem Browserfenster öffnen', $metaMedium)" />
+			<xsl:variable name="pauseAtEnd" select="$hotspotInfo/@pauseAtEnd = 1" />
 
 			{
 				"id": <xsl:value-of select="@id" />,
@@ -562,7 +563,7 @@
 							"action": "link",
 							"actionParams": {
 								"href": "<xsl:value-of select="xsltUtil:jsonString($actionLinkUrl)" />",
-			          "inNewWindow": <xsl:value-of select="$actionLinkNewWindow" />"
+			          "inNewWindow": <xsl:value-of select="$actionLinkNewWindow" />
 							},
 						</xsl:when>
 						<xsl:when test="$actionId = 3"> <!-- goto marker -->
@@ -579,6 +580,7 @@
 							</xsl:message>
 						</xsl:otherwise>
 					</xsl:choose>
+			  "pauseAtEnd": <xsl:value-of select="$pauseAtEnd" />,
         "waitForAction": <xsl:value-of select="$waitForAction" />,
         "closeOnAction": <xsl:value-of select="$closeOnAction" />,
         "closeButton": <xsl:value-of select="$closeButton" />,

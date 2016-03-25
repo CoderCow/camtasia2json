@@ -65,7 +65,7 @@
 		<xsl:value-of select="format-number(c2jUtil:normalizedFrames($frames) div number($CAMTASIA_FRAMERATE), '#.##', 'en')" />
 	</xsl:function>
 
-	<!-- Runded ein Nummer auf zwei Dezimalstellen. -->
+	<!-- Runded eine Nummer auf zwei Dezimalstellen. -->
 	<xsl:function name="c2jUtil:roundNumber" as="xsd:float">
 		<xsl:param name="input" />
 

@@ -1,0 +1,108 @@
+{
+  "id" : 1,
+  "meta" : {
+    "version" : "1.1",
+    "generator" : "Camtasia to JSON v1.1 (2016-01-23)",
+    "cat" : 1,
+    "dur" : 67.97,
+    "author" : "",
+    "date" : "2015-08-01",
+    "defaultLang" : "de",
+    "contact" : "",
+    "enableSocialShareButtons" : true,
+    "socialShareUrl" : "",
+    "tags" : "- nicht verwendet -",
+    "poster" : "http://www.hs-duesseldorf.de/Slideshow%20Content/01_768.png",
+    "titles" : [ {
+      "lang" : "de",
+      "title" : "Videotitel"
+    } ],
+    "descriptions" : [ {
+      "lang" : "de",
+      "description" : "- nicht verwendet -"
+    } ]
+  },
+  "media" : {
+    "digital" : [ {
+      "lang" : "de",
+      "type" : "video/webm",
+      "src" : "video_de.webm"
+    }, {
+      "lang" : "de",
+      "type" : "video/mp4",
+      "src" : "video_de.mp4"
+    }, {
+      "lang" : "de",
+      "type" : "video/ogg",
+      "src" : "video_de.ogv"
+    } ]
+  },
+  "categories" : [ ],
+  "chapters" : [ {
+    "id" : 355,
+    "lang" : "de",
+    "title" : "",
+    "begin" : 0,
+    "dur" : 67.97,
+    "videoType" : "digital",
+    "description" : "",
+    "tooltip" : "",
+    "tags" : "",
+    "charts" : [ ],
+    "additionals" : [ ]
+  } ],
+  "authorNotes" : [ {
+    "lang" : "de",
+    "begin" : 29.17,
+    "title" : "",
+    "tooltip" : "",
+    "content" : "<p class=\"default\"><span style=\"color: #000000; font-size: 14pt; font-family: Arial\">Notizinhalt</span></p>\r\n",
+    "chapter" : 355,
+    "displayInTimeline" : true,
+    "displayInChapters" : true,
+    "displayOnScreen" : false
+  } ],
+  "captionSettings" : {
+    "fontName" : "Arial",
+    "backgroundColor" : [ 255, 255, 255, 255 ],
+    "foregroundColor" : [ 0, 0, 0, 255 ],
+    "alignment" : "center",
+    "opacity" : 0.5,
+    "isBackgroundEnabled" : true,
+    "isBackgroundOnlyAroundText" : true
+  },
+  "captions" : [ ],
+  "overlaySettings" : {
+    "isEnabledByDefault" : false,
+    "isSwitchable" : true
+  },
+  "overlays" : [ {
+    "id" : 473,
+    "lang" : "de",
+    "begin" : 0,
+    "dur" : 15.1,
+    "content" : "<p class=\"default\"><span style=\"color: #000000; font-size: 12pt; font-family: Arial\">Optionaler Inhaltstext</span><span style=\"color: #000000; font-size: 8pt; font-family: Courier New\"></span></p>\r\n",
+    "isCopyableContent" : false,
+    "style" : "Transparent",
+    "position" : "Standard",
+    "action" : "link",
+    "actionParams" : {
+      "href" : "http://www.hs-duesseldorf.de",
+      "inNewWindow" : false
+    },
+    "pauseAtEnd" : false,
+    "waitForAction" : false,
+    "closeOnAction" : false,
+    "closeButton" : false,
+    "forceVisibility" : true,
+    "translateTransform" : [ -42.64, -4.81, 0 ],
+    "rotateTransform" : [ 0, 0, 0 ],
+    "shearTransform" : [ 0, 0, 0 ],
+    "w" : 10.47,
+    "h" : 3.19,
+    "opacity" : 1,
+    "fadeInDuration" : 0.1,
+    "fadeOutDuration" : 0.07,
+    "tooltip" : "Klicke hier, um die Webseite der Hochschule zu öffnen."
+  } ]
+}
