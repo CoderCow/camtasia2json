@@ -145,7 +145,7 @@
 		<!-- Titel für alle anderen Sprachen. -->
 		<xsl:for-each select="$transformedMetaTracks[@lang != $metaLanguage]">
 			<xsl:variable name="lang" select="@lang" />
-			<xsl:variable name="medium" select="Media/Callout[ContentData/Attributes/Attribute[@name = 'Metadaten Typ' and @value = 'Titel']]" />
+			<xsl:variable name="medium" select="c2jUtil:getMetadataMedium(., 'Titel')" />
 			<xsl:variable name="extraTitle" select="c2jUtil:validateRequiredAttribute($medium/ContentData/Attributes/Attribute[@name = 'Titel']/@value, 'Titel', $medium, false)" />
 
 			, {
@@ -160,10 +160,10 @@
 			"lang": "<xsl:value-of select="xsltUtil:jsonString($metaLanguage)" />",
 			"description": "<xsl:value-of select="xsltUtil:jsonString($metaDescription)" />"
 		}
-		<!-- Titel für alle anderen Sprachen. -->
+		<!-- Beschreibung für alle anderen Sprachen. -->
 		<xsl:for-each select="$transformedMetaTracks[@lang != $metaLanguage]">
 			<xsl:variable name="lang" select="xsltUtil:jsonString(@lang)" />
-			<xsl:variable name="medium" select="Media/Callout[ContentData/Attributes/Attribute[@name = 'Metadaten Typ' and @value = 'Beschreibung']]" />
+			<xsl:variable name="medium" select="c2jUtil:getMetadataMedium(., 'Beschreibung')" />
 			<xsl:variable name="extraDescription" select="c2jUtil:validateRequiredAttribute($medium/ContentData/Attributes/Attribute[@name = 'Beschreibung']/@value, 'Beschreibung', $medium, true)" />
 
 			<xsl:if test="$extraDescription != ''">

@@ -263,4 +263,21 @@
 
 		<xsl:value-of select="c2jUtil:validateBooleanAttribute(c2jUtil:validateRequiredAttribute($attributeValue, $attributeName, $medium, true), $attributeName, $medium)" />
 	</xsl:function>
+
+	<xsl:function name="c2jUtil:getMetadataMedium">
+		<xsl:param name="fromTrack" />
+		<xsl:param name="metadataType" />
+
+		<xsl:variable name="medium" select="$fromTrack/Media/Callout[ContentData/Attributes/Attribute[@name = 'Metadaten Typ' and @value = $metadataType]]" />
+
+		<xsl:if test="not($medium)">
+			<xsl:message terminate="yes">
+				<xsl:text>FEHLER: Es ist kein Metadaten Eintrag vom Typ "</xsl:text>
+				<xsl:value-of select="$metadataType" />
+				<xsl:text>" auf dem Track "</xsl:text>
+				<xsl:value-of select="$fromTrack/@ident" />
+				<xsl:text>" vorhanden.</xsl:text>
+			</xsl:message>
+		</xsl:if>
+	</xsl:function>
 </xsl:stylesheet>

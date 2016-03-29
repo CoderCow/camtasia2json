@@ -143,7 +143,7 @@
 				<xsl:message terminate="yes">
 					<xsl:text>FEHLER: Der im Track "</xsl:text>
 					<xsl:value-of select="$ident" />
-					<xsl:text>" angegebene Sprachcode ist nicht RFC 1766 konform (bsp. für gültige Werte: "de", "en-US").</xsl:text>
+					<xsl:text>" angegebene Sprachcode ist nicht IETF konform (bsp. für gültige Werte: "de", "en-US").</xsl:text>
 				</xsl:message>
 			</xsl:if>
 
