@@ -210,14 +210,18 @@ public class XSLTUtil {
 					htmlContentBuilder.append(System.getProperty("line.separator"));
 				} else if (!isSeparator) { // Ist ein Attribut?
 					String attributeRaw = firstSpan.text();
-					int attributeSeparatorIndex = attributeRaw.indexOf(':');
-					String attributeName = attributeRaw.substring(0, attributeSeparatorIndex).trim();
-					String attributeValue = attributeRaw.substring(attributeSeparatorIndex + 1).trim();
+					boolean isComment = attributeRaw.startsWith("#");
 
-					XMLElement attributeElement = nodeFactory.createElement("Attribute");
-					attributeElement.setAttribute("name", attributeName);
-					attributeElement.setAttribute("value", attributeValue);
-					attributesContent.appendChild(attributeElement);
+					if (!isComment) {
+						int attributeSeparatorIndex = attributeRaw.indexOf(':');
+						String attributeName = attributeRaw.substring(0, attributeSeparatorIndex).trim();
+						String attributeValue = attributeRaw.substring(attributeSeparatorIndex + 1).trim();
+
+						XMLElement attributeElement = nodeFactory.createElement("Attribute");
+						attributeElement.setAttribute("name", attributeName);
+						attributeElement.setAttribute("value", attributeValue);
+						attributesContent.appendChild(attributeElement);
+					}
 				}
 			}
 		}
