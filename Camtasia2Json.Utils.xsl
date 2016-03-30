@@ -264,9 +264,10 @@
 		<xsl:value-of select="c2jUtil:validateBooleanAttribute(c2jUtil:validateRequiredAttribute($attributeValue, $attributeName, $medium, true), $attributeName, $medium)" />
 	</xsl:function>
 
-	<xsl:function name="c2jUtil:getMetadataMedium">
+	<xsl:function name="c2jUtil:getMetadataMediumAttributeValue">
 		<xsl:param name="fromTrack" />
 		<xsl:param name="metadataType" />
+		<xsl:param name="attributeName" />
 
 		<xsl:variable name="medium" select="$fromTrack/Media/Callout[ContentData/Attributes/Attribute[@name = 'Metadaten Typ' and @value = $metadataType]]" />
 
@@ -279,5 +280,7 @@
 				<xsl:text>" vorhanden.</xsl:text>
 			</xsl:message>
 		</xsl:if>
+
+		<xsl:value-of select="c2jUtil:validateRequiredAttribute($medium/ContentData/Attributes/Attribute[@name = $attributeName]/@value, $attributeName, $medium, true)" />
 	</xsl:function>
 </xsl:stylesheet>

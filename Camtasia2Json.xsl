@@ -145,8 +145,7 @@
 		<!-- Titel für alle anderen Sprachen. -->
 		<xsl:for-each select="$transformedMetaTracks[@lang != $metaLanguage]">
 			<xsl:variable name="lang" select="@lang" />
-			<xsl:variable name="medium" select="c2jUtil:getMetadataMedium(., 'Titel')" />
-			<xsl:variable name="extraTitle" select="c2jUtil:validateRequiredAttribute($medium/ContentData/Attributes/Attribute[@name = 'Titel']/@value, 'Titel', $medium, false)" />
+			<xsl:variable name="extraTitle" select="c2jUtil:getMetadataMediumAttributeValue(., 'Titel', 'Titel')" />
 
 			, {
 				"lang": "<xsl:value-of select="xsltUtil:jsonString($lang)" />",
@@ -163,8 +162,7 @@
 		<!-- Beschreibung für alle anderen Sprachen. -->
 		<xsl:for-each select="$transformedMetaTracks[@lang != $metaLanguage]">
 			<xsl:variable name="lang" select="xsltUtil:jsonString(@lang)" />
-			<xsl:variable name="medium" select="c2jUtil:getMetadataMedium(., 'Beschreibung')" />
-			<xsl:variable name="extraDescription" select="c2jUtil:validateRequiredAttribute($medium/ContentData/Attributes/Attribute[@name = 'Beschreibung']/@value, 'Beschreibung', $medium, true)" />
+			<xsl:variable name="extraDescription" select="c2jUtil:getMetadataMediumAttributeValue(., 'Beschreibung', 'Beschreibung')" />
 
 			<xsl:if test="$extraDescription != ''">
 				, {
@@ -177,8 +175,9 @@
 
 	<xsl:template name="media">
 		"digital": [
-			<xsl:variable name="defaultLangMedia" select="$transformedMetaTracks[@lang = $metaLanguage]/Media/Callout[ContentData/Attributes/Attribute[@name = 'Metadaten Typ' and @value = 'Medium']]" />
-			<xsl:if test="count($defaultLangMedia) = 0">
+			<xsl:variable name="defaultLangMedia" select="c2jUtil:getMetadataMediumAttributeValue($transformedMetaTracks[@lang = $metaLanguage], 'Medium', 'Mediendatei URL')" />
+
+			<xsl:if test="local-name($defaultLangMedia) = ''">
 				<xsl:message terminate="yes">
 					<xsl:text>FEHLER: Der Track "</xsl:text>
 					<xsl:value-of select="$SPECIAL_TRACK_NAME_METADATA" />
